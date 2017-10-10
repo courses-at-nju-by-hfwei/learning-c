@@ -4,9 +4,9 @@ project(learning_c_cplusplus)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
 set(SOURCE_FILES
-        writing-solid-code/data/sizet.c)
+        hdu-acm/1-1/ab-VII.c hdu-acm/1-1/ab-VIII.c)
 
 set(EXECPP
-        writing-solid-code/data/sizet.c)
+        hdu-acm/1-1/ab-VII.c)
 
 add_executable(learning_c_cplusplus ${SOURCE_FILES})
