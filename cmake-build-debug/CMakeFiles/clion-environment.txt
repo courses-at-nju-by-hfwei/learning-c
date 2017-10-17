@@ -1,0 +1,4 @@
+Options: 
+CMake: 3.9.4@/home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3188.25/bin/cmake/bin/cmake
+
+Options:
