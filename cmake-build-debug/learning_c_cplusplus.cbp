@@ -84,10 +84,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/hengxin/github-projects/learning-c-cplusplus/hdu-acm/1-3/buying-rice.c">
-			<Option target="learning_c_cplusplus"/>
-		</Unit>
-		<Unit filename="/home/hengxin/github-projects/learning-c-cplusplus/hdu-acm/1-3/sort-zigzag.c">
+		<Unit filename="/home/hengxin/github-projects/learning-c-cplusplus/njucs17-ps-tutorial/io/file-copy.c">
 			<Option target="learning_c_cplusplus"/>
 		</Unit>
 		<Unit filename="/home/hengxin/github-projects/learning-c-cplusplus/CMakeLists.txt">

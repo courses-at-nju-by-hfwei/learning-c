@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/learning_c_cplusplus.dir/hdu-acm/1-3/sort-zigzag.c.o"
-  "CMakeFiles/learning_c_cplusplus.dir/hdu-acm/1-3/buying-rice.c.o"
+  "CMakeFiles/learning_c_cplusplus.dir/njucs17-ps-tutorial/io/file-copy.c.o"
   "learning_c_cplusplus.pdb"
   "learning_c_cplusplus"
 )

@@ -4,8 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/hengxin/github-projects/learning-c-cplusplus/hdu-acm/1-3/buying-rice.c" "/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/CMakeFiles/learning_c_cplusplus.dir/hdu-acm/1-3/buying-rice.c.o"
-  "/home/hengxin/github-projects/learning-c-cplusplus/hdu-acm/1-3/sort-zigzag.c" "/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/CMakeFiles/learning_c_cplusplus.dir/hdu-acm/1-3/sort-zigzag.c.o"
+  "/home/hengxin/github-projects/learning-c-cplusplus/njucs17-ps-tutorial/io/file-copy.c" "/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/CMakeFiles/learning_c_cplusplus.dir/njucs17-ps-tutorial/io/file-copy.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

@@ -123,59 +123,32 @@ learning_c_cplusplus/fast:
 	$(MAKE) -f CMakeFiles/learning_c_cplusplus.dir/build.make CMakeFiles/learning_c_cplusplus.dir/build
 .PHONY : learning_c_cplusplus/fast
 
-hdu-acm/1-3/buying-rice.o: hdu-acm/1-3/buying-rice.c.o
+njucs17-ps-tutorial/io/file-copy.o: njucs17-ps-tutorial/io/file-copy.c.o
 
-.PHONY : hdu-acm/1-3/buying-rice.o
-
-# target to build an object file
-hdu-acm/1-3/buying-rice.c.o:
-	$(MAKE) -f CMakeFiles/learning_c_cplusplus.dir/build.make CMakeFiles/learning_c_cplusplus.dir/hdu-acm/1-3/buying-rice.c.o
-.PHONY : hdu-acm/1-3/buying-rice.c.o
-
-hdu-acm/1-3/buying-rice.i: hdu-acm/1-3/buying-rice.c.i
-
-.PHONY : hdu-acm/1-3/buying-rice.i
-
-# target to preprocess a source file
-hdu-acm/1-3/buying-rice.c.i:
-	$(MAKE) -f CMakeFiles/learning_c_cplusplus.dir/build.make CMakeFiles/learning_c_cplusplus.dir/hdu-acm/1-3/buying-rice.c.i
-.PHONY : hdu-acm/1-3/buying-rice.c.i
-
-hdu-acm/1-3/buying-rice.s: hdu-acm/1-3/buying-rice.c.s
-
-.PHONY : hdu-acm/1-3/buying-rice.s
-
-# target to generate assembly for a file
-hdu-acm/1-3/buying-rice.c.s:
-	$(MAKE) -f CMakeFiles/learning_c_cplusplus.dir/build.make CMakeFiles/learning_c_cplusplus.dir/hdu-acm/1-3/buying-rice.c.s
-.PHONY : hdu-acm/1-3/buying-rice.c.s
-
-hdu-acm/1-3/sort-zigzag.o: hdu-acm/1-3/sort-zigzag.c.o
-
-.PHONY : hdu-acm/1-3/sort-zigzag.o
+.PHONY : njucs17-ps-tutorial/io/file-copy.o
 
 # target to build an object file
-hdu-acm/1-3/sort-zigzag.c.o:
-	$(MAKE) -f CMakeFiles/learning_c_cplusplus.dir/build.make CMakeFiles/learning_c_cplusplus.dir/hdu-acm/1-3/sort-zigzag.c.o
-.PHONY : hdu-acm/1-3/sort-zigzag.c.o
+njucs17-ps-tutorial/io/file-copy.c.o:
+	$(MAKE) -f CMakeFiles/learning_c_cplusplus.dir/build.make CMakeFiles/learning_c_cplusplus.dir/njucs17-ps-tutorial/io/file-copy.c.o
+.PHONY : njucs17-ps-tutorial/io/file-copy.c.o
 
-hdu-acm/1-3/sort-zigzag.i: hdu-acm/1-3/sort-zigzag.c.i
+njucs17-ps-tutorial/io/file-copy.i: njucs17-ps-tutorial/io/file-copy.c.i
 
-.PHONY : hdu-acm/1-3/sort-zigzag.i
+.PHONY : njucs17-ps-tutorial/io/file-copy.i
 
 # target to preprocess a source file
-hdu-acm/1-3/sort-zigzag.c.i:
-	$(MAKE) -f CMakeFiles/learning_c_cplusplus.dir/build.make CMakeFiles/learning_c_cplusplus.dir/hdu-acm/1-3/sort-zigzag.c.i
-.PHONY : hdu-acm/1-3/sort-zigzag.c.i
+njucs17-ps-tutorial/io/file-copy.c.i:
+	$(MAKE) -f CMakeFiles/learning_c_cplusplus.dir/build.make CMakeFiles/learning_c_cplusplus.dir/njucs17-ps-tutorial/io/file-copy.c.i
+.PHONY : njucs17-ps-tutorial/io/file-copy.c.i
 
-hdu-acm/1-3/sort-zigzag.s: hdu-acm/1-3/sort-zigzag.c.s
+njucs17-ps-tutorial/io/file-copy.s: njucs17-ps-tutorial/io/file-copy.c.s
 
-.PHONY : hdu-acm/1-3/sort-zigzag.s
+.PHONY : njucs17-ps-tutorial/io/file-copy.s
 
 # target to generate assembly for a file
-hdu-acm/1-3/sort-zigzag.c.s:
-	$(MAKE) -f CMakeFiles/learning_c_cplusplus.dir/build.make CMakeFiles/learning_c_cplusplus.dir/hdu-acm/1-3/sort-zigzag.c.s
-.PHONY : hdu-acm/1-3/sort-zigzag.c.s
+njucs17-ps-tutorial/io/file-copy.c.s:
+	$(MAKE) -f CMakeFiles/learning_c_cplusplus.dir/build.make CMakeFiles/learning_c_cplusplus.dir/njucs17-ps-tutorial/io/file-copy.c.s
+.PHONY : njucs17-ps-tutorial/io/file-copy.c.s
 
 # Help Target
 help:
@@ -186,12 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... learning_c_cplusplus"
-	@echo "... hdu-acm/1-3/buying-rice.o"
-	@echo "... hdu-acm/1-3/buying-rice.i"
-	@echo "... hdu-acm/1-3/buying-rice.s"
-	@echo "... hdu-acm/1-3/sort-zigzag.o"
-	@echo "... hdu-acm/1-3/sort-zigzag.i"
-	@echo "... hdu-acm/1-3/sort-zigzag.s"
+	@echo "... njucs17-ps-tutorial/io/file-copy.o"
+	@echo "... njucs17-ps-tutorial/io/file-copy.i"
+	@echo "... njucs17-ps-tutorial/io/file-copy.s"
 .PHONY : help
 
 
