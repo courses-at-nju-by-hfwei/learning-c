@@ -4,7 +4,8 @@
 /**
  * Problem 1.2.5: The Next N-th Leap Year (An Easy Task)
  *
- *   Ignatius was born in a leap year, so he want to know when he could hold his birthday party.
+ *   Ignatius was born in a leap year,
+ *   so he want to know when he could hold his birthday party.
  *   Can you tell him?
  *   Given a positive integers Y which indicate the start year,
  *   and a positive integer N, your task is to tell the Nth leap year from year Y.
@@ -16,8 +17,20 @@
  *   T test cases follow.
  *   Each test case contains two positive integers Y and N(1<=N<=10000).
  *
+ * Sample Input:
+ *   3
+ *   2005 25
+ *   1855 12
+ *   2004 10000
+ *
  * Output:
  *   For each test case, you should output the Nth leap year from year Y.
+ *
+ * Sample Output:
+ *   2108
+ *   1904
+ *   43236
+ *
  */
 
 #include <stdio.h>

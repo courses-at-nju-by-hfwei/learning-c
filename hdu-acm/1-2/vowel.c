@@ -10,12 +10,27 @@
  *   Give you some words; your task is to get the "Vowel-Counting-Word" of each word.
  *
  * Input:
- *   The first line of the input contains an integer T (T<=20) which means the number of test cases.
- *   For each case, there is a line contains the word (only contains uppercase and lowercase).
+ *   The first line of the input contains an integer T (T<=20)
+ *   which means the number of test cases.
+ *   For each case, there is a line contains the word
+ *   (only contains uppercase and lowercase).
  *   The length of the word is not greater than 50.
+ *
+ * Sample Input:
+ *   4
+ *   XYz
+ *   application
+ *   qwcvb
+ *   aeioOa
  *
  * Output:
  *   For each case, output its Vowel-Counting-Word.
+ *
+ * Sample Output:
+ *   xyz
+ *   ApplIcAtIOn
+ *   qwcvb
+ *   AEIOOA
  */
 
 #include <stdio.h>

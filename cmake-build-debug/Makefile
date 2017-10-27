@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3188.25/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3302.18/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3188.25/bin/cmake/bin/cmake -E remove -f
+RM = /home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3302.18/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/hengxin/github-projects/learning-c-cplusplus/cmake-buil
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3188.25/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3302.18/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3188.25/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3302.18/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -123,32 +123,32 @@ learning_c_cplusplus/fast:
 	$(MAKE) -f CMakeFiles/learning_c_cplusplus.dir/build.make CMakeFiles/learning_c_cplusplus.dir/build
 .PHONY : learning_c_cplusplus/fast
 
-njucs17-ps-tutorial/io/file-copy.o: njucs17-ps-tutorial/io/file-copy.c.o
+problems/josephus.o: problems/josephus.c.o
 
-.PHONY : njucs17-ps-tutorial/io/file-copy.o
+.PHONY : problems/josephus.o
 
 # target to build an object file
-njucs17-ps-tutorial/io/file-copy.c.o:
-	$(MAKE) -f CMakeFiles/learning_c_cplusplus.dir/build.make CMakeFiles/learning_c_cplusplus.dir/njucs17-ps-tutorial/io/file-copy.c.o
-.PHONY : njucs17-ps-tutorial/io/file-copy.c.o
+problems/josephus.c.o:
+	$(MAKE) -f CMakeFiles/learning_c_cplusplus.dir/build.make CMakeFiles/learning_c_cplusplus.dir/problems/josephus.c.o
+.PHONY : problems/josephus.c.o
 
-njucs17-ps-tutorial/io/file-copy.i: njucs17-ps-tutorial/io/file-copy.c.i
+problems/josephus.i: problems/josephus.c.i
 
-.PHONY : njucs17-ps-tutorial/io/file-copy.i
+.PHONY : problems/josephus.i
 
 # target to preprocess a source file
-njucs17-ps-tutorial/io/file-copy.c.i:
-	$(MAKE) -f CMakeFiles/learning_c_cplusplus.dir/build.make CMakeFiles/learning_c_cplusplus.dir/njucs17-ps-tutorial/io/file-copy.c.i
-.PHONY : njucs17-ps-tutorial/io/file-copy.c.i
+problems/josephus.c.i:
+	$(MAKE) -f CMakeFiles/learning_c_cplusplus.dir/build.make CMakeFiles/learning_c_cplusplus.dir/problems/josephus.c.i
+.PHONY : problems/josephus.c.i
 
-njucs17-ps-tutorial/io/file-copy.s: njucs17-ps-tutorial/io/file-copy.c.s
+problems/josephus.s: problems/josephus.c.s
 
-.PHONY : njucs17-ps-tutorial/io/file-copy.s
+.PHONY : problems/josephus.s
 
 # target to generate assembly for a file
-njucs17-ps-tutorial/io/file-copy.c.s:
-	$(MAKE) -f CMakeFiles/learning_c_cplusplus.dir/build.make CMakeFiles/learning_c_cplusplus.dir/njucs17-ps-tutorial/io/file-copy.c.s
-.PHONY : njucs17-ps-tutorial/io/file-copy.c.s
+problems/josephus.c.s:
+	$(MAKE) -f CMakeFiles/learning_c_cplusplus.dir/build.make CMakeFiles/learning_c_cplusplus.dir/problems/josephus.c.s
+.PHONY : problems/josephus.c.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... learning_c_cplusplus"
-	@echo "... njucs17-ps-tutorial/io/file-copy.o"
-	@echo "... njucs17-ps-tutorial/io/file-copy.i"
-	@echo "... njucs17-ps-tutorial/io/file-copy.s"
+	@echo "... problems/josephus.o"
+	@echo "... problems/josephus.i"
+	@echo "... problems/josephus.s"
 .PHONY : help
 
 

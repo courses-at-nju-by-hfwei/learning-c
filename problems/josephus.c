@@ -3,6 +3,7 @@
 // Solving the Josephus problem
 
 #include <stdio.h>
+#include <stdlib.h>
 
 #define KILLED 0
 
@@ -19,7 +20,7 @@ int main() {
 //    printf("The survivor is: %d", survivor + 1);
 
     int limit = 0;
-    puts("Enter the number of soldiers:");
+    puts("Enter the number of soldiers: ");
     scanf("%d", &limit);
 
     test_josephus(limit);
@@ -29,25 +30,27 @@ int main() {
  * Return the array index of the survivor.
  */
 int josephus(int n) {
-    int soldier[n];
+    int *soldiers = malloc(sizeof(int) * n);
     for (int i = 0; i < n; ++i)
-        soldier[i] = i + 1;
+        soldiers[i] = i + 1;
 
     int killed_count = 0;
 
     int killer = 0;
     while (killed_count < n - 1) {
         // Note: killed will never be the killer
-        int killed = next_alive(soldier, n, killer);
+        int killed = next_alive(soldiers, n, killer);
 //        printf("%p", &killed);
 
-        soldier[killed] = KILLED;
+        soldiers[killed] = KILLED;
         killed_count++;
 
         // Note: killer may be the one to be killed;
         // the condition `killed_count < n - 1` ensures no suicide.
-        killer = next_alive(soldier, n, killed);
+        killer = next_alive(soldiers, n, killed);
     }
+
+    free(soldiers);
 
     return killer;
 }

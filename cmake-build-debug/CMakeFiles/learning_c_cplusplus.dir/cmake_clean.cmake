@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/learning_c_cplusplus.dir/njucs17-ps-tutorial/io/file-copy.c.o"
+  "CMakeFiles/learning_c_cplusplus.dir/problems/josephus.c.o"
   "learning_c_cplusplus.pdb"
   "learning_c_cplusplus"
 )

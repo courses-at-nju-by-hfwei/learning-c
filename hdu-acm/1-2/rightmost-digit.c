@@ -11,8 +11,17 @@
  *   T test cases follow.
  *   Each test case contains a single positive integer N(1<=N<=1,000,000,000).
  *
+ * Sample Input:
+ *   2
+ *   3
+ *   4
+ *
  * Output:
  *   For each test case, you should output the rightmost digit of N^N.
+ *
+ * Sample Output:
+ *   7
+ *   6
  */
 
 #include <stdio.h>

@@ -20,9 +20,18 @@
  *   Furthermore, you may assume d < u and n < 100.
  *   A value of n = 0 indicates end of output.
  *
+ * Sample Input:
+ *   10 2 1
+ *   20 3 1
+ *   0 0 0
+ *
  * Output:
  *   Each input instance should generate a single integer on a line,
  *   indicating the number of minutes it takes for the worm to climb out of the well.
+ *
+ * Sample Output:
+ *   17
+ *   19
  */
 
 #include <stdio.h>

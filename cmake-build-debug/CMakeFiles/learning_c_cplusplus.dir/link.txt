@@ -1,1 +1,1 @@
-/usr/bin/cc -g   CMakeFiles/learning_c_cplusplus.dir/njucs17-ps-tutorial/io/file-copy.c.o  -o learning_c_cplusplus 
+/usr/bin/cc -g   CMakeFiles/learning_c_cplusplus.dir/problems/josephus.c.o  -o learning_c_cplusplus 

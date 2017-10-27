@@ -84,7 +84,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/hengxin/github-projects/learning-c-cplusplus/njucs17-ps-tutorial/io/file-copy.c">
+		<Unit filename="/home/hengxin/github-projects/learning-c-cplusplus/problems/josephus.c">
 			<Option target="learning_c_cplusplus"/>
 		</Unit>
 		<Unit filename="/home/hengxin/github-projects/learning-c-cplusplus/CMakeLists.txt">
