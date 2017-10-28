@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3302.18/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3415.24/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3302.18/bin/cmake/bin/cmake -E remove -f
+RM = /home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3415.24/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/hengxin/github-projects/learning-c-cplusplus/cmake-buil
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3302.18/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3415.24/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3302.18/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3415.24/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -111,44 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named learning_c_cplusplus
+# Target rules for targets named josephus
 
 # Build rule for target.
-learning_c_cplusplus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 learning_c_cplusplus
-.PHONY : learning_c_cplusplus
+josephus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 josephus
+.PHONY : josephus
 
 # fast build rule for target.
-learning_c_cplusplus/fast:
-	$(MAKE) -f CMakeFiles/learning_c_cplusplus.dir/build.make CMakeFiles/learning_c_cplusplus.dir/build
-.PHONY : learning_c_cplusplus/fast
+josephus/fast:
+	$(MAKE) -f CMakeFiles/josephus.dir/build.make CMakeFiles/josephus.dir/build
+.PHONY : josephus/fast
 
-problems/josephus.o: problems/josephus.c.o
+njucs17-ps-tutorial/josephus/josephus.o: njucs17-ps-tutorial/josephus/josephus.c.o
 
-.PHONY : problems/josephus.o
+.PHONY : njucs17-ps-tutorial/josephus/josephus.o
 
 # target to build an object file
-problems/josephus.c.o:
-	$(MAKE) -f CMakeFiles/learning_c_cplusplus.dir/build.make CMakeFiles/learning_c_cplusplus.dir/problems/josephus.c.o
-.PHONY : problems/josephus.c.o
+njucs17-ps-tutorial/josephus/josephus.c.o:
+	$(MAKE) -f CMakeFiles/josephus.dir/build.make CMakeFiles/josephus.dir/njucs17-ps-tutorial/josephus/josephus.c.o
+.PHONY : njucs17-ps-tutorial/josephus/josephus.c.o
 
-problems/josephus.i: problems/josephus.c.i
+njucs17-ps-tutorial/josephus/josephus.i: njucs17-ps-tutorial/josephus/josephus.c.i
 
-.PHONY : problems/josephus.i
+.PHONY : njucs17-ps-tutorial/josephus/josephus.i
 
 # target to preprocess a source file
-problems/josephus.c.i:
-	$(MAKE) -f CMakeFiles/learning_c_cplusplus.dir/build.make CMakeFiles/learning_c_cplusplus.dir/problems/josephus.c.i
-.PHONY : problems/josephus.c.i
+njucs17-ps-tutorial/josephus/josephus.c.i:
+	$(MAKE) -f CMakeFiles/josephus.dir/build.make CMakeFiles/josephus.dir/njucs17-ps-tutorial/josephus/josephus.c.i
+.PHONY : njucs17-ps-tutorial/josephus/josephus.c.i
 
-problems/josephus.s: problems/josephus.c.s
+njucs17-ps-tutorial/josephus/josephus.s: njucs17-ps-tutorial/josephus/josephus.c.s
 
-.PHONY : problems/josephus.s
+.PHONY : njucs17-ps-tutorial/josephus/josephus.s
 
 # target to generate assembly for a file
-problems/josephus.c.s:
-	$(MAKE) -f CMakeFiles/learning_c_cplusplus.dir/build.make CMakeFiles/learning_c_cplusplus.dir/problems/josephus.c.s
-.PHONY : problems/josephus.c.s
+njucs17-ps-tutorial/josephus/josephus.c.s:
+	$(MAKE) -f CMakeFiles/josephus.dir/build.make CMakeFiles/josephus.dir/njucs17-ps-tutorial/josephus/josephus.c.s
+.PHONY : njucs17-ps-tutorial/josephus/josephus.c.s
 
 # Help Target
 help:
@@ -158,10 +158,10 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... learning_c_cplusplus"
-	@echo "... problems/josephus.o"
-	@echo "... problems/josephus.i"
-	@echo "... problems/josephus.s"
+	@echo "... josephus"
+	@echo "... njucs17-ps-tutorial/josephus/josephus.o"
+	@echo "... njucs17-ps-tutorial/josephus/josephus.i"
+	@echo "... njucs17-ps-tutorial/josephus/josephus.s"
 .PHONY : help
 
 

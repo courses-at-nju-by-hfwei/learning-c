@@ -37,8 +37,8 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="learning_c_cplusplus">
-				<Option output="/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/learning_c_cplusplus" prefix_auto="0" extension_auto="0"/>
+			<Target title="josephus">
+				<Option output="/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/josephus" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -54,14 +54,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 learning_c_cplusplus"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 josephus"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="learning_c_cplusplus/fast">
-				<Option output="/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/learning_c_cplusplus" prefix_auto="0" extension_auto="0"/>
+			<Target title="josephus/fast">
+				<Option output="/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/josephus" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -77,15 +77,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 learning_c_cplusplus/fast"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 josephus/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/hengxin/github-projects/learning-c-cplusplus/problems/josephus.c">
-			<Option target="learning_c_cplusplus"/>
+		<Unit filename="/home/hengxin/github-projects/learning-c-cplusplus/njucs17-ps-tutorial/josephus/josephus.c">
+			<Option target="josephus"/>
 		</Unit>
 		<Unit filename="/home/hengxin/github-projects/learning-c-cplusplus/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

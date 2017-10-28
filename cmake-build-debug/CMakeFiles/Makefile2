@@ -45,10 +45,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3302.18/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3415.24/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3302.18/bin/cmake/bin/cmake -E remove -f
+RM = /home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3415.24/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -60,39 +60,39 @@ CMAKE_SOURCE_DIR = /home/hengxin/github-projects/learning-c-cplusplus
 CMAKE_BINARY_DIR = /home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/learning_c_cplusplus.dir
+# Target rules for target CMakeFiles/josephus.dir
 
 # All Build rule for target.
-CMakeFiles/learning_c_cplusplus.dir/all:
-	$(MAKE) -f CMakeFiles/learning_c_cplusplus.dir/build.make CMakeFiles/learning_c_cplusplus.dir/depend
-	$(MAKE) -f CMakeFiles/learning_c_cplusplus.dir/build.make CMakeFiles/learning_c_cplusplus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target learning_c_cplusplus"
-.PHONY : CMakeFiles/learning_c_cplusplus.dir/all
+CMakeFiles/josephus.dir/all:
+	$(MAKE) -f CMakeFiles/josephus.dir/build.make CMakeFiles/josephus.dir/depend
+	$(MAKE) -f CMakeFiles/josephus.dir/build.make CMakeFiles/josephus.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target josephus"
+.PHONY : CMakeFiles/josephus.dir/all
 
 # Include target in all.
-all: CMakeFiles/learning_c_cplusplus.dir/all
+all: CMakeFiles/josephus.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/learning_c_cplusplus.dir/rule: cmake_check_build_system
+CMakeFiles/josephus.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/learning_c_cplusplus.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/josephus.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/learning_c_cplusplus.dir/rule
+.PHONY : CMakeFiles/josephus.dir/rule
 
 # Convenience name for target.
-learning_c_cplusplus: CMakeFiles/learning_c_cplusplus.dir/rule
+josephus: CMakeFiles/josephus.dir/rule
 
-.PHONY : learning_c_cplusplus
-
-# clean rule for target.
-CMakeFiles/learning_c_cplusplus.dir/clean:
-	$(MAKE) -f CMakeFiles/learning_c_cplusplus.dir/build.make CMakeFiles/learning_c_cplusplus.dir/clean
-.PHONY : CMakeFiles/learning_c_cplusplus.dir/clean
+.PHONY : josephus
 
 # clean rule for target.
-clean: CMakeFiles/learning_c_cplusplus.dir/clean
+CMakeFiles/josephus.dir/clean:
+	$(MAKE) -f CMakeFiles/josephus.dir/build.make CMakeFiles/josephus.dir/clean
+.PHONY : CMakeFiles/josephus.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/josephus.dir/clean
 
 .PHONY : clean
 

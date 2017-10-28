@@ -8,7 +8,7 @@
 #define KILLED 0
 
 int josephus(int n);
-int next_alive(int soldier[], int num, int pos);
+int next_alive(int soldiers[], int num, int pos);
 void test_josephus(int limit);
 
 int main() {
@@ -64,10 +64,10 @@ int josephus(int n) {
  *
  * Precondition: soldier[pos] != KILLED
  */
-int next_alive(int soldier[], int num, int pos) {
+int next_alive(int soldiers[], int num, int pos) {
     do {
         pos = (pos + 1) % num;
-    } while (soldier[pos] == KILLED);
+    } while (soldiers[pos] == KILLED);
 
     return pos;
 }

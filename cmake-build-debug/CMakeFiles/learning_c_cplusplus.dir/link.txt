@@ -1,1 +1,0 @@
-/usr/bin/cc -g   CMakeFiles/learning_c_cplusplus.dir/problems/josephus.c.o  -o learning_c_cplusplus 
