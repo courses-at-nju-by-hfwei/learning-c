@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /home/hengxin/github-projects/learning-c-cplusplus/cmake-buil
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3415.24/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -77,6 +66,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3415.24/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,44 +111,124 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named josephus
+# Target rules for targets named quick-test
 
 # Build rule for target.
-josephus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 josephus
-.PHONY : josephus
+quick-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 quick-test
+.PHONY : quick-test
 
 # fast build rule for target.
-josephus/fast:
-	$(MAKE) -f CMakeFiles/josephus.dir/build.make CMakeFiles/josephus.dir/build
-.PHONY : josephus/fast
+quick-test/fast:
+	$(MAKE) -f CMakeFiles/quick-test.dir/build.make CMakeFiles/quick-test.dir/build
+.PHONY : quick-test/fast
 
-njucs17-ps-tutorial/josephus/josephus.o: njucs17-ps-tutorial/josephus/josephus.c.o
+#=============================================================================
+# Target rules for targets named tromino-tiling-vla
 
-.PHONY : njucs17-ps-tutorial/josephus/josephus.o
+# Build rule for target.
+tromino-tiling-vla: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tromino-tiling-vla
+.PHONY : tromino-tiling-vla
+
+# fast build rule for target.
+tromino-tiling-vla/fast:
+	$(MAKE) -f CMakeFiles/tromino-tiling-vla.dir/build.make CMakeFiles/tromino-tiling-vla.dir/build
+.PHONY : tromino-tiling-vla/fast
+
+#=============================================================================
+# Target rules for targets named tromino-tiling
+
+# Build rule for target.
+tromino-tiling: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tromino-tiling
+.PHONY : tromino-tiling
+
+# fast build rule for target.
+tromino-tiling/fast:
+	$(MAKE) -f CMakeFiles/tromino-tiling.dir/build.make CMakeFiles/tromino-tiling.dir/build
+.PHONY : tromino-tiling/fast
+
+c/quick-test.o: c/quick-test.c.o
+
+.PHONY : c/quick-test.o
 
 # target to build an object file
-njucs17-ps-tutorial/josephus/josephus.c.o:
-	$(MAKE) -f CMakeFiles/josephus.dir/build.make CMakeFiles/josephus.dir/njucs17-ps-tutorial/josephus/josephus.c.o
-.PHONY : njucs17-ps-tutorial/josephus/josephus.c.o
+c/quick-test.c.o:
+	$(MAKE) -f CMakeFiles/quick-test.dir/build.make CMakeFiles/quick-test.dir/c/quick-test.c.o
+.PHONY : c/quick-test.c.o
 
-njucs17-ps-tutorial/josephus/josephus.i: njucs17-ps-tutorial/josephus/josephus.c.i
+c/quick-test.i: c/quick-test.c.i
 
-.PHONY : njucs17-ps-tutorial/josephus/josephus.i
+.PHONY : c/quick-test.i
 
 # target to preprocess a source file
-njucs17-ps-tutorial/josephus/josephus.c.i:
-	$(MAKE) -f CMakeFiles/josephus.dir/build.make CMakeFiles/josephus.dir/njucs17-ps-tutorial/josephus/josephus.c.i
-.PHONY : njucs17-ps-tutorial/josephus/josephus.c.i
+c/quick-test.c.i:
+	$(MAKE) -f CMakeFiles/quick-test.dir/build.make CMakeFiles/quick-test.dir/c/quick-test.c.i
+.PHONY : c/quick-test.c.i
 
-njucs17-ps-tutorial/josephus/josephus.s: njucs17-ps-tutorial/josephus/josephus.c.s
+c/quick-test.s: c/quick-test.c.s
 
-.PHONY : njucs17-ps-tutorial/josephus/josephus.s
+.PHONY : c/quick-test.s
 
 # target to generate assembly for a file
-njucs17-ps-tutorial/josephus/josephus.c.s:
-	$(MAKE) -f CMakeFiles/josephus.dir/build.make CMakeFiles/josephus.dir/njucs17-ps-tutorial/josephus/josephus.c.s
-.PHONY : njucs17-ps-tutorial/josephus/josephus.c.s
+c/quick-test.c.s:
+	$(MAKE) -f CMakeFiles/quick-test.dir/build.make CMakeFiles/quick-test.dir/c/quick-test.c.s
+.PHONY : c/quick-test.c.s
+
+njucs17-ps-tutorial/tromino-tiling/tromino-tiling-vla.o: njucs17-ps-tutorial/tromino-tiling/tromino-tiling-vla.c.o
+
+.PHONY : njucs17-ps-tutorial/tromino-tiling/tromino-tiling-vla.o
+
+# target to build an object file
+njucs17-ps-tutorial/tromino-tiling/tromino-tiling-vla.c.o:
+	$(MAKE) -f CMakeFiles/tromino-tiling-vla.dir/build.make CMakeFiles/tromino-tiling-vla.dir/njucs17-ps-tutorial/tromino-tiling/tromino-tiling-vla.c.o
+.PHONY : njucs17-ps-tutorial/tromino-tiling/tromino-tiling-vla.c.o
+
+njucs17-ps-tutorial/tromino-tiling/tromino-tiling-vla.i: njucs17-ps-tutorial/tromino-tiling/tromino-tiling-vla.c.i
+
+.PHONY : njucs17-ps-tutorial/tromino-tiling/tromino-tiling-vla.i
+
+# target to preprocess a source file
+njucs17-ps-tutorial/tromino-tiling/tromino-tiling-vla.c.i:
+	$(MAKE) -f CMakeFiles/tromino-tiling-vla.dir/build.make CMakeFiles/tromino-tiling-vla.dir/njucs17-ps-tutorial/tromino-tiling/tromino-tiling-vla.c.i
+.PHONY : njucs17-ps-tutorial/tromino-tiling/tromino-tiling-vla.c.i
+
+njucs17-ps-tutorial/tromino-tiling/tromino-tiling-vla.s: njucs17-ps-tutorial/tromino-tiling/tromino-tiling-vla.c.s
+
+.PHONY : njucs17-ps-tutorial/tromino-tiling/tromino-tiling-vla.s
+
+# target to generate assembly for a file
+njucs17-ps-tutorial/tromino-tiling/tromino-tiling-vla.c.s:
+	$(MAKE) -f CMakeFiles/tromino-tiling-vla.dir/build.make CMakeFiles/tromino-tiling-vla.dir/njucs17-ps-tutorial/tromino-tiling/tromino-tiling-vla.c.s
+.PHONY : njucs17-ps-tutorial/tromino-tiling/tromino-tiling-vla.c.s
+
+njucs17-ps-tutorial/tromino-tiling/tromino-tiling.o: njucs17-ps-tutorial/tromino-tiling/tromino-tiling.c.o
+
+.PHONY : njucs17-ps-tutorial/tromino-tiling/tromino-tiling.o
+
+# target to build an object file
+njucs17-ps-tutorial/tromino-tiling/tromino-tiling.c.o:
+	$(MAKE) -f CMakeFiles/tromino-tiling.dir/build.make CMakeFiles/tromino-tiling.dir/njucs17-ps-tutorial/tromino-tiling/tromino-tiling.c.o
+.PHONY : njucs17-ps-tutorial/tromino-tiling/tromino-tiling.c.o
+
+njucs17-ps-tutorial/tromino-tiling/tromino-tiling.i: njucs17-ps-tutorial/tromino-tiling/tromino-tiling.c.i
+
+.PHONY : njucs17-ps-tutorial/tromino-tiling/tromino-tiling.i
+
+# target to preprocess a source file
+njucs17-ps-tutorial/tromino-tiling/tromino-tiling.c.i:
+	$(MAKE) -f CMakeFiles/tromino-tiling.dir/build.make CMakeFiles/tromino-tiling.dir/njucs17-ps-tutorial/tromino-tiling/tromino-tiling.c.i
+.PHONY : njucs17-ps-tutorial/tromino-tiling/tromino-tiling.c.i
+
+njucs17-ps-tutorial/tromino-tiling/tromino-tiling.s: njucs17-ps-tutorial/tromino-tiling/tromino-tiling.c.s
+
+.PHONY : njucs17-ps-tutorial/tromino-tiling/tromino-tiling.s
+
+# target to generate assembly for a file
+njucs17-ps-tutorial/tromino-tiling/tromino-tiling.c.s:
+	$(MAKE) -f CMakeFiles/tromino-tiling.dir/build.make CMakeFiles/tromino-tiling.dir/njucs17-ps-tutorial/tromino-tiling/tromino-tiling.c.s
+.PHONY : njucs17-ps-tutorial/tromino-tiling/tromino-tiling.c.s
 
 # Help Target
 help:
@@ -156,12 +236,20 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... josephus"
-	@echo "... njucs17-ps-tutorial/josephus/josephus.o"
-	@echo "... njucs17-ps-tutorial/josephus/josephus.i"
-	@echo "... njucs17-ps-tutorial/josephus/josephus.s"
+	@echo "... quick-test"
+	@echo "... rebuild_cache"
+	@echo "... tromino-tiling-vla"
+	@echo "... tromino-tiling"
+	@echo "... c/quick-test.o"
+	@echo "... c/quick-test.i"
+	@echo "... c/quick-test.s"
+	@echo "... njucs17-ps-tutorial/tromino-tiling/tromino-tiling-vla.o"
+	@echo "... njucs17-ps-tutorial/tromino-tiling/tromino-tiling-vla.i"
+	@echo "... njucs17-ps-tutorial/tromino-tiling/tromino-tiling-vla.s"
+	@echo "... njucs17-ps-tutorial/tromino-tiling/tromino-tiling.o"
+	@echo "... njucs17-ps-tutorial/tromino-tiling/tromino-tiling.i"
+	@echo "... njucs17-ps-tutorial/tromino-tiling/tromino-tiling.s"
 .PHONY : help
 
 

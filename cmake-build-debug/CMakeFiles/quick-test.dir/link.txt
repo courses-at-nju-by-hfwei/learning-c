@@ -1,0 +1,1 @@
+/usr/bin/cc  -Wall -g   CMakeFiles/quick-test.dir/c/quick-test.c.o  -o quick-test 

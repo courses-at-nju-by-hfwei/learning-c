@@ -1,0 +1,1 @@
+/usr/bin/cc  -Wall -g   CMakeFiles/tromino-tiling-vla.dir/njucs17-ps-tutorial/tromino-tiling/tromino-tiling-vla.c.o  -o tromino-tiling-vla -lm 

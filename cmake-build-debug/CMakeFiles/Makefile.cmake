@@ -45,5 +45,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/josephus.dir/DependInfo.cmake"
+  "CMakeFiles/quick-test.dir/DependInfo.cmake"
+  "CMakeFiles/tromino-tiling-vla.dir/DependInfo.cmake"
+  "CMakeFiles/tromino-tiling.dir/DependInfo.cmake"
   )

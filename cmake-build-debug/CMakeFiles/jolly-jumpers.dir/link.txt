@@ -1,0 +1,1 @@
+/usr/bin/cc  -Wall -g   CMakeFiles/jolly-jumpers.dir/c/scope/scope.c.o  -o jolly-jumpers 
