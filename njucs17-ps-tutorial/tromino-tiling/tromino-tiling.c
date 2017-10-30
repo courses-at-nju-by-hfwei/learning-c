@@ -18,6 +18,7 @@
 #include <math.h>
 #include <stdlib.h>
 #include <assert.h>
+#include <time.h>
 
 #define REMOVED 0
 #define INIT (-1)
@@ -59,6 +60,7 @@ void generate_dashboard(int size, int dashboard[size][size]) {
     }
 
     // [0, size - 1]
+    srand(time(NULL));
     dashboard[rand() % size][rand() % size] = REMOVED;
 }
 

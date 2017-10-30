@@ -8,11 +8,11 @@ void hanoi(int n);
 void solve_hanoi(int n, char src, char mid, char dest);
 
 int main() {
-    hanoi(3);
+    hanoi(5);
 }
 
 void hanoi(int n) {
-    solve_hanoi(n, 'A', 'B', 'C');
+    solve_hanoi(n, 'A', 'C', 'B');
 }
 
 void solve_hanoi(int n, char src, char mid, char dest) {

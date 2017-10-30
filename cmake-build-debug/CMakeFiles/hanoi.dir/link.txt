@@ -1,0 +1,1 @@
+/usr/bin/cc  -Wall -g   CMakeFiles/hanoi.dir/problems/recursion/hanoi.c.o  -o hanoi 

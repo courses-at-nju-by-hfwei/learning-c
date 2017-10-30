@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named hanoi
+
+# Build rule for target.
+hanoi: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 hanoi
+.PHONY : hanoi
+
+# fast build rule for target.
+hanoi/fast:
+	$(MAKE) -f CMakeFiles/hanoi.dir/build.make CMakeFiles/hanoi.dir/build
+.PHONY : hanoi/fast
+
+#=============================================================================
 # Target rules for targets named quick-test
 
 # Build rule for target.
@@ -230,6 +243,33 @@ njucs17-ps-tutorial/tromino-tiling/tromino-tiling.c.s:
 	$(MAKE) -f CMakeFiles/tromino-tiling.dir/build.make CMakeFiles/tromino-tiling.dir/njucs17-ps-tutorial/tromino-tiling/tromino-tiling.c.s
 .PHONY : njucs17-ps-tutorial/tromino-tiling/tromino-tiling.c.s
 
+problems/recursion/hanoi.o: problems/recursion/hanoi.c.o
+
+.PHONY : problems/recursion/hanoi.o
+
+# target to build an object file
+problems/recursion/hanoi.c.o:
+	$(MAKE) -f CMakeFiles/hanoi.dir/build.make CMakeFiles/hanoi.dir/problems/recursion/hanoi.c.o
+.PHONY : problems/recursion/hanoi.c.o
+
+problems/recursion/hanoi.i: problems/recursion/hanoi.c.i
+
+.PHONY : problems/recursion/hanoi.i
+
+# target to preprocess a source file
+problems/recursion/hanoi.c.i:
+	$(MAKE) -f CMakeFiles/hanoi.dir/build.make CMakeFiles/hanoi.dir/problems/recursion/hanoi.c.i
+.PHONY : problems/recursion/hanoi.c.i
+
+problems/recursion/hanoi.s: problems/recursion/hanoi.c.s
+
+.PHONY : problems/recursion/hanoi.s
+
+# target to generate assembly for a file
+problems/recursion/hanoi.c.s:
+	$(MAKE) -f CMakeFiles/hanoi.dir/build.make CMakeFiles/hanoi.dir/problems/recursion/hanoi.c.s
+.PHONY : problems/recursion/hanoi.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -237,6 +277,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... hanoi"
 	@echo "... quick-test"
 	@echo "... rebuild_cache"
 	@echo "... tromino-tiling-vla"
@@ -250,6 +291,9 @@ help:
 	@echo "... njucs17-ps-tutorial/tromino-tiling/tromino-tiling.o"
 	@echo "... njucs17-ps-tutorial/tromino-tiling/tromino-tiling.i"
 	@echo "... njucs17-ps-tutorial/tromino-tiling/tromino-tiling.s"
+	@echo "... problems/recursion/hanoi.o"
+	@echo "... problems/recursion/hanoi.i"
+	@echo "... problems/recursion/hanoi.s"
 .PHONY : help
 
 

@@ -11,6 +11,9 @@ add_executable(tromino-tiling-vla njucs17-ps-tutorial/tromino-tiling/tromino-til
 target_link_libraries(tromino-tiling-vla m)
 
 add_executable(quick-test c/quick-test.c)
+
+add_executable(hanoi problems/recursion/hanoi.c)
+
 # add_executable(lms problems/dp/longest-monotone-subsequence.c)
 
 # set(SOURCE_FILES problems/josephus.c )
