@@ -1,0 +1,1 @@
+/usr/bin/cc  -Wall -g   CMakeFiles/array-test.dir/c/quick-test.c.o  -o array-test 

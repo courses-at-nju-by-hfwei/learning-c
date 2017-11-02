@@ -1,6 +1,9 @@
-/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/CMakeFiles/hanoi.dir
 /home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/CMakeFiles/quick-test.dir
 /home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/CMakeFiles/tromino-tiling-vla.dir
+/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/CMakeFiles/vla.dir
 /home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/CMakeFiles/tromino-tiling.dir
+/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/CMakeFiles/array-1d.dir
+/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/CMakeFiles/array-2d.dir

@@ -1,0 +1,1 @@
+/usr/bin/cc  -Wall -g   CMakeFiles/vla.dir/c/array/vla.c.o  -o vla 

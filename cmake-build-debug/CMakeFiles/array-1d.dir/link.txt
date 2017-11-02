@@ -1,0 +1,1 @@
+/usr/bin/cc  -Wall -g   CMakeFiles/array-1d.dir/c/array/array-1d.c.o  -o array-1d 

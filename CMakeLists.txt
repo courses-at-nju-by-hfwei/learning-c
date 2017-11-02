@@ -4,6 +4,10 @@ project(learning_c_cplusplus)
 set(CMAKE_C_STANDARD 99)
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall")
 
+add_executable(array-2d c/array/array-2d.c)
+add_executable(array-1d c/array/array-1d.c)
+add_executable(vla c/array/vla.c)
+
 add_executable(tromino-tiling njucs17-ps-tutorial/tromino-tiling/tromino-tiling.c)
 target_link_libraries(tromino-tiling m)
 

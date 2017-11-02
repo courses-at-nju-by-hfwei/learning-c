@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /home/hengxin/github-projects/learning-c-cplusplus/cmake-buil
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3415.24/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -77,6 +66,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3415.24/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -150,6 +150,19 @@ tromino-tiling-vla/fast:
 .PHONY : tromino-tiling-vla/fast
 
 #=============================================================================
+# Target rules for targets named vla
+
+# Build rule for target.
+vla: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 vla
+.PHONY : vla
+
+# fast build rule for target.
+vla/fast:
+	$(MAKE) -f CMakeFiles/vla.dir/build.make CMakeFiles/vla.dir/build
+.PHONY : vla/fast
+
+#=============================================================================
 # Target rules for targets named tromino-tiling
 
 # Build rule for target.
@@ -161,6 +174,113 @@ tromino-tiling: cmake_check_build_system
 tromino-tiling/fast:
 	$(MAKE) -f CMakeFiles/tromino-tiling.dir/build.make CMakeFiles/tromino-tiling.dir/build
 .PHONY : tromino-tiling/fast
+
+#=============================================================================
+# Target rules for targets named array-1d
+
+# Build rule for target.
+array-1d: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 array-1d
+.PHONY : array-1d
+
+# fast build rule for target.
+array-1d/fast:
+	$(MAKE) -f CMakeFiles/array-1d.dir/build.make CMakeFiles/array-1d.dir/build
+.PHONY : array-1d/fast
+
+#=============================================================================
+# Target rules for targets named array-2d
+
+# Build rule for target.
+array-2d: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 array-2d
+.PHONY : array-2d
+
+# fast build rule for target.
+array-2d/fast:
+	$(MAKE) -f CMakeFiles/array-2d.dir/build.make CMakeFiles/array-2d.dir/build
+.PHONY : array-2d/fast
+
+c/array/array-1d.o: c/array/array-1d.c.o
+
+.PHONY : c/array/array-1d.o
+
+# target to build an object file
+c/array/array-1d.c.o:
+	$(MAKE) -f CMakeFiles/array-1d.dir/build.make CMakeFiles/array-1d.dir/c/array/array-1d.c.o
+.PHONY : c/array/array-1d.c.o
+
+c/array/array-1d.i: c/array/array-1d.c.i
+
+.PHONY : c/array/array-1d.i
+
+# target to preprocess a source file
+c/array/array-1d.c.i:
+	$(MAKE) -f CMakeFiles/array-1d.dir/build.make CMakeFiles/array-1d.dir/c/array/array-1d.c.i
+.PHONY : c/array/array-1d.c.i
+
+c/array/array-1d.s: c/array/array-1d.c.s
+
+.PHONY : c/array/array-1d.s
+
+# target to generate assembly for a file
+c/array/array-1d.c.s:
+	$(MAKE) -f CMakeFiles/array-1d.dir/build.make CMakeFiles/array-1d.dir/c/array/array-1d.c.s
+.PHONY : c/array/array-1d.c.s
+
+c/array/array-2d.o: c/array/array-2d.c.o
+
+.PHONY : c/array/array-2d.o
+
+# target to build an object file
+c/array/array-2d.c.o:
+	$(MAKE) -f CMakeFiles/array-2d.dir/build.make CMakeFiles/array-2d.dir/c/array/array-2d.c.o
+.PHONY : c/array/array-2d.c.o
+
+c/array/array-2d.i: c/array/array-2d.c.i
+
+.PHONY : c/array/array-2d.i
+
+# target to preprocess a source file
+c/array/array-2d.c.i:
+	$(MAKE) -f CMakeFiles/array-2d.dir/build.make CMakeFiles/array-2d.dir/c/array/array-2d.c.i
+.PHONY : c/array/array-2d.c.i
+
+c/array/array-2d.s: c/array/array-2d.c.s
+
+.PHONY : c/array/array-2d.s
+
+# target to generate assembly for a file
+c/array/array-2d.c.s:
+	$(MAKE) -f CMakeFiles/array-2d.dir/build.make CMakeFiles/array-2d.dir/c/array/array-2d.c.s
+.PHONY : c/array/array-2d.c.s
+
+c/array/vla.o: c/array/vla.c.o
+
+.PHONY : c/array/vla.o
+
+# target to build an object file
+c/array/vla.c.o:
+	$(MAKE) -f CMakeFiles/vla.dir/build.make CMakeFiles/vla.dir/c/array/vla.c.o
+.PHONY : c/array/vla.c.o
+
+c/array/vla.i: c/array/vla.c.i
+
+.PHONY : c/array/vla.i
+
+# target to preprocess a source file
+c/array/vla.c.i:
+	$(MAKE) -f CMakeFiles/vla.dir/build.make CMakeFiles/vla.dir/c/array/vla.c.i
+.PHONY : c/array/vla.c.i
+
+c/array/vla.s: c/array/vla.c.s
+
+.PHONY : c/array/vla.s
+
+# target to generate assembly for a file
+c/array/vla.c.s:
+	$(MAKE) -f CMakeFiles/vla.dir/build.make CMakeFiles/vla.dir/c/array/vla.c.s
+.PHONY : c/array/vla.c.s
 
 c/quick-test.o: c/quick-test.c.o
 
@@ -276,12 +396,24 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... edit_cache"
 	@echo "... hanoi"
 	@echo "... quick-test"
 	@echo "... rebuild_cache"
 	@echo "... tromino-tiling-vla"
+	@echo "... vla"
 	@echo "... tromino-tiling"
+	@echo "... array-1d"
+	@echo "... edit_cache"
+	@echo "... array-2d"
+	@echo "... c/array/array-1d.o"
+	@echo "... c/array/array-1d.i"
+	@echo "... c/array/array-1d.s"
+	@echo "... c/array/array-2d.o"
+	@echo "... c/array/array-2d.i"
+	@echo "... c/array/array-2d.s"
+	@echo "... c/array/vla.o"
+	@echo "... c/array/vla.i"
+	@echo "... c/array/vla.s"
 	@echo "... c/quick-test.o"
 	@echo "... c/quick-test.i"
 	@echo "... c/quick-test.s"
