@@ -1,0 +1,1 @@
+/usr/bin/cc  -Wall -g   CMakeFiles/ll-test.dir/c/data-structure/linkedlist/linkedlist-test.c.o  -o ll-test 

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/tromino-tiling-vla.dir/njucs17-ps-tutorial/tromino-tiling/tromino-tiling-vla.c.o"
+  "CMakeFiles/tromino-tiling-vla.dir/problems/recursion/tromino-tiling/tromino-tiling-vla.c.o"
   "tromino-tiling-vla.pdb"
   "tromino-tiling-vla"
 )

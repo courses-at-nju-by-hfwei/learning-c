@@ -1,0 +1,1 @@
+/usr/bin/cc  -Wall -g   CMakeFiles/scanf-c.dir/c/io/scanf-c.c.o  -o scanf-c 

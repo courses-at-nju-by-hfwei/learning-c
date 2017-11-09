@@ -45,10 +45,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3415.24/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3531.13/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3415.24/bin/cmake/bin/cmake -E remove -f
+RM = /home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3531.13/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -58,6 +58,191 @@ CMAKE_SOURCE_DIR = /home/hengxin/github-projects/learning-c-cplusplus
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug
+
+#=============================================================================
+# Target rules for target CMakeFiles/struct-point.dir
+
+# All Build rule for target.
+CMakeFiles/struct-point.dir/all:
+	$(MAKE) -f CMakeFiles/struct-point.dir/build.make CMakeFiles/struct-point.dir/depend
+	$(MAKE) -f CMakeFiles/struct-point.dir/build.make CMakeFiles/struct-point.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target struct-point"
+.PHONY : CMakeFiles/struct-point.dir/all
+
+# Include target in all.
+all: CMakeFiles/struct-point.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/struct-point.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/struct-point.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/struct-point.dir/rule
+
+# Convenience name for target.
+struct-point: CMakeFiles/struct-point.dir/rule
+
+.PHONY : struct-point
+
+# clean rule for target.
+CMakeFiles/struct-point.dir/clean:
+	$(MAKE) -f CMakeFiles/struct-point.dir/build.make CMakeFiles/struct-point.dir/clean
+.PHONY : CMakeFiles/struct-point.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/struct-point.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/josephus-ll.dir
+
+# All Build rule for target.
+CMakeFiles/josephus-ll.dir/all:
+	$(MAKE) -f CMakeFiles/josephus-ll.dir/build.make CMakeFiles/josephus-ll.dir/depend
+	$(MAKE) -f CMakeFiles/josephus-ll.dir/build.make CMakeFiles/josephus-ll.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target josephus-ll"
+.PHONY : CMakeFiles/josephus-ll.dir/all
+
+# Include target in all.
+all: CMakeFiles/josephus-ll.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/josephus-ll.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/josephus-ll.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/josephus-ll.dir/rule
+
+# Convenience name for target.
+josephus-ll: CMakeFiles/josephus-ll.dir/rule
+
+.PHONY : josephus-ll
+
+# clean rule for target.
+CMakeFiles/josephus-ll.dir/clean:
+	$(MAKE) -f CMakeFiles/josephus-ll.dir/build.make CMakeFiles/josephus-ll.dir/clean
+.PHONY : CMakeFiles/josephus-ll.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/josephus-ll.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ll-test.dir
+
+# All Build rule for target.
+CMakeFiles/ll-test.dir/all:
+	$(MAKE) -f CMakeFiles/ll-test.dir/build.make CMakeFiles/ll-test.dir/depend
+	$(MAKE) -f CMakeFiles/ll-test.dir/build.make CMakeFiles/ll-test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target ll-test"
+.PHONY : CMakeFiles/ll-test.dir/all
+
+# Include target in all.
+all: CMakeFiles/ll-test.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ll-test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ll-test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/ll-test.dir/rule
+
+# Convenience name for target.
+ll-test: CMakeFiles/ll-test.dir/rule
+
+.PHONY : ll-test
+
+# clean rule for target.
+CMakeFiles/ll-test.dir/clean:
+	$(MAKE) -f CMakeFiles/ll-test.dir/build.make CMakeFiles/ll-test.dir/clean
+.PHONY : CMakeFiles/ll-test.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/ll-test.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/scanf-c.dir
+
+# All Build rule for target.
+CMakeFiles/scanf-c.dir/all:
+	$(MAKE) -f CMakeFiles/scanf-c.dir/build.make CMakeFiles/scanf-c.dir/depend
+	$(MAKE) -f CMakeFiles/scanf-c.dir/build.make CMakeFiles/scanf-c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target scanf-c"
+.PHONY : CMakeFiles/scanf-c.dir/all
+
+# Include target in all.
+all: CMakeFiles/scanf-c.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/scanf-c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/scanf-c.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/scanf-c.dir/rule
+
+# Convenience name for target.
+scanf-c: CMakeFiles/scanf-c.dir/rule
+
+.PHONY : scanf-c
+
+# clean rule for target.
+CMakeFiles/scanf-c.dir/clean:
+	$(MAKE) -f CMakeFiles/scanf-c.dir/build.make CMakeFiles/scanf-c.dir/clean
+.PHONY : CMakeFiles/scanf-c.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/scanf-c.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/vla.dir
+
+# All Build rule for target.
+CMakeFiles/vla.dir/all:
+	$(MAKE) -f CMakeFiles/vla.dir/build.make CMakeFiles/vla.dir/depend
+	$(MAKE) -f CMakeFiles/vla.dir/build.make CMakeFiles/vla.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target vla"
+.PHONY : CMakeFiles/vla.dir/all
+
+# Include target in all.
+all: CMakeFiles/vla.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/vla.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vla.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/vla.dir/rule
+
+# Convenience name for target.
+vla: CMakeFiles/vla.dir/rule
+
+.PHONY : vla
+
+# clean rule for target.
+CMakeFiles/vla.dir/clean:
+	$(MAKE) -f CMakeFiles/vla.dir/build.make CMakeFiles/vla.dir/clean
+.PHONY : CMakeFiles/vla.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/vla.dir/clean
+
+.PHONY : clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/hanoi.dir
@@ -97,50 +282,13 @@ clean: CMakeFiles/hanoi.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/quick-test.dir
-
-# All Build rule for target.
-CMakeFiles/quick-test.dir/all:
-	$(MAKE) -f CMakeFiles/quick-test.dir/build.make CMakeFiles/quick-test.dir/depend
-	$(MAKE) -f CMakeFiles/quick-test.dir/build.make CMakeFiles/quick-test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target quick-test"
-.PHONY : CMakeFiles/quick-test.dir/all
-
-# Include target in all.
-all: CMakeFiles/quick-test.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/quick-test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/quick-test.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/quick-test.dir/rule
-
-# Convenience name for target.
-quick-test: CMakeFiles/quick-test.dir/rule
-
-.PHONY : quick-test
-
-# clean rule for target.
-CMakeFiles/quick-test.dir/clean:
-	$(MAKE) -f CMakeFiles/quick-test.dir/build.make CMakeFiles/quick-test.dir/clean
-.PHONY : CMakeFiles/quick-test.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/quick-test.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/tromino-tiling-vla.dir
 
 # All Build rule for target.
 CMakeFiles/tromino-tiling-vla.dir/all:
 	$(MAKE) -f CMakeFiles/tromino-tiling-vla.dir/build.make CMakeFiles/tromino-tiling-vla.dir/depend
 	$(MAKE) -f CMakeFiles/tromino-tiling-vla.dir/build.make CMakeFiles/tromino-tiling-vla.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target tromino-tiling-vla"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target tromino-tiling-vla"
 .PHONY : CMakeFiles/tromino-tiling-vla.dir/all
 
 # Include target in all.
@@ -171,76 +319,39 @@ clean: CMakeFiles/tromino-tiling-vla.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/vla.dir
+# Target rules for target CMakeFiles/array-2d.dir
 
 # All Build rule for target.
-CMakeFiles/vla.dir/all:
-	$(MAKE) -f CMakeFiles/vla.dir/build.make CMakeFiles/vla.dir/depend
-	$(MAKE) -f CMakeFiles/vla.dir/build.make CMakeFiles/vla.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target vla"
-.PHONY : CMakeFiles/vla.dir/all
+CMakeFiles/array-2d.dir/all:
+	$(MAKE) -f CMakeFiles/array-2d.dir/build.make CMakeFiles/array-2d.dir/depend
+	$(MAKE) -f CMakeFiles/array-2d.dir/build.make CMakeFiles/array-2d.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target array-2d"
+.PHONY : CMakeFiles/array-2d.dir/all
 
 # Include target in all.
-all: CMakeFiles/vla.dir/all
+all: CMakeFiles/array-2d.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/vla.dir/rule: cmake_check_build_system
+CMakeFiles/array-2d.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vla.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/array-2d.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/vla.dir/rule
+.PHONY : CMakeFiles/array-2d.dir/rule
 
 # Convenience name for target.
-vla: CMakeFiles/vla.dir/rule
+array-2d: CMakeFiles/array-2d.dir/rule
 
-.PHONY : vla
-
-# clean rule for target.
-CMakeFiles/vla.dir/clean:
-	$(MAKE) -f CMakeFiles/vla.dir/build.make CMakeFiles/vla.dir/clean
-.PHONY : CMakeFiles/vla.dir/clean
+.PHONY : array-2d
 
 # clean rule for target.
-clean: CMakeFiles/vla.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/tromino-tiling.dir
-
-# All Build rule for target.
-CMakeFiles/tromino-tiling.dir/all:
-	$(MAKE) -f CMakeFiles/tromino-tiling.dir/build.make CMakeFiles/tromino-tiling.dir/depend
-	$(MAKE) -f CMakeFiles/tromino-tiling.dir/build.make CMakeFiles/tromino-tiling.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target tromino-tiling"
-.PHONY : CMakeFiles/tromino-tiling.dir/all
-
-# Include target in all.
-all: CMakeFiles/tromino-tiling.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/tromino-tiling.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/tromino-tiling.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/tromino-tiling.dir/rule
-
-# Convenience name for target.
-tromino-tiling: CMakeFiles/tromino-tiling.dir/rule
-
-.PHONY : tromino-tiling
+CMakeFiles/array-2d.dir/clean:
+	$(MAKE) -f CMakeFiles/array-2d.dir/build.make CMakeFiles/array-2d.dir/clean
+.PHONY : CMakeFiles/array-2d.dir/clean
 
 # clean rule for target.
-CMakeFiles/tromino-tiling.dir/clean:
-	$(MAKE) -f CMakeFiles/tromino-tiling.dir/build.make CMakeFiles/tromino-tiling.dir/clean
-.PHONY : CMakeFiles/tromino-tiling.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/tromino-tiling.dir/clean
+clean: CMakeFiles/array-2d.dir/clean
 
 .PHONY : clean
 
@@ -282,39 +393,76 @@ clean: CMakeFiles/array-1d.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/array-2d.dir
+# Target rules for target CMakeFiles/tromino-tiling.dir
 
 # All Build rule for target.
-CMakeFiles/array-2d.dir/all:
-	$(MAKE) -f CMakeFiles/array-2d.dir/build.make CMakeFiles/array-2d.dir/depend
-	$(MAKE) -f CMakeFiles/array-2d.dir/build.make CMakeFiles/array-2d.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target array-2d"
-.PHONY : CMakeFiles/array-2d.dir/all
+CMakeFiles/tromino-tiling.dir/all:
+	$(MAKE) -f CMakeFiles/tromino-tiling.dir/build.make CMakeFiles/tromino-tiling.dir/depend
+	$(MAKE) -f CMakeFiles/tromino-tiling.dir/build.make CMakeFiles/tromino-tiling.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target tromino-tiling"
+.PHONY : CMakeFiles/tromino-tiling.dir/all
 
 # Include target in all.
-all: CMakeFiles/array-2d.dir/all
+all: CMakeFiles/tromino-tiling.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/array-2d.dir/rule: cmake_check_build_system
+CMakeFiles/tromino-tiling.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/array-2d.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/tromino-tiling.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/array-2d.dir/rule
+.PHONY : CMakeFiles/tromino-tiling.dir/rule
 
 # Convenience name for target.
-array-2d: CMakeFiles/array-2d.dir/rule
+tromino-tiling: CMakeFiles/tromino-tiling.dir/rule
 
-.PHONY : array-2d
-
-# clean rule for target.
-CMakeFiles/array-2d.dir/clean:
-	$(MAKE) -f CMakeFiles/array-2d.dir/build.make CMakeFiles/array-2d.dir/clean
-.PHONY : CMakeFiles/array-2d.dir/clean
+.PHONY : tromino-tiling
 
 # clean rule for target.
-clean: CMakeFiles/array-2d.dir/clean
+CMakeFiles/tromino-tiling.dir/clean:
+	$(MAKE) -f CMakeFiles/tromino-tiling.dir/build.make CMakeFiles/tromino-tiling.dir/clean
+.PHONY : CMakeFiles/tromino-tiling.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/tromino-tiling.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/quick-test.dir
+
+# All Build rule for target.
+CMakeFiles/quick-test.dir/all:
+	$(MAKE) -f CMakeFiles/quick-test.dir/build.make CMakeFiles/quick-test.dir/depend
+	$(MAKE) -f CMakeFiles/quick-test.dir/build.make CMakeFiles/quick-test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target quick-test"
+.PHONY : CMakeFiles/quick-test.dir/all
+
+# Include target in all.
+all: CMakeFiles/quick-test.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/quick-test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/quick-test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/quick-test.dir/rule
+
+# Convenience name for target.
+quick-test: CMakeFiles/quick-test.dir/rule
+
+.PHONY : quick-test
+
+# clean rule for target.
+CMakeFiles/quick-test.dir/clean:
+	$(MAKE) -f CMakeFiles/quick-test.dir/build.make CMakeFiles/quick-test.dir/clean
+.PHONY : CMakeFiles/quick-test.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/quick-test.dir/clean
 
 .PHONY : clean
 

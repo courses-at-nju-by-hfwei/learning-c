@@ -1,0 +1,1 @@
+/usr/bin/cc  -Wall -g   CMakeFiles/struct-point.dir/c/struct/struct-point.c.o  -o struct-point 

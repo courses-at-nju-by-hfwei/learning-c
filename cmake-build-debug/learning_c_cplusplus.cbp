@@ -17,98 +17,6 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="hanoi">
-				<Option output="/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/hanoi" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 hanoi"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="hanoi/fast">
-				<Option output="/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/hanoi" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 hanoi/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="quick-test">
-				<Option output="/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/quick-test" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 quick-test"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="quick-test/fast">
-				<Option output="/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/quick-test" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 quick-test/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug"/>
 				<Option type="4"/>
@@ -119,8 +27,8 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="tromino-tiling-vla">
-				<Option output="/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/tromino-tiling-vla" prefix_auto="0" extension_auto="0"/>
+			<Target title="struct-point">
+				<Option output="/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/struct-point" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -136,14 +44,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 tromino-tiling-vla"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 struct-point"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="tromino-tiling-vla/fast">
-				<Option output="/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/tromino-tiling-vla" prefix_auto="0" extension_auto="0"/>
+			<Target title="struct-point/fast">
+				<Option output="/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/struct-point" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -159,7 +67,145 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 tromino-tiling-vla/fast"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 struct-point/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="josephus-ll">
+				<Option output="/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/josephus-ll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 josephus-ll"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="josephus-ll/fast">
+				<Option output="/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/josephus-ll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 josephus-ll/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ll-test">
+				<Option output="/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/ll-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 ll-test"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ll-test/fast">
+				<Option output="/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/ll-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 ll-test/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="scanf-c">
+				<Option output="/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/scanf-c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 scanf-c"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="scanf-c/fast">
+				<Option output="/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/scanf-c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 scanf-c/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -211,8 +257,8 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="tromino-tiling">
-				<Option output="/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/tromino-tiling" prefix_auto="0" extension_auto="0"/>
+			<Target title="hanoi">
+				<Option output="/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/hanoi" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -228,14 +274,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 tromino-tiling"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 hanoi"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="tromino-tiling/fast">
-				<Option output="/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/tromino-tiling" prefix_auto="0" extension_auto="0"/>
+			<Target title="hanoi/fast">
+				<Option output="/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/hanoi" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -251,14 +297,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 tromino-tiling/fast"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 hanoi/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="array-1d">
-				<Option output="/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/array-1d" prefix_auto="0" extension_auto="0"/>
+			<Target title="tromino-tiling-vla">
+				<Option output="/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/tromino-tiling-vla" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -274,14 +320,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 array-1d"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 tromino-tiling-vla"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="array-1d/fast">
-				<Option output="/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/array-1d" prefix_auto="0" extension_auto="0"/>
+			<Target title="tromino-tiling-vla/fast">
+				<Option output="/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/tromino-tiling-vla" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -297,17 +343,7 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 array-1d/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 tromino-tiling-vla/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -359,6 +395,154 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="array-1d">
+				<Option output="/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/array-1d" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 array-1d"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="array-1d/fast">
+				<Option output="/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/array-1d" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 array-1d/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tromino-tiling">
+				<Option output="/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/tromino-tiling" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 tromino-tiling"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tromino-tiling/fast">
+				<Option output="/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/tromino-tiling" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 tromino-tiling/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="quick-test">
+				<Option output="/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/quick-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 quick-test"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="quick-test/fast">
+				<Option output="/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/quick-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 quick-test/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
 		<Unit filename="/home/hengxin/github-projects/learning-c-cplusplus/c/array/array-1d.c">
 			<Option target="array-1d"/>
@@ -369,17 +553,29 @@
 		<Unit filename="/home/hengxin/github-projects/learning-c-cplusplus/c/array/vla.c">
 			<Option target="vla"/>
 		</Unit>
+		<Unit filename="/home/hengxin/github-projects/learning-c-cplusplus/c/data-structure/linkedlist/linkedlist-test.c">
+			<Option target="ll-test"/>
+		</Unit>
+		<Unit filename="/home/hengxin/github-projects/learning-c-cplusplus/c/io/scanf-c.c">
+			<Option target="scanf-c"/>
+		</Unit>
 		<Unit filename="/home/hengxin/github-projects/learning-c-cplusplus/c/quick-test.c">
 			<Option target="quick-test"/>
 		</Unit>
-		<Unit filename="/home/hengxin/github-projects/learning-c-cplusplus/njucs17-ps-tutorial/tromino-tiling/tromino-tiling-vla.c">
-			<Option target="tromino-tiling-vla"/>
+		<Unit filename="/home/hengxin/github-projects/learning-c-cplusplus/c/struct/struct-point.c">
+			<Option target="struct-point"/>
 		</Unit>
-		<Unit filename="/home/hengxin/github-projects/learning-c-cplusplus/njucs17-ps-tutorial/tromino-tiling/tromino-tiling.c">
-			<Option target="tromino-tiling"/>
+		<Unit filename="/home/hengxin/github-projects/learning-c-cplusplus/problems/josephus/josephus-linkedlist/josephus-linkedlist.c">
+			<Option target="josephus-ll"/>
 		</Unit>
 		<Unit filename="/home/hengxin/github-projects/learning-c-cplusplus/problems/recursion/hanoi.c">
 			<Option target="hanoi"/>
+		</Unit>
+		<Unit filename="/home/hengxin/github-projects/learning-c-cplusplus/problems/recursion/tromino-tiling/tromino-tiling-vla.c">
+			<Option target="tromino-tiling-vla"/>
+		</Unit>
+		<Unit filename="/home/hengxin/github-projects/learning-c-cplusplus/problems/recursion/tromino-tiling/tromino-tiling.c">
+			<Option target="tromino-tiling"/>
 		</Unit>
 		<Unit filename="/home/hengxin/github-projects/learning-c-cplusplus/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

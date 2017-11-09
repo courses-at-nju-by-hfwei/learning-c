@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/hengxin/github-projects/learning-c-cplusplus/njucs17-ps-tutorial/tromino-tiling/tromino-tiling-vla.c
+/home/hengxin/github-projects/learning-c-cplusplus/problems/recursion/tromino-tiling/tromino-tiling-vla.c
 stdio.h
 -
 math.h

@@ -1,4 +1,4 @@
-// File: array.c
+// File: array-2d.c
 // Created by hengxin on 17-11-2.
 
 /**
@@ -26,6 +26,10 @@ int main(void) {
                    i, j, &a[i][j], a[i][j]);
         }
     }
+
+    printf("%p", *a);
+    printf("a[2][1] is: %d.\n",
+        *((*(a + 2)) + 1));
 
     /**
      * (Part II)

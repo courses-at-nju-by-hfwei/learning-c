@@ -34,10 +34,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3415.24/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3531.13/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3415.24/bin/cmake/bin/cmake -E remove -f
+RM = /home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3531.13/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -57,38 +57,38 @@ include CMakeFiles/tromino-tiling.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/tromino-tiling.dir/flags.make
 
-CMakeFiles/tromino-tiling.dir/njucs17-ps-tutorial/tromino-tiling/tromino-tiling.c.o: CMakeFiles/tromino-tiling.dir/flags.make
-CMakeFiles/tromino-tiling.dir/njucs17-ps-tutorial/tromino-tiling/tromino-tiling.c.o: ../njucs17-ps-tutorial/tromino-tiling/tromino-tiling.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/tromino-tiling.dir/njucs17-ps-tutorial/tromino-tiling/tromino-tiling.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tromino-tiling.dir/njucs17-ps-tutorial/tromino-tiling/tromino-tiling.c.o   -c /home/hengxin/github-projects/learning-c-cplusplus/njucs17-ps-tutorial/tromino-tiling/tromino-tiling.c
+CMakeFiles/tromino-tiling.dir/problems/recursion/tromino-tiling/tromino-tiling.c.o: CMakeFiles/tromino-tiling.dir/flags.make
+CMakeFiles/tromino-tiling.dir/problems/recursion/tromino-tiling/tromino-tiling.c.o: ../problems/recursion/tromino-tiling/tromino-tiling.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/tromino-tiling.dir/problems/recursion/tromino-tiling/tromino-tiling.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tromino-tiling.dir/problems/recursion/tromino-tiling/tromino-tiling.c.o   -c /home/hengxin/github-projects/learning-c-cplusplus/problems/recursion/tromino-tiling/tromino-tiling.c
 
-CMakeFiles/tromino-tiling.dir/njucs17-ps-tutorial/tromino-tiling/tromino-tiling.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tromino-tiling.dir/njucs17-ps-tutorial/tromino-tiling/tromino-tiling.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hengxin/github-projects/learning-c-cplusplus/njucs17-ps-tutorial/tromino-tiling/tromino-tiling.c > CMakeFiles/tromino-tiling.dir/njucs17-ps-tutorial/tromino-tiling/tromino-tiling.c.i
+CMakeFiles/tromino-tiling.dir/problems/recursion/tromino-tiling/tromino-tiling.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tromino-tiling.dir/problems/recursion/tromino-tiling/tromino-tiling.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hengxin/github-projects/learning-c-cplusplus/problems/recursion/tromino-tiling/tromino-tiling.c > CMakeFiles/tromino-tiling.dir/problems/recursion/tromino-tiling/tromino-tiling.c.i
 
-CMakeFiles/tromino-tiling.dir/njucs17-ps-tutorial/tromino-tiling/tromino-tiling.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tromino-tiling.dir/njucs17-ps-tutorial/tromino-tiling/tromino-tiling.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hengxin/github-projects/learning-c-cplusplus/njucs17-ps-tutorial/tromino-tiling/tromino-tiling.c -o CMakeFiles/tromino-tiling.dir/njucs17-ps-tutorial/tromino-tiling/tromino-tiling.c.s
+CMakeFiles/tromino-tiling.dir/problems/recursion/tromino-tiling/tromino-tiling.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tromino-tiling.dir/problems/recursion/tromino-tiling/tromino-tiling.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hengxin/github-projects/learning-c-cplusplus/problems/recursion/tromino-tiling/tromino-tiling.c -o CMakeFiles/tromino-tiling.dir/problems/recursion/tromino-tiling/tromino-tiling.c.s
 
-CMakeFiles/tromino-tiling.dir/njucs17-ps-tutorial/tromino-tiling/tromino-tiling.c.o.requires:
+CMakeFiles/tromino-tiling.dir/problems/recursion/tromino-tiling/tromino-tiling.c.o.requires:
 
-.PHONY : CMakeFiles/tromino-tiling.dir/njucs17-ps-tutorial/tromino-tiling/tromino-tiling.c.o.requires
+.PHONY : CMakeFiles/tromino-tiling.dir/problems/recursion/tromino-tiling/tromino-tiling.c.o.requires
 
-CMakeFiles/tromino-tiling.dir/njucs17-ps-tutorial/tromino-tiling/tromino-tiling.c.o.provides: CMakeFiles/tromino-tiling.dir/njucs17-ps-tutorial/tromino-tiling/tromino-tiling.c.o.requires
-	$(MAKE) -f CMakeFiles/tromino-tiling.dir/build.make CMakeFiles/tromino-tiling.dir/njucs17-ps-tutorial/tromino-tiling/tromino-tiling.c.o.provides.build
-.PHONY : CMakeFiles/tromino-tiling.dir/njucs17-ps-tutorial/tromino-tiling/tromino-tiling.c.o.provides
+CMakeFiles/tromino-tiling.dir/problems/recursion/tromino-tiling/tromino-tiling.c.o.provides: CMakeFiles/tromino-tiling.dir/problems/recursion/tromino-tiling/tromino-tiling.c.o.requires
+	$(MAKE) -f CMakeFiles/tromino-tiling.dir/build.make CMakeFiles/tromino-tiling.dir/problems/recursion/tromino-tiling/tromino-tiling.c.o.provides.build
+.PHONY : CMakeFiles/tromino-tiling.dir/problems/recursion/tromino-tiling/tromino-tiling.c.o.provides
 
-CMakeFiles/tromino-tiling.dir/njucs17-ps-tutorial/tromino-tiling/tromino-tiling.c.o.provides.build: CMakeFiles/tromino-tiling.dir/njucs17-ps-tutorial/tromino-tiling/tromino-tiling.c.o
+CMakeFiles/tromino-tiling.dir/problems/recursion/tromino-tiling/tromino-tiling.c.o.provides.build: CMakeFiles/tromino-tiling.dir/problems/recursion/tromino-tiling/tromino-tiling.c.o
 
 
 # Object files for target tromino-tiling
 tromino__tiling_OBJECTS = \
-"CMakeFiles/tromino-tiling.dir/njucs17-ps-tutorial/tromino-tiling/tromino-tiling.c.o"
+"CMakeFiles/tromino-tiling.dir/problems/recursion/tromino-tiling/tromino-tiling.c.o"
 
 # External object files for target tromino-tiling
 tromino__tiling_EXTERNAL_OBJECTS =
 
-tromino-tiling: CMakeFiles/tromino-tiling.dir/njucs17-ps-tutorial/tromino-tiling/tromino-tiling.c.o
+tromino-tiling: CMakeFiles/tromino-tiling.dir/problems/recursion/tromino-tiling/tromino-tiling.c.o
 tromino-tiling: CMakeFiles/tromino-tiling.dir/build.make
 tromino-tiling: CMakeFiles/tromino-tiling.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable tromino-tiling"
@@ -99,7 +99,7 @@ CMakeFiles/tromino-tiling.dir/build: tromino-tiling
 
 .PHONY : CMakeFiles/tromino-tiling.dir/build
 
-CMakeFiles/tromino-tiling.dir/requires: CMakeFiles/tromino-tiling.dir/njucs17-ps-tutorial/tromino-tiling/tromino-tiling.c.o.requires
+CMakeFiles/tromino-tiling.dir/requires: CMakeFiles/tromino-tiling.dir/problems/recursion/tromino-tiling/tromino-tiling.c.o.requires
 
 .PHONY : CMakeFiles/tromino-tiling.dir/requires
 

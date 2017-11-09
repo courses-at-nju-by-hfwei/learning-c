@@ -4,6 +4,9 @@
 #include <stdio.h>
 
 int main(void) {
+    int i;
+    scanf("%d", &i);
+    printf("%d\n", i);
     /**
      * Read characters into a char array
      */

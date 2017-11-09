@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hengxin/github-projects/learning-c-cplusplus/c/data-structure/linkedlist/linkedlist.h
+
+/home/hengxin/github-projects/learning-c-cplusplus/problems/josephus/josephus-linkedlist/josephus-linkedlist.c
+stdio.h
+-
+stdlib.h
+-
+../../../c/data-structure/linkedlist/linkedlist.h
+/home/hengxin/github-projects/learning-c-cplusplus/c/data-structure/linkedlist/linkedlist.h
+

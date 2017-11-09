@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3415.24/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3531.13/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3415.24/bin/cmake/bin/cmake -E remove -f
+RM = /home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3531.13/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/hengxin/github-projects/learning-c-cplusplus/cmake-buil
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3415.24/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3531.13/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3415.24/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3531.13/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -111,43 +111,56 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named hanoi
+# Target rules for targets named struct-point
 
 # Build rule for target.
-hanoi: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 hanoi
-.PHONY : hanoi
+struct-point: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 struct-point
+.PHONY : struct-point
 
 # fast build rule for target.
-hanoi/fast:
-	$(MAKE) -f CMakeFiles/hanoi.dir/build.make CMakeFiles/hanoi.dir/build
-.PHONY : hanoi/fast
+struct-point/fast:
+	$(MAKE) -f CMakeFiles/struct-point.dir/build.make CMakeFiles/struct-point.dir/build
+.PHONY : struct-point/fast
 
 #=============================================================================
-# Target rules for targets named quick-test
+# Target rules for targets named josephus-ll
 
 # Build rule for target.
-quick-test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 quick-test
-.PHONY : quick-test
+josephus-ll: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 josephus-ll
+.PHONY : josephus-ll
 
 # fast build rule for target.
-quick-test/fast:
-	$(MAKE) -f CMakeFiles/quick-test.dir/build.make CMakeFiles/quick-test.dir/build
-.PHONY : quick-test/fast
+josephus-ll/fast:
+	$(MAKE) -f CMakeFiles/josephus-ll.dir/build.make CMakeFiles/josephus-ll.dir/build
+.PHONY : josephus-ll/fast
 
 #=============================================================================
-# Target rules for targets named tromino-tiling-vla
+# Target rules for targets named ll-test
 
 # Build rule for target.
-tromino-tiling-vla: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 tromino-tiling-vla
-.PHONY : tromino-tiling-vla
+ll-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ll-test
+.PHONY : ll-test
 
 # fast build rule for target.
-tromino-tiling-vla/fast:
-	$(MAKE) -f CMakeFiles/tromino-tiling-vla.dir/build.make CMakeFiles/tromino-tiling-vla.dir/build
-.PHONY : tromino-tiling-vla/fast
+ll-test/fast:
+	$(MAKE) -f CMakeFiles/ll-test.dir/build.make CMakeFiles/ll-test.dir/build
+.PHONY : ll-test/fast
+
+#=============================================================================
+# Target rules for targets named scanf-c
+
+# Build rule for target.
+scanf-c: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 scanf-c
+.PHONY : scanf-c
+
+# fast build rule for target.
+scanf-c/fast:
+	$(MAKE) -f CMakeFiles/scanf-c.dir/build.make CMakeFiles/scanf-c.dir/build
+.PHONY : scanf-c/fast
 
 #=============================================================================
 # Target rules for targets named vla
@@ -163,17 +176,43 @@ vla/fast:
 .PHONY : vla/fast
 
 #=============================================================================
-# Target rules for targets named tromino-tiling
+# Target rules for targets named hanoi
 
 # Build rule for target.
-tromino-tiling: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 tromino-tiling
-.PHONY : tromino-tiling
+hanoi: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 hanoi
+.PHONY : hanoi
 
 # fast build rule for target.
-tromino-tiling/fast:
-	$(MAKE) -f CMakeFiles/tromino-tiling.dir/build.make CMakeFiles/tromino-tiling.dir/build
-.PHONY : tromino-tiling/fast
+hanoi/fast:
+	$(MAKE) -f CMakeFiles/hanoi.dir/build.make CMakeFiles/hanoi.dir/build
+.PHONY : hanoi/fast
+
+#=============================================================================
+# Target rules for targets named tromino-tiling-vla
+
+# Build rule for target.
+tromino-tiling-vla: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tromino-tiling-vla
+.PHONY : tromino-tiling-vla
+
+# fast build rule for target.
+tromino-tiling-vla/fast:
+	$(MAKE) -f CMakeFiles/tromino-tiling-vla.dir/build.make CMakeFiles/tromino-tiling-vla.dir/build
+.PHONY : tromino-tiling-vla/fast
+
+#=============================================================================
+# Target rules for targets named array-2d
+
+# Build rule for target.
+array-2d: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 array-2d
+.PHONY : array-2d
+
+# fast build rule for target.
+array-2d/fast:
+	$(MAKE) -f CMakeFiles/array-2d.dir/build.make CMakeFiles/array-2d.dir/build
+.PHONY : array-2d/fast
 
 #=============================================================================
 # Target rules for targets named array-1d
@@ -189,17 +228,30 @@ array-1d/fast:
 .PHONY : array-1d/fast
 
 #=============================================================================
-# Target rules for targets named array-2d
+# Target rules for targets named tromino-tiling
 
 # Build rule for target.
-array-2d: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 array-2d
-.PHONY : array-2d
+tromino-tiling: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tromino-tiling
+.PHONY : tromino-tiling
 
 # fast build rule for target.
-array-2d/fast:
-	$(MAKE) -f CMakeFiles/array-2d.dir/build.make CMakeFiles/array-2d.dir/build
-.PHONY : array-2d/fast
+tromino-tiling/fast:
+	$(MAKE) -f CMakeFiles/tromino-tiling.dir/build.make CMakeFiles/tromino-tiling.dir/build
+.PHONY : tromino-tiling/fast
+
+#=============================================================================
+# Target rules for targets named quick-test
+
+# Build rule for target.
+quick-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 quick-test
+.PHONY : quick-test
+
+# fast build rule for target.
+quick-test/fast:
+	$(MAKE) -f CMakeFiles/quick-test.dir/build.make CMakeFiles/quick-test.dir/build
+.PHONY : quick-test/fast
 
 c/array/array-1d.o: c/array/array-1d.c.o
 
@@ -282,6 +334,60 @@ c/array/vla.c.s:
 	$(MAKE) -f CMakeFiles/vla.dir/build.make CMakeFiles/vla.dir/c/array/vla.c.s
 .PHONY : c/array/vla.c.s
 
+c/data-structure/linkedlist/linkedlist-test.o: c/data-structure/linkedlist/linkedlist-test.c.o
+
+.PHONY : c/data-structure/linkedlist/linkedlist-test.o
+
+# target to build an object file
+c/data-structure/linkedlist/linkedlist-test.c.o:
+	$(MAKE) -f CMakeFiles/ll-test.dir/build.make CMakeFiles/ll-test.dir/c/data-structure/linkedlist/linkedlist-test.c.o
+.PHONY : c/data-structure/linkedlist/linkedlist-test.c.o
+
+c/data-structure/linkedlist/linkedlist-test.i: c/data-structure/linkedlist/linkedlist-test.c.i
+
+.PHONY : c/data-structure/linkedlist/linkedlist-test.i
+
+# target to preprocess a source file
+c/data-structure/linkedlist/linkedlist-test.c.i:
+	$(MAKE) -f CMakeFiles/ll-test.dir/build.make CMakeFiles/ll-test.dir/c/data-structure/linkedlist/linkedlist-test.c.i
+.PHONY : c/data-structure/linkedlist/linkedlist-test.c.i
+
+c/data-structure/linkedlist/linkedlist-test.s: c/data-structure/linkedlist/linkedlist-test.c.s
+
+.PHONY : c/data-structure/linkedlist/linkedlist-test.s
+
+# target to generate assembly for a file
+c/data-structure/linkedlist/linkedlist-test.c.s:
+	$(MAKE) -f CMakeFiles/ll-test.dir/build.make CMakeFiles/ll-test.dir/c/data-structure/linkedlist/linkedlist-test.c.s
+.PHONY : c/data-structure/linkedlist/linkedlist-test.c.s
+
+c/io/scanf-c.o: c/io/scanf-c.c.o
+
+.PHONY : c/io/scanf-c.o
+
+# target to build an object file
+c/io/scanf-c.c.o:
+	$(MAKE) -f CMakeFiles/scanf-c.dir/build.make CMakeFiles/scanf-c.dir/c/io/scanf-c.c.o
+.PHONY : c/io/scanf-c.c.o
+
+c/io/scanf-c.i: c/io/scanf-c.c.i
+
+.PHONY : c/io/scanf-c.i
+
+# target to preprocess a source file
+c/io/scanf-c.c.i:
+	$(MAKE) -f CMakeFiles/scanf-c.dir/build.make CMakeFiles/scanf-c.dir/c/io/scanf-c.c.i
+.PHONY : c/io/scanf-c.c.i
+
+c/io/scanf-c.s: c/io/scanf-c.c.s
+
+.PHONY : c/io/scanf-c.s
+
+# target to generate assembly for a file
+c/io/scanf-c.c.s:
+	$(MAKE) -f CMakeFiles/scanf-c.dir/build.make CMakeFiles/scanf-c.dir/c/io/scanf-c.c.s
+.PHONY : c/io/scanf-c.c.s
+
 c/quick-test.o: c/quick-test.c.o
 
 .PHONY : c/quick-test.o
@@ -309,59 +415,59 @@ c/quick-test.c.s:
 	$(MAKE) -f CMakeFiles/quick-test.dir/build.make CMakeFiles/quick-test.dir/c/quick-test.c.s
 .PHONY : c/quick-test.c.s
 
-njucs17-ps-tutorial/tromino-tiling/tromino-tiling-vla.o: njucs17-ps-tutorial/tromino-tiling/tromino-tiling-vla.c.o
+c/struct/struct-point.o: c/struct/struct-point.c.o
 
-.PHONY : njucs17-ps-tutorial/tromino-tiling/tromino-tiling-vla.o
-
-# target to build an object file
-njucs17-ps-tutorial/tromino-tiling/tromino-tiling-vla.c.o:
-	$(MAKE) -f CMakeFiles/tromino-tiling-vla.dir/build.make CMakeFiles/tromino-tiling-vla.dir/njucs17-ps-tutorial/tromino-tiling/tromino-tiling-vla.c.o
-.PHONY : njucs17-ps-tutorial/tromino-tiling/tromino-tiling-vla.c.o
-
-njucs17-ps-tutorial/tromino-tiling/tromino-tiling-vla.i: njucs17-ps-tutorial/tromino-tiling/tromino-tiling-vla.c.i
-
-.PHONY : njucs17-ps-tutorial/tromino-tiling/tromino-tiling-vla.i
-
-# target to preprocess a source file
-njucs17-ps-tutorial/tromino-tiling/tromino-tiling-vla.c.i:
-	$(MAKE) -f CMakeFiles/tromino-tiling-vla.dir/build.make CMakeFiles/tromino-tiling-vla.dir/njucs17-ps-tutorial/tromino-tiling/tromino-tiling-vla.c.i
-.PHONY : njucs17-ps-tutorial/tromino-tiling/tromino-tiling-vla.c.i
-
-njucs17-ps-tutorial/tromino-tiling/tromino-tiling-vla.s: njucs17-ps-tutorial/tromino-tiling/tromino-tiling-vla.c.s
-
-.PHONY : njucs17-ps-tutorial/tromino-tiling/tromino-tiling-vla.s
-
-# target to generate assembly for a file
-njucs17-ps-tutorial/tromino-tiling/tromino-tiling-vla.c.s:
-	$(MAKE) -f CMakeFiles/tromino-tiling-vla.dir/build.make CMakeFiles/tromino-tiling-vla.dir/njucs17-ps-tutorial/tromino-tiling/tromino-tiling-vla.c.s
-.PHONY : njucs17-ps-tutorial/tromino-tiling/tromino-tiling-vla.c.s
-
-njucs17-ps-tutorial/tromino-tiling/tromino-tiling.o: njucs17-ps-tutorial/tromino-tiling/tromino-tiling.c.o
-
-.PHONY : njucs17-ps-tutorial/tromino-tiling/tromino-tiling.o
+.PHONY : c/struct/struct-point.o
 
 # target to build an object file
-njucs17-ps-tutorial/tromino-tiling/tromino-tiling.c.o:
-	$(MAKE) -f CMakeFiles/tromino-tiling.dir/build.make CMakeFiles/tromino-tiling.dir/njucs17-ps-tutorial/tromino-tiling/tromino-tiling.c.o
-.PHONY : njucs17-ps-tutorial/tromino-tiling/tromino-tiling.c.o
+c/struct/struct-point.c.o:
+	$(MAKE) -f CMakeFiles/struct-point.dir/build.make CMakeFiles/struct-point.dir/c/struct/struct-point.c.o
+.PHONY : c/struct/struct-point.c.o
 
-njucs17-ps-tutorial/tromino-tiling/tromino-tiling.i: njucs17-ps-tutorial/tromino-tiling/tromino-tiling.c.i
+c/struct/struct-point.i: c/struct/struct-point.c.i
 
-.PHONY : njucs17-ps-tutorial/tromino-tiling/tromino-tiling.i
+.PHONY : c/struct/struct-point.i
 
 # target to preprocess a source file
-njucs17-ps-tutorial/tromino-tiling/tromino-tiling.c.i:
-	$(MAKE) -f CMakeFiles/tromino-tiling.dir/build.make CMakeFiles/tromino-tiling.dir/njucs17-ps-tutorial/tromino-tiling/tromino-tiling.c.i
-.PHONY : njucs17-ps-tutorial/tromino-tiling/tromino-tiling.c.i
+c/struct/struct-point.c.i:
+	$(MAKE) -f CMakeFiles/struct-point.dir/build.make CMakeFiles/struct-point.dir/c/struct/struct-point.c.i
+.PHONY : c/struct/struct-point.c.i
 
-njucs17-ps-tutorial/tromino-tiling/tromino-tiling.s: njucs17-ps-tutorial/tromino-tiling/tromino-tiling.c.s
+c/struct/struct-point.s: c/struct/struct-point.c.s
 
-.PHONY : njucs17-ps-tutorial/tromino-tiling/tromino-tiling.s
+.PHONY : c/struct/struct-point.s
 
 # target to generate assembly for a file
-njucs17-ps-tutorial/tromino-tiling/tromino-tiling.c.s:
-	$(MAKE) -f CMakeFiles/tromino-tiling.dir/build.make CMakeFiles/tromino-tiling.dir/njucs17-ps-tutorial/tromino-tiling/tromino-tiling.c.s
-.PHONY : njucs17-ps-tutorial/tromino-tiling/tromino-tiling.c.s
+c/struct/struct-point.c.s:
+	$(MAKE) -f CMakeFiles/struct-point.dir/build.make CMakeFiles/struct-point.dir/c/struct/struct-point.c.s
+.PHONY : c/struct/struct-point.c.s
+
+problems/josephus/josephus-linkedlist/josephus-linkedlist.o: problems/josephus/josephus-linkedlist/josephus-linkedlist.c.o
+
+.PHONY : problems/josephus/josephus-linkedlist/josephus-linkedlist.o
+
+# target to build an object file
+problems/josephus/josephus-linkedlist/josephus-linkedlist.c.o:
+	$(MAKE) -f CMakeFiles/josephus-ll.dir/build.make CMakeFiles/josephus-ll.dir/problems/josephus/josephus-linkedlist/josephus-linkedlist.c.o
+.PHONY : problems/josephus/josephus-linkedlist/josephus-linkedlist.c.o
+
+problems/josephus/josephus-linkedlist/josephus-linkedlist.i: problems/josephus/josephus-linkedlist/josephus-linkedlist.c.i
+
+.PHONY : problems/josephus/josephus-linkedlist/josephus-linkedlist.i
+
+# target to preprocess a source file
+problems/josephus/josephus-linkedlist/josephus-linkedlist.c.i:
+	$(MAKE) -f CMakeFiles/josephus-ll.dir/build.make CMakeFiles/josephus-ll.dir/problems/josephus/josephus-linkedlist/josephus-linkedlist.c.i
+.PHONY : problems/josephus/josephus-linkedlist/josephus-linkedlist.c.i
+
+problems/josephus/josephus-linkedlist/josephus-linkedlist.s: problems/josephus/josephus-linkedlist/josephus-linkedlist.c.s
+
+.PHONY : problems/josephus/josephus-linkedlist/josephus-linkedlist.s
+
+# target to generate assembly for a file
+problems/josephus/josephus-linkedlist/josephus-linkedlist.c.s:
+	$(MAKE) -f CMakeFiles/josephus-ll.dir/build.make CMakeFiles/josephus-ll.dir/problems/josephus/josephus-linkedlist/josephus-linkedlist.c.s
+.PHONY : problems/josephus/josephus-linkedlist/josephus-linkedlist.c.s
 
 problems/recursion/hanoi.o: problems/recursion/hanoi.c.o
 
@@ -390,21 +496,79 @@ problems/recursion/hanoi.c.s:
 	$(MAKE) -f CMakeFiles/hanoi.dir/build.make CMakeFiles/hanoi.dir/problems/recursion/hanoi.c.s
 .PHONY : problems/recursion/hanoi.c.s
 
+problems/recursion/tromino-tiling/tromino-tiling-vla.o: problems/recursion/tromino-tiling/tromino-tiling-vla.c.o
+
+.PHONY : problems/recursion/tromino-tiling/tromino-tiling-vla.o
+
+# target to build an object file
+problems/recursion/tromino-tiling/tromino-tiling-vla.c.o:
+	$(MAKE) -f CMakeFiles/tromino-tiling-vla.dir/build.make CMakeFiles/tromino-tiling-vla.dir/problems/recursion/tromino-tiling/tromino-tiling-vla.c.o
+.PHONY : problems/recursion/tromino-tiling/tromino-tiling-vla.c.o
+
+problems/recursion/tromino-tiling/tromino-tiling-vla.i: problems/recursion/tromino-tiling/tromino-tiling-vla.c.i
+
+.PHONY : problems/recursion/tromino-tiling/tromino-tiling-vla.i
+
+# target to preprocess a source file
+problems/recursion/tromino-tiling/tromino-tiling-vla.c.i:
+	$(MAKE) -f CMakeFiles/tromino-tiling-vla.dir/build.make CMakeFiles/tromino-tiling-vla.dir/problems/recursion/tromino-tiling/tromino-tiling-vla.c.i
+.PHONY : problems/recursion/tromino-tiling/tromino-tiling-vla.c.i
+
+problems/recursion/tromino-tiling/tromino-tiling-vla.s: problems/recursion/tromino-tiling/tromino-tiling-vla.c.s
+
+.PHONY : problems/recursion/tromino-tiling/tromino-tiling-vla.s
+
+# target to generate assembly for a file
+problems/recursion/tromino-tiling/tromino-tiling-vla.c.s:
+	$(MAKE) -f CMakeFiles/tromino-tiling-vla.dir/build.make CMakeFiles/tromino-tiling-vla.dir/problems/recursion/tromino-tiling/tromino-tiling-vla.c.s
+.PHONY : problems/recursion/tromino-tiling/tromino-tiling-vla.c.s
+
+problems/recursion/tromino-tiling/tromino-tiling.o: problems/recursion/tromino-tiling/tromino-tiling.c.o
+
+.PHONY : problems/recursion/tromino-tiling/tromino-tiling.o
+
+# target to build an object file
+problems/recursion/tromino-tiling/tromino-tiling.c.o:
+	$(MAKE) -f CMakeFiles/tromino-tiling.dir/build.make CMakeFiles/tromino-tiling.dir/problems/recursion/tromino-tiling/tromino-tiling.c.o
+.PHONY : problems/recursion/tromino-tiling/tromino-tiling.c.o
+
+problems/recursion/tromino-tiling/tromino-tiling.i: problems/recursion/tromino-tiling/tromino-tiling.c.i
+
+.PHONY : problems/recursion/tromino-tiling/tromino-tiling.i
+
+# target to preprocess a source file
+problems/recursion/tromino-tiling/tromino-tiling.c.i:
+	$(MAKE) -f CMakeFiles/tromino-tiling.dir/build.make CMakeFiles/tromino-tiling.dir/problems/recursion/tromino-tiling/tromino-tiling.c.i
+.PHONY : problems/recursion/tromino-tiling/tromino-tiling.c.i
+
+problems/recursion/tromino-tiling/tromino-tiling.s: problems/recursion/tromino-tiling/tromino-tiling.c.s
+
+.PHONY : problems/recursion/tromino-tiling/tromino-tiling.s
+
+# target to generate assembly for a file
+problems/recursion/tromino-tiling/tromino-tiling.c.s:
+	$(MAKE) -f CMakeFiles/tromino-tiling.dir/build.make CMakeFiles/tromino-tiling.dir/problems/recursion/tromino-tiling/tromino-tiling.c.s
+.PHONY : problems/recursion/tromino-tiling/tromino-tiling.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... hanoi"
-	@echo "... quick-test"
 	@echo "... rebuild_cache"
-	@echo "... tromino-tiling-vla"
+	@echo "... struct-point"
+	@echo "... josephus-ll"
+	@echo "... ll-test"
+	@echo "... scanf-c"
 	@echo "... vla"
-	@echo "... tromino-tiling"
-	@echo "... array-1d"
-	@echo "... edit_cache"
+	@echo "... hanoi"
+	@echo "... tromino-tiling-vla"
 	@echo "... array-2d"
+	@echo "... edit_cache"
+	@echo "... array-1d"
+	@echo "... tromino-tiling"
+	@echo "... quick-test"
 	@echo "... c/array/array-1d.o"
 	@echo "... c/array/array-1d.i"
 	@echo "... c/array/array-1d.s"
@@ -414,18 +578,30 @@ help:
 	@echo "... c/array/vla.o"
 	@echo "... c/array/vla.i"
 	@echo "... c/array/vla.s"
+	@echo "... c/data-structure/linkedlist/linkedlist-test.o"
+	@echo "... c/data-structure/linkedlist/linkedlist-test.i"
+	@echo "... c/data-structure/linkedlist/linkedlist-test.s"
+	@echo "... c/io/scanf-c.o"
+	@echo "... c/io/scanf-c.i"
+	@echo "... c/io/scanf-c.s"
 	@echo "... c/quick-test.o"
 	@echo "... c/quick-test.i"
 	@echo "... c/quick-test.s"
-	@echo "... njucs17-ps-tutorial/tromino-tiling/tromino-tiling-vla.o"
-	@echo "... njucs17-ps-tutorial/tromino-tiling/tromino-tiling-vla.i"
-	@echo "... njucs17-ps-tutorial/tromino-tiling/tromino-tiling-vla.s"
-	@echo "... njucs17-ps-tutorial/tromino-tiling/tromino-tiling.o"
-	@echo "... njucs17-ps-tutorial/tromino-tiling/tromino-tiling.i"
-	@echo "... njucs17-ps-tutorial/tromino-tiling/tromino-tiling.s"
+	@echo "... c/struct/struct-point.o"
+	@echo "... c/struct/struct-point.i"
+	@echo "... c/struct/struct-point.s"
+	@echo "... problems/josephus/josephus-linkedlist/josephus-linkedlist.o"
+	@echo "... problems/josephus/josephus-linkedlist/josephus-linkedlist.i"
+	@echo "... problems/josephus/josephus-linkedlist/josephus-linkedlist.s"
 	@echo "... problems/recursion/hanoi.o"
 	@echo "... problems/recursion/hanoi.i"
 	@echo "... problems/recursion/hanoi.s"
+	@echo "... problems/recursion/tromino-tiling/tromino-tiling-vla.o"
+	@echo "... problems/recursion/tromino-tiling/tromino-tiling-vla.i"
+	@echo "... problems/recursion/tromino-tiling/tromino-tiling-vla.s"
+	@echo "... problems/recursion/tromino-tiling/tromino-tiling.o"
+	@echo "... problems/recursion/tromino-tiling/tromino-tiling.i"
+	@echo "... problems/recursion/tromino-tiling/tromino-tiling.s"
 .PHONY : help
 
 
