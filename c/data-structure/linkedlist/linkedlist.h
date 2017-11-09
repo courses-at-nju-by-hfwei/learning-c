@@ -29,12 +29,17 @@ typedef void (*fptr_show)(void *data);
 void initialize_list(LinkedList *list);
 int is_empty(LinkedList *list);
 int is_singleton(LinkedList *list);
-void add_head(LinkedList *list, void *data);
+
+void add_head(LinkedList *list, void *data);  // not implemented yet
 void add_tail(LinkedList *list, void *data);
-void insert(LinkedList *list, Node *pre);
-void delete1(LinkedList *list, Node *node);
+
+void insert(LinkedList *list, Node *pre);   // not implemented yet
+
+void delete_node(LinkedList *list, Node *node);
 void delete_next(LinkedList *list, Node *pre);
-void *getNode(LinkedList *list, fptr_compare, void *data);
+
+void *get_node(LinkedList *list, fptr_compare, void *data);
+
 void show(LinkedList *list, fptr_show show);
 
 void initialize_list(LinkedList *list) {
@@ -71,7 +76,6 @@ void add_tail(LinkedList *list, void *data) {
  * Delete the node next to @param pre.
  */
 void delete_next(LinkedList *list, Node *pre) {
-    // TODO: is_empty or is_singleton
     if (is_empty(list))
         return;
 
@@ -83,8 +87,9 @@ void delete_next(LinkedList *list, Node *pre) {
         return;
     }
 
+    // In the following, list contains at least two nodes.
     Node *node = pre->next;
-    pre->next = node->next;
+    pre->next = node->next; // unlink this "node"
 
     if (node == list->head) {
         list->head = node->next;
@@ -94,13 +99,13 @@ void delete_next(LinkedList *list, Node *pre) {
         list->tail = pre;
     }
 
-    free(node); // don't forget
+    free(node); // don't forget this
 }
 
 /**
  * Delete the @param node from the @param list.
  */
-void delete1(LinkedList *list, Node *node) {
+void delete_node(LinkedList *list, Node *node) {
     if (is_empty(list))
         return;
 
@@ -124,7 +129,7 @@ void delete1(LinkedList *list, Node *node) {
             cur = pre->next;
         }
 
-        if (pre != list->tail) {
+        if (pre != list->tail) {    // cur == node to be deleted
             pre->next = cur->next;
             if (cur == list->tail) {
                 list->tail = pre;
@@ -162,17 +167,17 @@ Node *get_node(LinkedList *list, fptr_compare compare, void *data) {
 void show(LinkedList *list, fptr_show show) {
     puts("\nThe linkedlist contains the following data: \n");
 
-    Node *cur = list->head;
-    if (cur == NULL) {
+    if (is_empty(list)) {
         puts("The linkedlist is empty.");
         return;
     }
 
+    Node *cur = list->head;
     while (cur != list->tail) {
         show(cur->data);
         cur = cur->next;
     }
-    show(cur->data);
+    show(cur->data);    // show the tail node individually
 
     puts("");
 }

@@ -4,16 +4,18 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <assert.h>
 #include "../../../c/data-structure/linkedlist/linkedlist.h"
 
 void sit_in_circle(LinkedList *list, int n);
-void kill(LinkedList *list);
+void kill_until_one(LinkedList *list);
 void show_id(const int *id);
 
 int main(void) {
     printf("%s", "Enter the number of soldiers: ");
     int n = 0;
     scanf("%d", &n);
+    assert(n > 0);
 
     LinkedList list;
     initialize_list(&list);
@@ -22,7 +24,7 @@ int main(void) {
     sit_in_circle(&list, n);
     show(&list, show_id);
 
-    kill(&list);
+    kill_until_one(&list);
     show(&list, show_id);
 }
 
@@ -38,10 +40,10 @@ void sit_in_circle(LinkedList *list, int n) {
 /**
  * Kill each other until only one soldier survives.
  */
-void kill(LinkedList *list) {
+void kill_until_one(LinkedList *list) {
     Node *tmp = list->head;
 
-    while (tmp->next != tmp) { // only one soldier now
+    while (! is_singleton(list)) {  // until only one soldier survives
         delete_next(list, tmp);
         tmp = tmp->next;
     }

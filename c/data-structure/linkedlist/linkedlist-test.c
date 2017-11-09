@@ -68,7 +68,7 @@ int main(void) {
     /**
      * delete
      */
-    delete1(&list, node5);
+    delete_node(&list, node5);
     show(&list, show_integer);
 }
 
