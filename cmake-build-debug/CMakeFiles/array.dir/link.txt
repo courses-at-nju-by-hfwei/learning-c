@@ -1,1 +1,0 @@
-/usr/bin/cc  -Wall -g   CMakeFiles/array.dir/c/array/array-2d.c.o  -o array 

@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3531.13/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3415.24/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3531.13/bin/cmake/bin/cmake -E remove -f
+RM = /home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3415.24/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hengxin/github-projects/learning-c-cplusplus
+CMAKE_SOURCE_DIR = /home/hengxin/github-projects/learning-c
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug
+CMAKE_BINARY_DIR = /home/hengxin/github-projects/learning-c/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/hengxin/github-projects/learning-c-cplusplus/cmake-buil
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3531.13/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3415.24/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3531.13/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3415.24/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/CMakeFiles /home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hengxin/github-projects/learning-c/cmake-build-debug/CMakeFiles /home/hengxin/github-projects/learning-c/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hengxin/github-projects/learning-c/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -109,6 +109,32 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+#=============================================================================
+# Target rules for targets named quick-test
+
+# Build rule for target.
+quick-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 quick-test
+.PHONY : quick-test
+
+# fast build rule for target.
+quick-test/fast:
+	$(MAKE) -f CMakeFiles/quick-test.dir/build.make CMakeFiles/quick-test.dir/build
+.PHONY : quick-test/fast
+
+#=============================================================================
+# Target rules for targets named josephus-cll
+
+# Build rule for target.
+josephus-cll: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 josephus-cll
+.PHONY : josephus-cll
+
+# fast build rule for target.
+josephus-cll/fast:
+	$(MAKE) -f CMakeFiles/josephus-cll.dir/build.make CMakeFiles/josephus-cll.dir/build
+.PHONY : josephus-cll/fast
 
 #=============================================================================
 # Target rules for targets named struct-point
@@ -239,19 +265,6 @@ tromino-tiling: cmake_check_build_system
 tromino-tiling/fast:
 	$(MAKE) -f CMakeFiles/tromino-tiling.dir/build.make CMakeFiles/tromino-tiling.dir/build
 .PHONY : tromino-tiling/fast
-
-#=============================================================================
-# Target rules for targets named quick-test
-
-# Build rule for target.
-quick-test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 quick-test
-.PHONY : quick-test
-
-# fast build rule for target.
-quick-test/fast:
-	$(MAKE) -f CMakeFiles/quick-test.dir/build.make CMakeFiles/quick-test.dir/build
-.PHONY : quick-test/fast
 
 c/array/array-1d.o: c/array/array-1d.c.o
 
@@ -442,6 +455,33 @@ c/struct/struct-point.c.s:
 	$(MAKE) -f CMakeFiles/struct-point.dir/build.make CMakeFiles/struct-point.dir/c/struct/struct-point.c.s
 .PHONY : c/struct/struct-point.c.s
 
+njucs17-ps-tutorial/josephus-linkedlist/josephus-linkedlist.o: njucs17-ps-tutorial/josephus-linkedlist/josephus-linkedlist.c.o
+
+.PHONY : njucs17-ps-tutorial/josephus-linkedlist/josephus-linkedlist.o
+
+# target to build an object file
+njucs17-ps-tutorial/josephus-linkedlist/josephus-linkedlist.c.o:
+	$(MAKE) -f CMakeFiles/josephus-cll.dir/build.make CMakeFiles/josephus-cll.dir/njucs17-ps-tutorial/josephus-linkedlist/josephus-linkedlist.c.o
+.PHONY : njucs17-ps-tutorial/josephus-linkedlist/josephus-linkedlist.c.o
+
+njucs17-ps-tutorial/josephus-linkedlist/josephus-linkedlist.i: njucs17-ps-tutorial/josephus-linkedlist/josephus-linkedlist.c.i
+
+.PHONY : njucs17-ps-tutorial/josephus-linkedlist/josephus-linkedlist.i
+
+# target to preprocess a source file
+njucs17-ps-tutorial/josephus-linkedlist/josephus-linkedlist.c.i:
+	$(MAKE) -f CMakeFiles/josephus-cll.dir/build.make CMakeFiles/josephus-cll.dir/njucs17-ps-tutorial/josephus-linkedlist/josephus-linkedlist.c.i
+.PHONY : njucs17-ps-tutorial/josephus-linkedlist/josephus-linkedlist.c.i
+
+njucs17-ps-tutorial/josephus-linkedlist/josephus-linkedlist.s: njucs17-ps-tutorial/josephus-linkedlist/josephus-linkedlist.c.s
+
+.PHONY : njucs17-ps-tutorial/josephus-linkedlist/josephus-linkedlist.s
+
+# target to generate assembly for a file
+njucs17-ps-tutorial/josephus-linkedlist/josephus-linkedlist.c.s:
+	$(MAKE) -f CMakeFiles/josephus-cll.dir/build.make CMakeFiles/josephus-cll.dir/njucs17-ps-tutorial/josephus-linkedlist/josephus-linkedlist.c.s
+.PHONY : njucs17-ps-tutorial/josephus-linkedlist/josephus-linkedlist.c.s
+
 problems/josephus/josephus-linkedlist/josephus-linkedlist.o: problems/josephus/josephus-linkedlist/josephus-linkedlist.c.o
 
 .PHONY : problems/josephus/josephus-linkedlist/josephus-linkedlist.o
@@ -557,6 +597,8 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... quick-test"
+	@echo "... josephus-cll"
 	@echo "... struct-point"
 	@echo "... josephus-ll"
 	@echo "... ll-test"
@@ -568,7 +610,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... array-1d"
 	@echo "... tromino-tiling"
-	@echo "... quick-test"
 	@echo "... c/array/array-1d.o"
 	@echo "... c/array/array-1d.i"
 	@echo "... c/array/array-1d.s"
@@ -590,6 +631,9 @@ help:
 	@echo "... c/struct/struct-point.o"
 	@echo "... c/struct/struct-point.i"
 	@echo "... c/struct/struct-point.s"
+	@echo "... njucs17-ps-tutorial/josephus-linkedlist/josephus-linkedlist.o"
+	@echo "... njucs17-ps-tutorial/josephus-linkedlist/josephus-linkedlist.i"
+	@echo "... njucs17-ps-tutorial/josephus-linkedlist/josephus-linkedlist.s"
 	@echo "... problems/josephus/josephus-linkedlist/josephus-linkedlist.o"
 	@echo "... problems/josephus/josephus-linkedlist/josephus-linkedlist.i"
 	@echo "... problems/josephus/josephus-linkedlist/josephus-linkedlist.s"

@@ -1,1 +1,0 @@
-/usr/bin/cc  -Wall -g   CMakeFiles/scope.dir/njucs17-ps-tutorial/tromino-tiling/tromino-tiling.c.o  -o scope 

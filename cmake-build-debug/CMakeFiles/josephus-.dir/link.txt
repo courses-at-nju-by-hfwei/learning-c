@@ -1,1 +1,0 @@
-/usr/bin/cc  -Wall -g   CMakeFiles/josephus-.dir/problems/josephus/josephus-linkedlist.c.o  -o josephus- 

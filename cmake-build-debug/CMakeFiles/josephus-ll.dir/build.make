@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3531.13/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3415.24/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3531.13/bin/cmake/bin/cmake -E remove -f
+RM = /home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3415.24/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hengxin/github-projects/learning-c-cplusplus
+CMAKE_SOURCE_DIR = /home/hengxin/github-projects/learning-c
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug
+CMAKE_BINARY_DIR = /home/hengxin/github-projects/learning-c/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/josephus-ll.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/josephus-ll.dir/flags.make
 
 CMakeFiles/josephus-ll.dir/problems/josephus/josephus-linkedlist/josephus-linkedlist.c.o: CMakeFiles/josephus-ll.dir/flags.make
 CMakeFiles/josephus-ll.dir/problems/josephus/josephus-linkedlist/josephus-linkedlist.c.o: ../problems/josephus/josephus-linkedlist/josephus-linkedlist.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/josephus-ll.dir/problems/josephus/josephus-linkedlist/josephus-linkedlist.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/josephus-ll.dir/problems/josephus/josephus-linkedlist/josephus-linkedlist.c.o   -c /home/hengxin/github-projects/learning-c-cplusplus/problems/josephus/josephus-linkedlist/josephus-linkedlist.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hengxin/github-projects/learning-c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/josephus-ll.dir/problems/josephus/josephus-linkedlist/josephus-linkedlist.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/josephus-ll.dir/problems/josephus/josephus-linkedlist/josephus-linkedlist.c.o   -c /home/hengxin/github-projects/learning-c/problems/josephus/josephus-linkedlist/josephus-linkedlist.c
 
 CMakeFiles/josephus-ll.dir/problems/josephus/josephus-linkedlist/josephus-linkedlist.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/josephus-ll.dir/problems/josephus/josephus-linkedlist/josephus-linkedlist.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hengxin/github-projects/learning-c-cplusplus/problems/josephus/josephus-linkedlist/josephus-linkedlist.c > CMakeFiles/josephus-ll.dir/problems/josephus/josephus-linkedlist/josephus-linkedlist.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hengxin/github-projects/learning-c/problems/josephus/josephus-linkedlist/josephus-linkedlist.c > CMakeFiles/josephus-ll.dir/problems/josephus/josephus-linkedlist/josephus-linkedlist.c.i
 
 CMakeFiles/josephus-ll.dir/problems/josephus/josephus-linkedlist/josephus-linkedlist.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/josephus-ll.dir/problems/josephus/josephus-linkedlist/josephus-linkedlist.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hengxin/github-projects/learning-c-cplusplus/problems/josephus/josephus-linkedlist/josephus-linkedlist.c -o CMakeFiles/josephus-ll.dir/problems/josephus/josephus-linkedlist/josephus-linkedlist.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hengxin/github-projects/learning-c/problems/josephus/josephus-linkedlist/josephus-linkedlist.c -o CMakeFiles/josephus-ll.dir/problems/josephus/josephus-linkedlist/josephus-linkedlist.c.s
 
 CMakeFiles/josephus-ll.dir/problems/josephus/josephus-linkedlist/josephus-linkedlist.c.o.requires:
 
@@ -91,7 +91,7 @@ josephus__ll_EXTERNAL_OBJECTS =
 josephus-ll: CMakeFiles/josephus-ll.dir/problems/josephus/josephus-linkedlist/josephus-linkedlist.c.o
 josephus-ll: CMakeFiles/josephus-ll.dir/build.make
 josephus-ll: CMakeFiles/josephus-ll.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable josephus-ll"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hengxin/github-projects/learning-c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable josephus-ll"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/josephus-ll.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -108,6 +108,6 @@ CMakeFiles/josephus-ll.dir/clean:
 .PHONY : CMakeFiles/josephus-ll.dir/clean
 
 CMakeFiles/josephus-ll.dir/depend:
-	cd /home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hengxin/github-projects/learning-c-cplusplus /home/hengxin/github-projects/learning-c-cplusplus /home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug /home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug /home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/CMakeFiles/josephus-ll.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hengxin/github-projects/learning-c/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hengxin/github-projects/learning-c /home/hengxin/github-projects/learning-c /home/hengxin/github-projects/learning-c/cmake-build-debug /home/hengxin/github-projects/learning-c/cmake-build-debug /home/hengxin/github-projects/learning-c/cmake-build-debug/CMakeFiles/josephus-ll.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/josephus-ll.dir/depend
 

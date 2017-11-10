@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/hengxin/github-projects/learning-c-cplusplus/c/data-structure/linkedlist/linkedlist.h
+/home/hengxin/github-projects/learning-c/c/data-structure/linkedlist/linkedlist.h
 
-/home/hengxin/github-projects/learning-c-cplusplus/problems/josephus/josephus-linkedlist/josephus-linkedlist.c
+/home/hengxin/github-projects/learning-c/problems/josephus/josephus-linkedlist/josephus-linkedlist.c
 stdio.h
 -
 stdlib.h
@@ -16,5 +16,5 @@ stdlib.h
 assert.h
 -
 ../../../c/data-structure/linkedlist/linkedlist.h
-/home/hengxin/github-projects/learning-c-cplusplus/c/data-structure/linkedlist/linkedlist.h
+/home/hengxin/github-projects/learning-c/c/data-structure/linkedlist/linkedlist.h
 

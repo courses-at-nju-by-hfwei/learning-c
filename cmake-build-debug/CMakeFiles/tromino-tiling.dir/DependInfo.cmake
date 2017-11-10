@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/hengxin/github-projects/learning-c-cplusplus/problems/recursion/tromino-tiling/tromino-tiling.c" "/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/CMakeFiles/tromino-tiling.dir/problems/recursion/tromino-tiling/tromino-tiling.c.o"
+  "/home/hengxin/github-projects/learning-c/problems/recursion/tromino-tiling/tromino-tiling.c" "/home/hengxin/github-projects/learning-c/cmake-build-debug/CMakeFiles/tromino-tiling.dir/problems/recursion/tromino-tiling/tromino-tiling.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

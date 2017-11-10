@@ -1,4 +1,4 @@
-# Install script for directory: /home/hengxin/github-projects/learning-c-cplusplus
+# Install script for directory: /home/hengxin/github-projects/learning-c
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/hengxin/github-projects/learning-c/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

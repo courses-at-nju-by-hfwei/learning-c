@@ -1,1 +1,0 @@
-/usr/bin/cc  -Wall -g   CMakeFiles/lms.dir/problems/dp/longest-monotone-subsequence.c.o  -o lms 

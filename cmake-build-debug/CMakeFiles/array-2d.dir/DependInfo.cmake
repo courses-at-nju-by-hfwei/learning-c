@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/hengxin/github-projects/learning-c-cplusplus/c/array/array-2d.c" "/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/CMakeFiles/array-2d.dir/c/array/array-2d.c.o"
+  "/home/hengxin/github-projects/learning-c/c/array/array-2d.c" "/home/hengxin/github-projects/learning-c/cmake-build-debug/CMakeFiles/array-2d.dir/c/array/array-2d.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

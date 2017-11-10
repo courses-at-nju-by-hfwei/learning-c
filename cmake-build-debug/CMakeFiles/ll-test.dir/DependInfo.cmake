@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/hengxin/github-projects/learning-c-cplusplus/c/data-structure/linkedlist/linkedlist-test.c" "/home/hengxin/github-projects/learning-c-cplusplus/cmake-build-debug/CMakeFiles/ll-test.dir/c/data-structure/linkedlist/linkedlist-test.c.o"
+  "/home/hengxin/github-projects/learning-c/c/data-structure/linkedlist/linkedlist-test.c" "/home/hengxin/github-projects/learning-c/cmake-build-debug/CMakeFiles/ll-test.dir/c/data-structure/linkedlist/linkedlist-test.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hengxin/github-projects/learning-c/njucs17-ps-tutorial/josephus-linkedlist/josephus-linkedlist.c
+stdio.h
+-
+assert.h
+-
+stdlib.h
+-
+linkedlist.h
+/home/hengxin/github-projects/learning-c/njucs17-ps-tutorial/josephus-linkedlist/linkedlist.h
+
+/home/hengxin/github-projects/learning-c/njucs17-ps-tutorial/josephus-linkedlist/linkedlist.h
+

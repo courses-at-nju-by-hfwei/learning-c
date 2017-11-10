@@ -13,6 +13,9 @@ set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall")
 # add_executable(io-cin cplusplus/io/io-cin.cpp)
 ##### For C++ #####
 
+add_executable(josephus-cll njucs17-ps-tutorial/josephus-linkedlist/josephus-linkedlist.c)
+# add_executable(linkedlisth njucs17-ps-tutorial/josephus-linkedlist/linkedlist.h)
+
 add_executable(struct-point c/struct/struct-point.c)
 
 add_executable(josephus-ll problems/josephus/josephus-linkedlist/josephus-linkedlist.c)
