@@ -10,11 +10,17 @@ set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall")
 # set(CMAKE_CXX_STANDARD 11)
 # set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++1y -Wall")
 #
-# add_executable(io-cin cplusplus/io/io-cin.cpp)
+# add_executable(1-1-io-cin cplusplus/1-1-io/1-1-io-cin.cpp)
 ##### For C++ #####
 
-add_executable(josephus-cll njucs17-ps-tutorial/josephus-linkedlist/josephus-linkedlist.c)
-# add_executable(linkedlisth njucs17-ps-tutorial/josephus-linkedlist/linkedlist.h)
+add_executable(compare c/pointers/function-pointer/compare.c)
+add_executable(fptr-square c/pointers/function-pointer/fptr-square.c)
+add_executable(op-evaluate c/pointers/function-pointer/op-evaluate.c)
+
+add_executable(generate-perms problems/permutation/generate-perms.c)
+
+add_executable(josephus-cll njucs17-ps-tutorial/1-4-josephus-linkedlist/josephus-linkedlist.c)
+# add_executable(linkedlisth njucs17-ps-tutorial/1-2-1-4-josephus-linkedlist/linkedlist.h)
 
 add_executable(struct-point c/struct/struct-point.c)
 
@@ -39,5 +45,5 @@ add_executable(hanoi problems/recursion/hanoi.c)
 
 # add_executable(lms problems/dp/longest-monotone-subsequence.c)
 
-# set(SOURCE_FILES problems/josephus.c )
+# set(SOURCE_FILES problems/1-2-josephus.c )
 # add_executable(learning_c_cplusplus ${SOURCE_FILES})

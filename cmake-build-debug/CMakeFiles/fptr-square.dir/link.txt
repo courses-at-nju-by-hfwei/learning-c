@@ -1,0 +1,1 @@
+/usr/bin/cc  -Wall -g   CMakeFiles/fptr-square.dir/c/pointers/function-pointer/fptr-square.c.o  -o fptr-square 

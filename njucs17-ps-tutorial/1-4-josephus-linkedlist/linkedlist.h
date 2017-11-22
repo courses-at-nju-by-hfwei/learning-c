@@ -2,6 +2,10 @@
 // Created by hengxin on 17-11-10.
 //
 
+#include <stdio.h>
+#include <assert.h>
+#include <stdlib.h>
+
 #ifndef LEARNING_C_CPLUSPLUS_LINKEDLIST_H
 #define LEARNING_C_CPLUSPLUS_LINKEDLIST_H
 

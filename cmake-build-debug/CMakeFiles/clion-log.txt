@@ -1,4 +1,4 @@
-/home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3415.24/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/hengxin/github-projects/learning-c
+/home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3531.13/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/hengxin/github-projects/learning-c
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/hengxin/github-projects/learning-c/cmake-build-debug

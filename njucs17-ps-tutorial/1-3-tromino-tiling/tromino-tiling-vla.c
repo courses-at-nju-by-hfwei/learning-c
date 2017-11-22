@@ -2,7 +2,7 @@
 // Created by hengxin on 17-10-29.
 /*
  * Solving the Tromino Tiling puzzle with VLAs.
- * See the file "tromino-tiling" for this puzzle.
+ * See the file "1-3-tromino-tiling" for this puzzle.
  */
 
 #include <stdio.h>

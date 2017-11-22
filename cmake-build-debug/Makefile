@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3415.24/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3531.13/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3415.24/bin/cmake/bin/cmake -E remove -f
+RM = /home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3531.13/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/hengxin/github-projects/learning-c/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3415.24/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3531.13/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3415.24/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/hengxin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3531.13/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -124,17 +124,95 @@ quick-test/fast:
 .PHONY : quick-test/fast
 
 #=============================================================================
-# Target rules for targets named josephus-cll
+# Target rules for targets named hanoi
 
 # Build rule for target.
-josephus-cll: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 josephus-cll
-.PHONY : josephus-cll
+hanoi: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 hanoi
+.PHONY : hanoi
 
 # fast build rule for target.
-josephus-cll/fast:
-	$(MAKE) -f CMakeFiles/josephus-cll.dir/build.make CMakeFiles/josephus-cll.dir/build
-.PHONY : josephus-cll/fast
+hanoi/fast:
+	$(MAKE) -f CMakeFiles/hanoi.dir/build.make CMakeFiles/hanoi.dir/build
+.PHONY : hanoi/fast
+
+#=============================================================================
+# Target rules for targets named tromino-tiling-vla
+
+# Build rule for target.
+tromino-tiling-vla: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tromino-tiling-vla
+.PHONY : tromino-tiling-vla
+
+# fast build rule for target.
+tromino-tiling-vla/fast:
+	$(MAKE) -f CMakeFiles/tromino-tiling-vla.dir/build.make CMakeFiles/tromino-tiling-vla.dir/build
+.PHONY : tromino-tiling-vla/fast
+
+#=============================================================================
+# Target rules for targets named vla
+
+# Build rule for target.
+vla: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 vla
+.PHONY : vla
+
+# fast build rule for target.
+vla/fast:
+	$(MAKE) -f CMakeFiles/vla.dir/build.make CMakeFiles/vla.dir/build
+.PHONY : vla/fast
+
+#=============================================================================
+# Target rules for targets named array-1d
+
+# Build rule for target.
+array-1d: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 array-1d
+.PHONY : array-1d
+
+# fast build rule for target.
+array-1d/fast:
+	$(MAKE) -f CMakeFiles/array-1d.dir/build.make CMakeFiles/array-1d.dir/build
+.PHONY : array-1d/fast
+
+#=============================================================================
+# Target rules for targets named ll-test
+
+# Build rule for target.
+ll-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ll-test
+.PHONY : ll-test
+
+# fast build rule for target.
+ll-test/fast:
+	$(MAKE) -f CMakeFiles/ll-test.dir/build.make CMakeFiles/ll-test.dir/build
+.PHONY : ll-test/fast
+
+#=============================================================================
+# Target rules for targets named tromino-tiling
+
+# Build rule for target.
+tromino-tiling: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tromino-tiling
+.PHONY : tromino-tiling
+
+# fast build rule for target.
+tromino-tiling/fast:
+	$(MAKE) -f CMakeFiles/tromino-tiling.dir/build.make CMakeFiles/tromino-tiling.dir/build
+.PHONY : tromino-tiling/fast
+
+#=============================================================================
+# Target rules for targets named fptr-square
+
+# Build rule for target.
+fptr-square: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 fptr-square
+.PHONY : fptr-square
+
+# fast build rule for target.
+fptr-square/fast:
+	$(MAKE) -f CMakeFiles/fptr-square.dir/build.make CMakeFiles/fptr-square.dir/build
+.PHONY : fptr-square/fast
 
 #=============================================================================
 # Target rules for targets named struct-point
@@ -163,17 +241,56 @@ josephus-ll/fast:
 .PHONY : josephus-ll/fast
 
 #=============================================================================
-# Target rules for targets named ll-test
+# Target rules for targets named op-evaluate
 
 # Build rule for target.
-ll-test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ll-test
-.PHONY : ll-test
+op-evaluate: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 op-evaluate
+.PHONY : op-evaluate
 
 # fast build rule for target.
-ll-test/fast:
-	$(MAKE) -f CMakeFiles/ll-test.dir/build.make CMakeFiles/ll-test.dir/build
-.PHONY : ll-test/fast
+op-evaluate/fast:
+	$(MAKE) -f CMakeFiles/op-evaluate.dir/build.make CMakeFiles/op-evaluate.dir/build
+.PHONY : op-evaluate/fast
+
+#=============================================================================
+# Target rules for targets named josephus-cll
+
+# Build rule for target.
+josephus-cll: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 josephus-cll
+.PHONY : josephus-cll
+
+# fast build rule for target.
+josephus-cll/fast:
+	$(MAKE) -f CMakeFiles/josephus-cll.dir/build.make CMakeFiles/josephus-cll.dir/build
+.PHONY : josephus-cll/fast
+
+#=============================================================================
+# Target rules for targets named compare
+
+# Build rule for target.
+compare: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 compare
+.PHONY : compare
+
+# fast build rule for target.
+compare/fast:
+	$(MAKE) -f CMakeFiles/compare.dir/build.make CMakeFiles/compare.dir/build
+.PHONY : compare/fast
+
+#=============================================================================
+# Target rules for targets named generate-perms
+
+# Build rule for target.
+generate-perms: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 generate-perms
+.PHONY : generate-perms
+
+# fast build rule for target.
+generate-perms/fast:
+	$(MAKE) -f CMakeFiles/generate-perms.dir/build.make CMakeFiles/generate-perms.dir/build
+.PHONY : generate-perms/fast
 
 #=============================================================================
 # Target rules for targets named scanf-c
@@ -189,45 +306,6 @@ scanf-c/fast:
 .PHONY : scanf-c/fast
 
 #=============================================================================
-# Target rules for targets named vla
-
-# Build rule for target.
-vla: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 vla
-.PHONY : vla
-
-# fast build rule for target.
-vla/fast:
-	$(MAKE) -f CMakeFiles/vla.dir/build.make CMakeFiles/vla.dir/build
-.PHONY : vla/fast
-
-#=============================================================================
-# Target rules for targets named hanoi
-
-# Build rule for target.
-hanoi: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 hanoi
-.PHONY : hanoi
-
-# fast build rule for target.
-hanoi/fast:
-	$(MAKE) -f CMakeFiles/hanoi.dir/build.make CMakeFiles/hanoi.dir/build
-.PHONY : hanoi/fast
-
-#=============================================================================
-# Target rules for targets named tromino-tiling-vla
-
-# Build rule for target.
-tromino-tiling-vla: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 tromino-tiling-vla
-.PHONY : tromino-tiling-vla
-
-# fast build rule for target.
-tromino-tiling-vla/fast:
-	$(MAKE) -f CMakeFiles/tromino-tiling-vla.dir/build.make CMakeFiles/tromino-tiling-vla.dir/build
-.PHONY : tromino-tiling-vla/fast
-
-#=============================================================================
 # Target rules for targets named array-2d
 
 # Build rule for target.
@@ -239,32 +317,6 @@ array-2d: cmake_check_build_system
 array-2d/fast:
 	$(MAKE) -f CMakeFiles/array-2d.dir/build.make CMakeFiles/array-2d.dir/build
 .PHONY : array-2d/fast
-
-#=============================================================================
-# Target rules for targets named array-1d
-
-# Build rule for target.
-array-1d: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 array-1d
-.PHONY : array-1d
-
-# fast build rule for target.
-array-1d/fast:
-	$(MAKE) -f CMakeFiles/array-1d.dir/build.make CMakeFiles/array-1d.dir/build
-.PHONY : array-1d/fast
-
-#=============================================================================
-# Target rules for targets named tromino-tiling
-
-# Build rule for target.
-tromino-tiling: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 tromino-tiling
-.PHONY : tromino-tiling
-
-# fast build rule for target.
-tromino-tiling/fast:
-	$(MAKE) -f CMakeFiles/tromino-tiling.dir/build.make CMakeFiles/tromino-tiling.dir/build
-.PHONY : tromino-tiling/fast
 
 c/array/array-1d.o: c/array/array-1d.c.o
 
@@ -401,6 +453,87 @@ c/io/scanf-c.c.s:
 	$(MAKE) -f CMakeFiles/scanf-c.dir/build.make CMakeFiles/scanf-c.dir/c/io/scanf-c.c.s
 .PHONY : c/io/scanf-c.c.s
 
+c/pointers/function-pointer/compare.o: c/pointers/function-pointer/compare.c.o
+
+.PHONY : c/pointers/function-pointer/compare.o
+
+# target to build an object file
+c/pointers/function-pointer/compare.c.o:
+	$(MAKE) -f CMakeFiles/compare.dir/build.make CMakeFiles/compare.dir/c/pointers/function-pointer/compare.c.o
+.PHONY : c/pointers/function-pointer/compare.c.o
+
+c/pointers/function-pointer/compare.i: c/pointers/function-pointer/compare.c.i
+
+.PHONY : c/pointers/function-pointer/compare.i
+
+# target to preprocess a source file
+c/pointers/function-pointer/compare.c.i:
+	$(MAKE) -f CMakeFiles/compare.dir/build.make CMakeFiles/compare.dir/c/pointers/function-pointer/compare.c.i
+.PHONY : c/pointers/function-pointer/compare.c.i
+
+c/pointers/function-pointer/compare.s: c/pointers/function-pointer/compare.c.s
+
+.PHONY : c/pointers/function-pointer/compare.s
+
+# target to generate assembly for a file
+c/pointers/function-pointer/compare.c.s:
+	$(MAKE) -f CMakeFiles/compare.dir/build.make CMakeFiles/compare.dir/c/pointers/function-pointer/compare.c.s
+.PHONY : c/pointers/function-pointer/compare.c.s
+
+c/pointers/function-pointer/fptr-square.o: c/pointers/function-pointer/fptr-square.c.o
+
+.PHONY : c/pointers/function-pointer/fptr-square.o
+
+# target to build an object file
+c/pointers/function-pointer/fptr-square.c.o:
+	$(MAKE) -f CMakeFiles/fptr-square.dir/build.make CMakeFiles/fptr-square.dir/c/pointers/function-pointer/fptr-square.c.o
+.PHONY : c/pointers/function-pointer/fptr-square.c.o
+
+c/pointers/function-pointer/fptr-square.i: c/pointers/function-pointer/fptr-square.c.i
+
+.PHONY : c/pointers/function-pointer/fptr-square.i
+
+# target to preprocess a source file
+c/pointers/function-pointer/fptr-square.c.i:
+	$(MAKE) -f CMakeFiles/fptr-square.dir/build.make CMakeFiles/fptr-square.dir/c/pointers/function-pointer/fptr-square.c.i
+.PHONY : c/pointers/function-pointer/fptr-square.c.i
+
+c/pointers/function-pointer/fptr-square.s: c/pointers/function-pointer/fptr-square.c.s
+
+.PHONY : c/pointers/function-pointer/fptr-square.s
+
+# target to generate assembly for a file
+c/pointers/function-pointer/fptr-square.c.s:
+	$(MAKE) -f CMakeFiles/fptr-square.dir/build.make CMakeFiles/fptr-square.dir/c/pointers/function-pointer/fptr-square.c.s
+.PHONY : c/pointers/function-pointer/fptr-square.c.s
+
+c/pointers/function-pointer/op-evaluate.o: c/pointers/function-pointer/op-evaluate.c.o
+
+.PHONY : c/pointers/function-pointer/op-evaluate.o
+
+# target to build an object file
+c/pointers/function-pointer/op-evaluate.c.o:
+	$(MAKE) -f CMakeFiles/op-evaluate.dir/build.make CMakeFiles/op-evaluate.dir/c/pointers/function-pointer/op-evaluate.c.o
+.PHONY : c/pointers/function-pointer/op-evaluate.c.o
+
+c/pointers/function-pointer/op-evaluate.i: c/pointers/function-pointer/op-evaluate.c.i
+
+.PHONY : c/pointers/function-pointer/op-evaluate.i
+
+# target to preprocess a source file
+c/pointers/function-pointer/op-evaluate.c.i:
+	$(MAKE) -f CMakeFiles/op-evaluate.dir/build.make CMakeFiles/op-evaluate.dir/c/pointers/function-pointer/op-evaluate.c.i
+.PHONY : c/pointers/function-pointer/op-evaluate.c.i
+
+c/pointers/function-pointer/op-evaluate.s: c/pointers/function-pointer/op-evaluate.c.s
+
+.PHONY : c/pointers/function-pointer/op-evaluate.s
+
+# target to generate assembly for a file
+c/pointers/function-pointer/op-evaluate.c.s:
+	$(MAKE) -f CMakeFiles/op-evaluate.dir/build.make CMakeFiles/op-evaluate.dir/c/pointers/function-pointer/op-evaluate.c.s
+.PHONY : c/pointers/function-pointer/op-evaluate.c.s
+
 c/quick-test.o: c/quick-test.c.o
 
 .PHONY : c/quick-test.o
@@ -455,32 +588,32 @@ c/struct/struct-point.c.s:
 	$(MAKE) -f CMakeFiles/struct-point.dir/build.make CMakeFiles/struct-point.dir/c/struct/struct-point.c.s
 .PHONY : c/struct/struct-point.c.s
 
-njucs17-ps-tutorial/josephus-linkedlist/josephus-linkedlist.o: njucs17-ps-tutorial/josephus-linkedlist/josephus-linkedlist.c.o
+njucs17-ps-tutorial/1-4-josephus-linkedlist/josephus-linkedlist.o: njucs17-ps-tutorial/1-4-josephus-linkedlist/josephus-linkedlist.c.o
 
-.PHONY : njucs17-ps-tutorial/josephus-linkedlist/josephus-linkedlist.o
+.PHONY : njucs17-ps-tutorial/1-4-josephus-linkedlist/josephus-linkedlist.o
 
 # target to build an object file
-njucs17-ps-tutorial/josephus-linkedlist/josephus-linkedlist.c.o:
-	$(MAKE) -f CMakeFiles/josephus-cll.dir/build.make CMakeFiles/josephus-cll.dir/njucs17-ps-tutorial/josephus-linkedlist/josephus-linkedlist.c.o
-.PHONY : njucs17-ps-tutorial/josephus-linkedlist/josephus-linkedlist.c.o
+njucs17-ps-tutorial/1-4-josephus-linkedlist/josephus-linkedlist.c.o:
+	$(MAKE) -f CMakeFiles/josephus-cll.dir/build.make CMakeFiles/josephus-cll.dir/njucs17-ps-tutorial/1-4-josephus-linkedlist/josephus-linkedlist.c.o
+.PHONY : njucs17-ps-tutorial/1-4-josephus-linkedlist/josephus-linkedlist.c.o
 
-njucs17-ps-tutorial/josephus-linkedlist/josephus-linkedlist.i: njucs17-ps-tutorial/josephus-linkedlist/josephus-linkedlist.c.i
+njucs17-ps-tutorial/1-4-josephus-linkedlist/josephus-linkedlist.i: njucs17-ps-tutorial/1-4-josephus-linkedlist/josephus-linkedlist.c.i
 
-.PHONY : njucs17-ps-tutorial/josephus-linkedlist/josephus-linkedlist.i
+.PHONY : njucs17-ps-tutorial/1-4-josephus-linkedlist/josephus-linkedlist.i
 
 # target to preprocess a source file
-njucs17-ps-tutorial/josephus-linkedlist/josephus-linkedlist.c.i:
-	$(MAKE) -f CMakeFiles/josephus-cll.dir/build.make CMakeFiles/josephus-cll.dir/njucs17-ps-tutorial/josephus-linkedlist/josephus-linkedlist.c.i
-.PHONY : njucs17-ps-tutorial/josephus-linkedlist/josephus-linkedlist.c.i
+njucs17-ps-tutorial/1-4-josephus-linkedlist/josephus-linkedlist.c.i:
+	$(MAKE) -f CMakeFiles/josephus-cll.dir/build.make CMakeFiles/josephus-cll.dir/njucs17-ps-tutorial/1-4-josephus-linkedlist/josephus-linkedlist.c.i
+.PHONY : njucs17-ps-tutorial/1-4-josephus-linkedlist/josephus-linkedlist.c.i
 
-njucs17-ps-tutorial/josephus-linkedlist/josephus-linkedlist.s: njucs17-ps-tutorial/josephus-linkedlist/josephus-linkedlist.c.s
+njucs17-ps-tutorial/1-4-josephus-linkedlist/josephus-linkedlist.s: njucs17-ps-tutorial/1-4-josephus-linkedlist/josephus-linkedlist.c.s
 
-.PHONY : njucs17-ps-tutorial/josephus-linkedlist/josephus-linkedlist.s
+.PHONY : njucs17-ps-tutorial/1-4-josephus-linkedlist/josephus-linkedlist.s
 
 # target to generate assembly for a file
-njucs17-ps-tutorial/josephus-linkedlist/josephus-linkedlist.c.s:
-	$(MAKE) -f CMakeFiles/josephus-cll.dir/build.make CMakeFiles/josephus-cll.dir/njucs17-ps-tutorial/josephus-linkedlist/josephus-linkedlist.c.s
-.PHONY : njucs17-ps-tutorial/josephus-linkedlist/josephus-linkedlist.c.s
+njucs17-ps-tutorial/1-4-josephus-linkedlist/josephus-linkedlist.c.s:
+	$(MAKE) -f CMakeFiles/josephus-cll.dir/build.make CMakeFiles/josephus-cll.dir/njucs17-ps-tutorial/1-4-josephus-linkedlist/josephus-linkedlist.c.s
+.PHONY : njucs17-ps-tutorial/1-4-josephus-linkedlist/josephus-linkedlist.c.s
 
 problems/josephus/josephus-linkedlist/josephus-linkedlist.o: problems/josephus/josephus-linkedlist/josephus-linkedlist.c.o
 
@@ -508,6 +641,33 @@ problems/josephus/josephus-linkedlist/josephus-linkedlist.s: problems/josephus/j
 problems/josephus/josephus-linkedlist/josephus-linkedlist.c.s:
 	$(MAKE) -f CMakeFiles/josephus-ll.dir/build.make CMakeFiles/josephus-ll.dir/problems/josephus/josephus-linkedlist/josephus-linkedlist.c.s
 .PHONY : problems/josephus/josephus-linkedlist/josephus-linkedlist.c.s
+
+problems/permutation/generate-perms.o: problems/permutation/generate-perms.c.o
+
+.PHONY : problems/permutation/generate-perms.o
+
+# target to build an object file
+problems/permutation/generate-perms.c.o:
+	$(MAKE) -f CMakeFiles/generate-perms.dir/build.make CMakeFiles/generate-perms.dir/problems/permutation/generate-perms.c.o
+.PHONY : problems/permutation/generate-perms.c.o
+
+problems/permutation/generate-perms.i: problems/permutation/generate-perms.c.i
+
+.PHONY : problems/permutation/generate-perms.i
+
+# target to preprocess a source file
+problems/permutation/generate-perms.c.i:
+	$(MAKE) -f CMakeFiles/generate-perms.dir/build.make CMakeFiles/generate-perms.dir/problems/permutation/generate-perms.c.i
+.PHONY : problems/permutation/generate-perms.c.i
+
+problems/permutation/generate-perms.s: problems/permutation/generate-perms.c.s
+
+.PHONY : problems/permutation/generate-perms.s
+
+# target to generate assembly for a file
+problems/permutation/generate-perms.c.s:
+	$(MAKE) -f CMakeFiles/generate-perms.dir/build.make CMakeFiles/generate-perms.dir/problems/permutation/generate-perms.c.s
+.PHONY : problems/permutation/generate-perms.c.s
 
 problems/recursion/hanoi.o: problems/recursion/hanoi.c.o
 
@@ -598,18 +758,22 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... quick-test"
-	@echo "... josephus-cll"
-	@echo "... struct-point"
-	@echo "... josephus-ll"
-	@echo "... ll-test"
-	@echo "... scanf-c"
-	@echo "... vla"
 	@echo "... hanoi"
 	@echo "... tromino-tiling-vla"
-	@echo "... array-2d"
+	@echo "... vla"
 	@echo "... edit_cache"
 	@echo "... array-1d"
+	@echo "... ll-test"
 	@echo "... tromino-tiling"
+	@echo "... fptr-square"
+	@echo "... struct-point"
+	@echo "... josephus-ll"
+	@echo "... op-evaluate"
+	@echo "... josephus-cll"
+	@echo "... compare"
+	@echo "... generate-perms"
+	@echo "... scanf-c"
+	@echo "... array-2d"
 	@echo "... c/array/array-1d.o"
 	@echo "... c/array/array-1d.i"
 	@echo "... c/array/array-1d.s"
@@ -625,18 +789,30 @@ help:
 	@echo "... c/io/scanf-c.o"
 	@echo "... c/io/scanf-c.i"
 	@echo "... c/io/scanf-c.s"
+	@echo "... c/pointers/function-pointer/compare.o"
+	@echo "... c/pointers/function-pointer/compare.i"
+	@echo "... c/pointers/function-pointer/compare.s"
+	@echo "... c/pointers/function-pointer/fptr-square.o"
+	@echo "... c/pointers/function-pointer/fptr-square.i"
+	@echo "... c/pointers/function-pointer/fptr-square.s"
+	@echo "... c/pointers/function-pointer/op-evaluate.o"
+	@echo "... c/pointers/function-pointer/op-evaluate.i"
+	@echo "... c/pointers/function-pointer/op-evaluate.s"
 	@echo "... c/quick-test.o"
 	@echo "... c/quick-test.i"
 	@echo "... c/quick-test.s"
 	@echo "... c/struct/struct-point.o"
 	@echo "... c/struct/struct-point.i"
 	@echo "... c/struct/struct-point.s"
-	@echo "... njucs17-ps-tutorial/josephus-linkedlist/josephus-linkedlist.o"
-	@echo "... njucs17-ps-tutorial/josephus-linkedlist/josephus-linkedlist.i"
-	@echo "... njucs17-ps-tutorial/josephus-linkedlist/josephus-linkedlist.s"
+	@echo "... njucs17-ps-tutorial/1-4-josephus-linkedlist/josephus-linkedlist.o"
+	@echo "... njucs17-ps-tutorial/1-4-josephus-linkedlist/josephus-linkedlist.i"
+	@echo "... njucs17-ps-tutorial/1-4-josephus-linkedlist/josephus-linkedlist.s"
 	@echo "... problems/josephus/josephus-linkedlist/josephus-linkedlist.o"
 	@echo "... problems/josephus/josephus-linkedlist/josephus-linkedlist.i"
 	@echo "... problems/josephus/josephus-linkedlist/josephus-linkedlist.s"
+	@echo "... problems/permutation/generate-perms.o"
+	@echo "... problems/permutation/generate-perms.i"
+	@echo "... problems/permutation/generate-perms.s"
 	@echo "... problems/recursion/hanoi.o"
 	@echo "... problems/recursion/hanoi.i"
 	@echo "... problems/recursion/hanoi.s"

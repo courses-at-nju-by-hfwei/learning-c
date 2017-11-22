@@ -16,7 +16,7 @@ int main() {
 //    puts("Enter the number of soldiers:");
 //    scanf("%d", &n);
 //
-//    int survivor = josephus(n);
+//    int survivor = 1-2-josephus(n);
 //    printf("The survivor is: %d", survivor + 1);
 
     int limit = 0;

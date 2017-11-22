@@ -1,0 +1,1 @@
+/usr/bin/cc  -Wall -g   CMakeFiles/op-evaluate.dir/c/pointers/function-pointer/op-evaluate.c.o  -o op-evaluate 

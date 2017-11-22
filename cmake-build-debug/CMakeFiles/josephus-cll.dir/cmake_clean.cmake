@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/josephus-cll.dir/njucs17-ps-tutorial/josephus-linkedlist/josephus-linkedlist.c.o"
+  "CMakeFiles/josephus-cll.dir/njucs17-ps-tutorial/1-4-josephus-linkedlist/josephus-linkedlist.c.o"
   "josephus-cll.pdb"
   "josephus-cll"
 )

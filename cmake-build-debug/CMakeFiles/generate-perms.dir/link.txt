@@ -1,0 +1,1 @@
+/usr/bin/cc  -Wall -g   CMakeFiles/generate-perms.dir/problems/permutation/generate-perms.c.o  -o generate-perms 

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/hengxin/github-projects/learning-c/njucs17-ps-tutorial/josephus-linkedlist/josephus-linkedlist.c" "/home/hengxin/github-projects/learning-c/cmake-build-debug/CMakeFiles/josephus-cll.dir/njucs17-ps-tutorial/josephus-linkedlist/josephus-linkedlist.c.o"
+  "/home/hengxin/github-projects/learning-c/njucs17-ps-tutorial/1-4-josephus-linkedlist/josephus-linkedlist.c" "/home/hengxin/github-projects/learning-c/cmake-build-debug/CMakeFiles/josephus-cll.dir/njucs17-ps-tutorial/1-4-josephus-linkedlist/josephus-linkedlist.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
