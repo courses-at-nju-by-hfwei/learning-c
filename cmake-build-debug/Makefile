@@ -111,17 +111,56 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named quick-test
+# Target rules for targets named generate-perms
 
 # Build rule for target.
-quick-test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 quick-test
-.PHONY : quick-test
+generate-perms: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 generate-perms
+.PHONY : generate-perms
 
 # fast build rule for target.
-quick-test/fast:
-	$(MAKE) -f CMakeFiles/quick-test.dir/build.make CMakeFiles/quick-test.dir/build
-.PHONY : quick-test/fast
+generate-perms/fast:
+	$(MAKE) -f CMakeFiles/generate-perms.dir/build.make CMakeFiles/generate-perms.dir/build
+.PHONY : generate-perms/fast
+
+#=============================================================================
+# Target rules for targets named filter-no-fp
+
+# Build rule for target.
+filter-no-fp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 filter-no-fp
+.PHONY : filter-no-fp
+
+# fast build rule for target.
+filter-no-fp/fast:
+	$(MAKE) -f CMakeFiles/filter-no-fp.dir/build.make CMakeFiles/filter-no-fp.dir/build
+.PHONY : filter-no-fp/fast
+
+#=============================================================================
+# Target rules for targets named filter-fp
+
+# Build rule for target.
+filter-fp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 filter-fp
+.PHONY : filter-fp
+
+# fast build rule for target.
+filter-fp/fast:
+	$(MAKE) -f CMakeFiles/filter-fp.dir/build.make CMakeFiles/filter-fp.dir/build
+.PHONY : filter-fp/fast
+
+#=============================================================================
+# Target rules for targets named find-pattern
+
+# Build rule for target.
+find-pattern: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 find-pattern
+.PHONY : find-pattern
+
+# fast build rule for target.
+find-pattern/fast:
+	$(MAKE) -f CMakeFiles/find-pattern.dir/build.make CMakeFiles/find-pattern.dir/build
+.PHONY : find-pattern/fast
 
 #=============================================================================
 # Target rules for targets named hanoi
@@ -137,69 +176,17 @@ hanoi/fast:
 .PHONY : hanoi/fast
 
 #=============================================================================
-# Target rules for targets named tromino-tiling-vla
+# Target rules for targets named op-evaluate-no-fptr
 
 # Build rule for target.
-tromino-tiling-vla: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 tromino-tiling-vla
-.PHONY : tromino-tiling-vla
+op-evaluate-no-fptr: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 op-evaluate-no-fptr
+.PHONY : op-evaluate-no-fptr
 
 # fast build rule for target.
-tromino-tiling-vla/fast:
-	$(MAKE) -f CMakeFiles/tromino-tiling-vla.dir/build.make CMakeFiles/tromino-tiling-vla.dir/build
-.PHONY : tromino-tiling-vla/fast
-
-#=============================================================================
-# Target rules for targets named vla
-
-# Build rule for target.
-vla: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 vla
-.PHONY : vla
-
-# fast build rule for target.
-vla/fast:
-	$(MAKE) -f CMakeFiles/vla.dir/build.make CMakeFiles/vla.dir/build
-.PHONY : vla/fast
-
-#=============================================================================
-# Target rules for targets named array-1d
-
-# Build rule for target.
-array-1d: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 array-1d
-.PHONY : array-1d
-
-# fast build rule for target.
-array-1d/fast:
-	$(MAKE) -f CMakeFiles/array-1d.dir/build.make CMakeFiles/array-1d.dir/build
-.PHONY : array-1d/fast
-
-#=============================================================================
-# Target rules for targets named ll-test
-
-# Build rule for target.
-ll-test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ll-test
-.PHONY : ll-test
-
-# fast build rule for target.
-ll-test/fast:
-	$(MAKE) -f CMakeFiles/ll-test.dir/build.make CMakeFiles/ll-test.dir/build
-.PHONY : ll-test/fast
-
-#=============================================================================
-# Target rules for targets named tromino-tiling
-
-# Build rule for target.
-tromino-tiling: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 tromino-tiling
-.PHONY : tromino-tiling
-
-# fast build rule for target.
-tromino-tiling/fast:
-	$(MAKE) -f CMakeFiles/tromino-tiling.dir/build.make CMakeFiles/tromino-tiling.dir/build
-.PHONY : tromino-tiling/fast
+op-evaluate-no-fptr/fast:
+	$(MAKE) -f CMakeFiles/op-evaluate-no-fptr.dir/build.make CMakeFiles/op-evaluate-no-fptr.dir/build
+.PHONY : op-evaluate-no-fptr/fast
 
 #=============================================================================
 # Target rules for targets named fptr-square
@@ -215,43 +202,56 @@ fptr-square/fast:
 .PHONY : fptr-square/fast
 
 #=============================================================================
-# Target rules for targets named struct-point
+# Target rules for targets named add
 
 # Build rule for target.
-struct-point: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 struct-point
-.PHONY : struct-point
+add: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 add
+.PHONY : add
 
 # fast build rule for target.
-struct-point/fast:
-	$(MAKE) -f CMakeFiles/struct-point.dir/build.make CMakeFiles/struct-point.dir/build
-.PHONY : struct-point/fast
+add/fast:
+	$(MAKE) -f CMakeFiles/add.dir/build.make CMakeFiles/add.dir/build
+.PHONY : add/fast
 
 #=============================================================================
-# Target rules for targets named josephus-ll
+# Target rules for targets named tromino-tiling
 
 # Build rule for target.
-josephus-ll: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 josephus-ll
-.PHONY : josephus-ll
+tromino-tiling: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tromino-tiling
+.PHONY : tromino-tiling
 
 # fast build rule for target.
-josephus-ll/fast:
-	$(MAKE) -f CMakeFiles/josephus-ll.dir/build.make CMakeFiles/josephus-ll.dir/build
-.PHONY : josephus-ll/fast
+tromino-tiling/fast:
+	$(MAKE) -f CMakeFiles/tromino-tiling.dir/build.make CMakeFiles/tromino-tiling.dir/build
+.PHONY : tromino-tiling/fast
 
 #=============================================================================
-# Target rules for targets named op-evaluate
+# Target rules for targets named miniprintf
 
 # Build rule for target.
-op-evaluate: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 op-evaluate
-.PHONY : op-evaluate
+miniprintf: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 miniprintf
+.PHONY : miniprintf
 
 # fast build rule for target.
-op-evaluate/fast:
-	$(MAKE) -f CMakeFiles/op-evaluate.dir/build.make CMakeFiles/op-evaluate.dir/build
-.PHONY : op-evaluate/fast
+miniprintf/fast:
+	$(MAKE) -f CMakeFiles/miniprintf.dir/build.make CMakeFiles/miniprintf.dir/build
+.PHONY : miniprintf/fast
+
+#=============================================================================
+# Target rules for targets named cstring
+
+# Build rule for target.
+cstring: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 cstring
+.PHONY : cstring
+
+# fast build rule for target.
+cstring/fast:
+	$(MAKE) -f CMakeFiles/cstring.dir/build.make CMakeFiles/cstring.dir/build
+.PHONY : cstring/fast
 
 #=============================================================================
 # Target rules for targets named josephus-cll
@@ -267,6 +267,19 @@ josephus-cll/fast:
 .PHONY : josephus-cll/fast
 
 #=============================================================================
+# Target rules for targets named struct-point
+
+# Build rule for target.
+struct-point: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 struct-point
+.PHONY : struct-point
+
+# fast build rule for target.
+struct-point/fast:
+	$(MAKE) -f CMakeFiles/struct-point.dir/build.make CMakeFiles/struct-point.dir/build
+.PHONY : struct-point/fast
+
+#=============================================================================
 # Target rules for targets named compare
 
 # Build rule for target.
@@ -280,17 +293,30 @@ compare/fast:
 .PHONY : compare/fast
 
 #=============================================================================
-# Target rules for targets named generate-perms
+# Target rules for targets named josephus-ll
 
 # Build rule for target.
-generate-perms: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 generate-perms
-.PHONY : generate-perms
+josephus-ll: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 josephus-ll
+.PHONY : josephus-ll
 
 # fast build rule for target.
-generate-perms/fast:
-	$(MAKE) -f CMakeFiles/generate-perms.dir/build.make CMakeFiles/generate-perms.dir/build
-.PHONY : generate-perms/fast
+josephus-ll/fast:
+	$(MAKE) -f CMakeFiles/josephus-ll.dir/build.make CMakeFiles/josephus-ll.dir/build
+.PHONY : josephus-ll/fast
+
+#=============================================================================
+# Target rules for targets named ll-test
+
+# Build rule for target.
+ll-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ll-test
+.PHONY : ll-test
+
+# fast build rule for target.
+ll-test/fast:
+	$(MAKE) -f CMakeFiles/ll-test.dir/build.make CMakeFiles/ll-test.dir/build
+.PHONY : ll-test/fast
 
 #=============================================================================
 # Target rules for targets named scanf-c
@@ -306,6 +332,19 @@ scanf-c/fast:
 .PHONY : scanf-c/fast
 
 #=============================================================================
+# Target rules for targets named tromino-tiling-vla
+
+# Build rule for target.
+tromino-tiling-vla: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tromino-tiling-vla
+.PHONY : tromino-tiling-vla
+
+# fast build rule for target.
+tromino-tiling-vla/fast:
+	$(MAKE) -f CMakeFiles/tromino-tiling-vla.dir/build.make CMakeFiles/tromino-tiling-vla.dir/build
+.PHONY : tromino-tiling-vla/fast
+
+#=============================================================================
 # Target rules for targets named array-2d
 
 # Build rule for target.
@@ -317,6 +356,126 @@ array-2d: cmake_check_build_system
 array-2d/fast:
 	$(MAKE) -f CMakeFiles/array-2d.dir/build.make CMakeFiles/array-2d.dir/build
 .PHONY : array-2d/fast
+
+#=============================================================================
+# Target rules for targets named array-1d
+
+# Build rule for target.
+array-1d: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 array-1d
+.PHONY : array-1d
+
+# fast build rule for target.
+array-1d/fast:
+	$(MAKE) -f CMakeFiles/array-1d.dir/build.make CMakeFiles/array-1d.dir/build
+.PHONY : array-1d/fast
+
+#=============================================================================
+# Target rules for targets named vla
+
+# Build rule for target.
+vla: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 vla
+.PHONY : vla
+
+# fast build rule for target.
+vla/fast:
+	$(MAKE) -f CMakeFiles/vla.dir/build.make CMakeFiles/vla.dir/build
+.PHONY : vla/fast
+
+#=============================================================================
+# Target rules for targets named quick-test
+
+# Build rule for target.
+quick-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 quick-test
+.PHONY : quick-test
+
+# fast build rule for target.
+quick-test/fast:
+	$(MAKE) -f CMakeFiles/quick-test.dir/build.make CMakeFiles/quick-test.dir/build
+.PHONY : quick-test/fast
+
+c/args/add.o: c/args/add.c.o
+
+.PHONY : c/args/add.o
+
+# target to build an object file
+c/args/add.c.o:
+	$(MAKE) -f CMakeFiles/add.dir/build.make CMakeFiles/add.dir/c/args/add.c.o
+.PHONY : c/args/add.c.o
+
+c/args/add.i: c/args/add.c.i
+
+.PHONY : c/args/add.i
+
+# target to preprocess a source file
+c/args/add.c.i:
+	$(MAKE) -f CMakeFiles/add.dir/build.make CMakeFiles/add.dir/c/args/add.c.i
+.PHONY : c/args/add.c.i
+
+c/args/add.s: c/args/add.c.s
+
+.PHONY : c/args/add.s
+
+# target to generate assembly for a file
+c/args/add.c.s:
+	$(MAKE) -f CMakeFiles/add.dir/build.make CMakeFiles/add.dir/c/args/add.c.s
+.PHONY : c/args/add.c.s
+
+c/args/find-pattern.o: c/args/find-pattern.c.o
+
+.PHONY : c/args/find-pattern.o
+
+# target to build an object file
+c/args/find-pattern.c.o:
+	$(MAKE) -f CMakeFiles/find-pattern.dir/build.make CMakeFiles/find-pattern.dir/c/args/find-pattern.c.o
+.PHONY : c/args/find-pattern.c.o
+
+c/args/find-pattern.i: c/args/find-pattern.c.i
+
+.PHONY : c/args/find-pattern.i
+
+# target to preprocess a source file
+c/args/find-pattern.c.i:
+	$(MAKE) -f CMakeFiles/find-pattern.dir/build.make CMakeFiles/find-pattern.dir/c/args/find-pattern.c.i
+.PHONY : c/args/find-pattern.c.i
+
+c/args/find-pattern.s: c/args/find-pattern.c.s
+
+.PHONY : c/args/find-pattern.s
+
+# target to generate assembly for a file
+c/args/find-pattern.c.s:
+	$(MAKE) -f CMakeFiles/find-pattern.dir/build.make CMakeFiles/find-pattern.dir/c/args/find-pattern.c.s
+.PHONY : c/args/find-pattern.c.s
+
+c/args/miniprintf.o: c/args/miniprintf.c.o
+
+.PHONY : c/args/miniprintf.o
+
+# target to build an object file
+c/args/miniprintf.c.o:
+	$(MAKE) -f CMakeFiles/miniprintf.dir/build.make CMakeFiles/miniprintf.dir/c/args/miniprintf.c.o
+.PHONY : c/args/miniprintf.c.o
+
+c/args/miniprintf.i: c/args/miniprintf.c.i
+
+.PHONY : c/args/miniprintf.i
+
+# target to preprocess a source file
+c/args/miniprintf.c.i:
+	$(MAKE) -f CMakeFiles/miniprintf.dir/build.make CMakeFiles/miniprintf.dir/c/args/miniprintf.c.i
+.PHONY : c/args/miniprintf.c.i
+
+c/args/miniprintf.s: c/args/miniprintf.c.s
+
+.PHONY : c/args/miniprintf.s
+
+# target to generate assembly for a file
+c/args/miniprintf.c.s:
+	$(MAKE) -f CMakeFiles/miniprintf.dir/build.make CMakeFiles/miniprintf.dir/c/args/miniprintf.c.s
+.PHONY : c/args/miniprintf.c.s
 
 c/array/array-1d.o: c/array/array-1d.c.o
 
@@ -480,6 +639,60 @@ c/pointers/function-pointer/compare.c.s:
 	$(MAKE) -f CMakeFiles/compare.dir/build.make CMakeFiles/compare.dir/c/pointers/function-pointer/compare.c.s
 .PHONY : c/pointers/function-pointer/compare.c.s
 
+c/pointers/function-pointer/filter-fp.o: c/pointers/function-pointer/filter-fp.c.o
+
+.PHONY : c/pointers/function-pointer/filter-fp.o
+
+# target to build an object file
+c/pointers/function-pointer/filter-fp.c.o:
+	$(MAKE) -f CMakeFiles/filter-fp.dir/build.make CMakeFiles/filter-fp.dir/c/pointers/function-pointer/filter-fp.c.o
+.PHONY : c/pointers/function-pointer/filter-fp.c.o
+
+c/pointers/function-pointer/filter-fp.i: c/pointers/function-pointer/filter-fp.c.i
+
+.PHONY : c/pointers/function-pointer/filter-fp.i
+
+# target to preprocess a source file
+c/pointers/function-pointer/filter-fp.c.i:
+	$(MAKE) -f CMakeFiles/filter-fp.dir/build.make CMakeFiles/filter-fp.dir/c/pointers/function-pointer/filter-fp.c.i
+.PHONY : c/pointers/function-pointer/filter-fp.c.i
+
+c/pointers/function-pointer/filter-fp.s: c/pointers/function-pointer/filter-fp.c.s
+
+.PHONY : c/pointers/function-pointer/filter-fp.s
+
+# target to generate assembly for a file
+c/pointers/function-pointer/filter-fp.c.s:
+	$(MAKE) -f CMakeFiles/filter-fp.dir/build.make CMakeFiles/filter-fp.dir/c/pointers/function-pointer/filter-fp.c.s
+.PHONY : c/pointers/function-pointer/filter-fp.c.s
+
+c/pointers/function-pointer/filter-no-fp.o: c/pointers/function-pointer/filter-no-fp.c.o
+
+.PHONY : c/pointers/function-pointer/filter-no-fp.o
+
+# target to build an object file
+c/pointers/function-pointer/filter-no-fp.c.o:
+	$(MAKE) -f CMakeFiles/filter-no-fp.dir/build.make CMakeFiles/filter-no-fp.dir/c/pointers/function-pointer/filter-no-fp.c.o
+.PHONY : c/pointers/function-pointer/filter-no-fp.c.o
+
+c/pointers/function-pointer/filter-no-fp.i: c/pointers/function-pointer/filter-no-fp.c.i
+
+.PHONY : c/pointers/function-pointer/filter-no-fp.i
+
+# target to preprocess a source file
+c/pointers/function-pointer/filter-no-fp.c.i:
+	$(MAKE) -f CMakeFiles/filter-no-fp.dir/build.make CMakeFiles/filter-no-fp.dir/c/pointers/function-pointer/filter-no-fp.c.i
+.PHONY : c/pointers/function-pointer/filter-no-fp.c.i
+
+c/pointers/function-pointer/filter-no-fp.s: c/pointers/function-pointer/filter-no-fp.c.s
+
+.PHONY : c/pointers/function-pointer/filter-no-fp.s
+
+# target to generate assembly for a file
+c/pointers/function-pointer/filter-no-fp.c.s:
+	$(MAKE) -f CMakeFiles/filter-no-fp.dir/build.make CMakeFiles/filter-no-fp.dir/c/pointers/function-pointer/filter-no-fp.c.s
+.PHONY : c/pointers/function-pointer/filter-no-fp.c.s
+
 c/pointers/function-pointer/fptr-square.o: c/pointers/function-pointer/fptr-square.c.o
 
 .PHONY : c/pointers/function-pointer/fptr-square.o
@@ -507,32 +720,32 @@ c/pointers/function-pointer/fptr-square.c.s:
 	$(MAKE) -f CMakeFiles/fptr-square.dir/build.make CMakeFiles/fptr-square.dir/c/pointers/function-pointer/fptr-square.c.s
 .PHONY : c/pointers/function-pointer/fptr-square.c.s
 
-c/pointers/function-pointer/op-evaluate.o: c/pointers/function-pointer/op-evaluate.c.o
+c/pointers/function-pointer/op-evaluate-no-fptr.o: c/pointers/function-pointer/op-evaluate-no-fptr.c.o
 
-.PHONY : c/pointers/function-pointer/op-evaluate.o
+.PHONY : c/pointers/function-pointer/op-evaluate-no-fptr.o
 
 # target to build an object file
-c/pointers/function-pointer/op-evaluate.c.o:
-	$(MAKE) -f CMakeFiles/op-evaluate.dir/build.make CMakeFiles/op-evaluate.dir/c/pointers/function-pointer/op-evaluate.c.o
-.PHONY : c/pointers/function-pointer/op-evaluate.c.o
+c/pointers/function-pointer/op-evaluate-no-fptr.c.o:
+	$(MAKE) -f CMakeFiles/op-evaluate-no-fptr.dir/build.make CMakeFiles/op-evaluate-no-fptr.dir/c/pointers/function-pointer/op-evaluate-no-fptr.c.o
+.PHONY : c/pointers/function-pointer/op-evaluate-no-fptr.c.o
 
-c/pointers/function-pointer/op-evaluate.i: c/pointers/function-pointer/op-evaluate.c.i
+c/pointers/function-pointer/op-evaluate-no-fptr.i: c/pointers/function-pointer/op-evaluate-no-fptr.c.i
 
-.PHONY : c/pointers/function-pointer/op-evaluate.i
+.PHONY : c/pointers/function-pointer/op-evaluate-no-fptr.i
 
 # target to preprocess a source file
-c/pointers/function-pointer/op-evaluate.c.i:
-	$(MAKE) -f CMakeFiles/op-evaluate.dir/build.make CMakeFiles/op-evaluate.dir/c/pointers/function-pointer/op-evaluate.c.i
-.PHONY : c/pointers/function-pointer/op-evaluate.c.i
+c/pointers/function-pointer/op-evaluate-no-fptr.c.i:
+	$(MAKE) -f CMakeFiles/op-evaluate-no-fptr.dir/build.make CMakeFiles/op-evaluate-no-fptr.dir/c/pointers/function-pointer/op-evaluate-no-fptr.c.i
+.PHONY : c/pointers/function-pointer/op-evaluate-no-fptr.c.i
 
-c/pointers/function-pointer/op-evaluate.s: c/pointers/function-pointer/op-evaluate.c.s
+c/pointers/function-pointer/op-evaluate-no-fptr.s: c/pointers/function-pointer/op-evaluate-no-fptr.c.s
 
-.PHONY : c/pointers/function-pointer/op-evaluate.s
+.PHONY : c/pointers/function-pointer/op-evaluate-no-fptr.s
 
 # target to generate assembly for a file
-c/pointers/function-pointer/op-evaluate.c.s:
-	$(MAKE) -f CMakeFiles/op-evaluate.dir/build.make CMakeFiles/op-evaluate.dir/c/pointers/function-pointer/op-evaluate.c.s
-.PHONY : c/pointers/function-pointer/op-evaluate.c.s
+c/pointers/function-pointer/op-evaluate-no-fptr.c.s:
+	$(MAKE) -f CMakeFiles/op-evaluate-no-fptr.dir/build.make CMakeFiles/op-evaluate-no-fptr.dir/c/pointers/function-pointer/op-evaluate-no-fptr.c.s
+.PHONY : c/pointers/function-pointer/op-evaluate-no-fptr.c.s
 
 c/quick-test.o: c/quick-test.c.o
 
@@ -560,6 +773,33 @@ c/quick-test.s: c/quick-test.c.s
 c/quick-test.c.s:
 	$(MAKE) -f CMakeFiles/quick-test.dir/build.make CMakeFiles/quick-test.dir/c/quick-test.c.s
 .PHONY : c/quick-test.c.s
+
+c/string/cstring.o: c/string/cstring.c.o
+
+.PHONY : c/string/cstring.o
+
+# target to build an object file
+c/string/cstring.c.o:
+	$(MAKE) -f CMakeFiles/cstring.dir/build.make CMakeFiles/cstring.dir/c/string/cstring.c.o
+.PHONY : c/string/cstring.c.o
+
+c/string/cstring.i: c/string/cstring.c.i
+
+.PHONY : c/string/cstring.i
+
+# target to preprocess a source file
+c/string/cstring.c.i:
+	$(MAKE) -f CMakeFiles/cstring.dir/build.make CMakeFiles/cstring.dir/c/string/cstring.c.i
+.PHONY : c/string/cstring.c.i
+
+c/string/cstring.s: c/string/cstring.c.s
+
+.PHONY : c/string/cstring.s
+
+# target to generate assembly for a file
+c/string/cstring.c.s:
+	$(MAKE) -f CMakeFiles/cstring.dir/build.make CMakeFiles/cstring.dir/c/string/cstring.c.s
+.PHONY : c/string/cstring.c.s
 
 c/struct/struct-point.o: c/struct/struct-point.c.o
 
@@ -757,23 +997,38 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... quick-test"
-	@echo "... hanoi"
-	@echo "... tromino-tiling-vla"
-	@echo "... vla"
-	@echo "... edit_cache"
-	@echo "... array-1d"
-	@echo "... ll-test"
-	@echo "... tromino-tiling"
-	@echo "... fptr-square"
-	@echo "... struct-point"
-	@echo "... josephus-ll"
-	@echo "... op-evaluate"
-	@echo "... josephus-cll"
-	@echo "... compare"
 	@echo "... generate-perms"
+	@echo "... filter-no-fp"
+	@echo "... filter-fp"
+	@echo "... find-pattern"
+	@echo "... edit_cache"
+	@echo "... hanoi"
+	@echo "... op-evaluate-no-fptr"
+	@echo "... fptr-square"
+	@echo "... add"
+	@echo "... tromino-tiling"
+	@echo "... miniprintf"
+	@echo "... cstring"
+	@echo "... josephus-cll"
+	@echo "... struct-point"
+	@echo "... compare"
+	@echo "... josephus-ll"
+	@echo "... ll-test"
 	@echo "... scanf-c"
+	@echo "... tromino-tiling-vla"
 	@echo "... array-2d"
+	@echo "... array-1d"
+	@echo "... vla"
+	@echo "... quick-test"
+	@echo "... c/args/add.o"
+	@echo "... c/args/add.i"
+	@echo "... c/args/add.s"
+	@echo "... c/args/find-pattern.o"
+	@echo "... c/args/find-pattern.i"
+	@echo "... c/args/find-pattern.s"
+	@echo "... c/args/miniprintf.o"
+	@echo "... c/args/miniprintf.i"
+	@echo "... c/args/miniprintf.s"
 	@echo "... c/array/array-1d.o"
 	@echo "... c/array/array-1d.i"
 	@echo "... c/array/array-1d.s"
@@ -792,15 +1047,24 @@ help:
 	@echo "... c/pointers/function-pointer/compare.o"
 	@echo "... c/pointers/function-pointer/compare.i"
 	@echo "... c/pointers/function-pointer/compare.s"
+	@echo "... c/pointers/function-pointer/filter-fp.o"
+	@echo "... c/pointers/function-pointer/filter-fp.i"
+	@echo "... c/pointers/function-pointer/filter-fp.s"
+	@echo "... c/pointers/function-pointer/filter-no-fp.o"
+	@echo "... c/pointers/function-pointer/filter-no-fp.i"
+	@echo "... c/pointers/function-pointer/filter-no-fp.s"
 	@echo "... c/pointers/function-pointer/fptr-square.o"
 	@echo "... c/pointers/function-pointer/fptr-square.i"
 	@echo "... c/pointers/function-pointer/fptr-square.s"
-	@echo "... c/pointers/function-pointer/op-evaluate.o"
-	@echo "... c/pointers/function-pointer/op-evaluate.i"
-	@echo "... c/pointers/function-pointer/op-evaluate.s"
+	@echo "... c/pointers/function-pointer/op-evaluate-no-fptr.o"
+	@echo "... c/pointers/function-pointer/op-evaluate-no-fptr.i"
+	@echo "... c/pointers/function-pointer/op-evaluate-no-fptr.s"
 	@echo "... c/quick-test.o"
 	@echo "... c/quick-test.i"
 	@echo "... c/quick-test.s"
+	@echo "... c/string/cstring.o"
+	@echo "... c/string/cstring.i"
+	@echo "... c/string/cstring.s"
 	@echo "... c/struct/struct-point.o"
 	@echo "... c/struct/struct-point.i"
 	@echo "... c/struct/struct-point.s"

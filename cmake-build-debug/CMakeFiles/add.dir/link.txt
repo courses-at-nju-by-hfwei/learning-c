@@ -1,0 +1,1 @@
+/usr/bin/cc  -Wall -g   CMakeFiles/add.dir/c/args/add.c.o  -o add 

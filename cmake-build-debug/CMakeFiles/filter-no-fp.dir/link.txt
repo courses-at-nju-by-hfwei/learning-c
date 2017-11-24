@@ -1,0 +1,1 @@
+/usr/bin/cc  -Wall -g   CMakeFiles/filter-no-fp.dir/c/pointers/function-pointer/filter-no-fp.c.o  -o filter-no-fp 

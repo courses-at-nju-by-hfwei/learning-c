@@ -1,0 +1,1 @@
+/usr/bin/cc  -Wall -g   CMakeFiles/miniprintf.dir/c/args/miniprintf.c.o  -o miniprintf 

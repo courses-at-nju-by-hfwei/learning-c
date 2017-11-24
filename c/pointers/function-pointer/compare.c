@@ -3,11 +3,7 @@
 // Illustration of "function pointer" using c "qsort"
 
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
-
-int *generate_values(int n);
-void print(int *values, int n);
+#include "../../../c/array/array.h"
 
 int compare(const void *a, const void *b) {
     return (*((int *) a)) - (*((int *) b));
@@ -17,6 +13,10 @@ int compare_reverse(const void *a, const void *b) {
     return (*((int *) b)) - (*((int *) a));
 }
 
+/*
+ * Decide the ordering randomly,
+ * ignoring the values of @param a and @param b.
+ */
 int compare_random(const void *a, const void *b) {
     int random_integer = rand() % 101 - 50;
 
@@ -53,21 +53,4 @@ int main(void) {
     print(values, n);
 
     return 0;
-}
-
-int *generate_values(int n) {
-    srand((unsigned) time(0));
-
-    int *values = (int *) malloc(sizeof(int) * n);
-    for (int i = 0; i < n; ++i) {
-        values[i] = rand() % 100;
-    }
-
-    return values;
-}
-
-void print(int *values, int n) {
-    for (int i = 0; i < n; ++i) {
-        printf("%d\t", values[i]);
-    }
 }

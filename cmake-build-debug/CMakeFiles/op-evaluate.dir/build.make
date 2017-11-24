@@ -57,38 +57,38 @@ include CMakeFiles/op-evaluate.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/op-evaluate.dir/flags.make
 
-CMakeFiles/op-evaluate.dir/c/pointers/function-pointer/op-evaluate.c.o: CMakeFiles/op-evaluate.dir/flags.make
-CMakeFiles/op-evaluate.dir/c/pointers/function-pointer/op-evaluate.c.o: ../c/pointers/function-pointer/op-evaluate.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hengxin/github-projects/learning-c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/op-evaluate.dir/c/pointers/function-pointer/op-evaluate.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/op-evaluate.dir/c/pointers/function-pointer/op-evaluate.c.o   -c /home/hengxin/github-projects/learning-c/c/pointers/function-pointer/op-evaluate.c
+CMakeFiles/op-evaluate.dir/c/pointers/function-pointer/op-evaluate-no-fptr.c.o: CMakeFiles/op-evaluate.dir/flags.make
+CMakeFiles/op-evaluate.dir/c/pointers/function-pointer/op-evaluate-no-fptr.c.o: ../c/pointers/function-pointer/op-evaluate-no-fptr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hengxin/github-projects/learning-c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/op-evaluate.dir/c/pointers/function-pointer/op-evaluate-no-fptr.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/op-evaluate.dir/c/pointers/function-pointer/op-evaluate-no-fptr.c.o   -c /home/hengxin/github-projects/learning-c/c/pointers/function-pointer/op-evaluate-no-fptr.c
 
-CMakeFiles/op-evaluate.dir/c/pointers/function-pointer/op-evaluate.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/op-evaluate.dir/c/pointers/function-pointer/op-evaluate.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hengxin/github-projects/learning-c/c/pointers/function-pointer/op-evaluate.c > CMakeFiles/op-evaluate.dir/c/pointers/function-pointer/op-evaluate.c.i
+CMakeFiles/op-evaluate.dir/c/pointers/function-pointer/op-evaluate-no-fptr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/op-evaluate.dir/c/pointers/function-pointer/op-evaluate-no-fptr.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hengxin/github-projects/learning-c/c/pointers/function-pointer/op-evaluate-no-fptr.c > CMakeFiles/op-evaluate.dir/c/pointers/function-pointer/op-evaluate-no-fptr.c.i
 
-CMakeFiles/op-evaluate.dir/c/pointers/function-pointer/op-evaluate.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/op-evaluate.dir/c/pointers/function-pointer/op-evaluate.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hengxin/github-projects/learning-c/c/pointers/function-pointer/op-evaluate.c -o CMakeFiles/op-evaluate.dir/c/pointers/function-pointer/op-evaluate.c.s
+CMakeFiles/op-evaluate.dir/c/pointers/function-pointer/op-evaluate-no-fptr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/op-evaluate.dir/c/pointers/function-pointer/op-evaluate-no-fptr.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hengxin/github-projects/learning-c/c/pointers/function-pointer/op-evaluate-no-fptr.c -o CMakeFiles/op-evaluate.dir/c/pointers/function-pointer/op-evaluate-no-fptr.c.s
 
-CMakeFiles/op-evaluate.dir/c/pointers/function-pointer/op-evaluate.c.o.requires:
+CMakeFiles/op-evaluate.dir/c/pointers/function-pointer/op-evaluate-no-fptr.c.o.requires:
 
-.PHONY : CMakeFiles/op-evaluate.dir/c/pointers/function-pointer/op-evaluate.c.o.requires
+.PHONY : CMakeFiles/op-evaluate.dir/c/pointers/function-pointer/op-evaluate-no-fptr.c.o.requires
 
-CMakeFiles/op-evaluate.dir/c/pointers/function-pointer/op-evaluate.c.o.provides: CMakeFiles/op-evaluate.dir/c/pointers/function-pointer/op-evaluate.c.o.requires
-	$(MAKE) -f CMakeFiles/op-evaluate.dir/build.make CMakeFiles/op-evaluate.dir/c/pointers/function-pointer/op-evaluate.c.o.provides.build
-.PHONY : CMakeFiles/op-evaluate.dir/c/pointers/function-pointer/op-evaluate.c.o.provides
+CMakeFiles/op-evaluate.dir/c/pointers/function-pointer/op-evaluate-no-fptr.c.o.provides: CMakeFiles/op-evaluate.dir/c/pointers/function-pointer/op-evaluate-no-fptr.c.o.requires
+	$(MAKE) -f CMakeFiles/op-evaluate.dir/build.make CMakeFiles/op-evaluate.dir/c/pointers/function-pointer/op-evaluate-no-fptr.c.o.provides.build
+.PHONY : CMakeFiles/op-evaluate.dir/c/pointers/function-pointer/op-evaluate-no-fptr.c.o.provides
 
-CMakeFiles/op-evaluate.dir/c/pointers/function-pointer/op-evaluate.c.o.provides.build: CMakeFiles/op-evaluate.dir/c/pointers/function-pointer/op-evaluate.c.o
+CMakeFiles/op-evaluate.dir/c/pointers/function-pointer/op-evaluate-no-fptr.c.o.provides.build: CMakeFiles/op-evaluate.dir/c/pointers/function-pointer/op-evaluate-no-fptr.c.o
 
 
 # Object files for target op-evaluate
 op__evaluate_OBJECTS = \
-"CMakeFiles/op-evaluate.dir/c/pointers/function-pointer/op-evaluate.c.o"
+"CMakeFiles/op-evaluate.dir/c/pointers/function-pointer/op-evaluate-no-fptr.c.o"
 
 # External object files for target op-evaluate
 op__evaluate_EXTERNAL_OBJECTS =
 
-op-evaluate: CMakeFiles/op-evaluate.dir/c/pointers/function-pointer/op-evaluate.c.o
+op-evaluate: CMakeFiles/op-evaluate.dir/c/pointers/function-pointer/op-evaluate-no-fptr.c.o
 op-evaluate: CMakeFiles/op-evaluate.dir/build.make
 op-evaluate: CMakeFiles/op-evaluate.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hengxin/github-projects/learning-c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable op-evaluate"
@@ -99,7 +99,7 @@ CMakeFiles/op-evaluate.dir/build: op-evaluate
 
 .PHONY : CMakeFiles/op-evaluate.dir/build
 
-CMakeFiles/op-evaluate.dir/requires: CMakeFiles/op-evaluate.dir/c/pointers/function-pointer/op-evaluate.c.o.requires
+CMakeFiles/op-evaluate.dir/requires: CMakeFiles/op-evaluate.dir/c/pointers/function-pointer/op-evaluate-no-fptr.c.o.requires
 
 .PHONY : CMakeFiles/op-evaluate.dir/requires
 

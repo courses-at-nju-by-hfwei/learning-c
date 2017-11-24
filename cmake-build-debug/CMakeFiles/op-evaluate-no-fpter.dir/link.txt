@@ -1,0 +1,1 @@
+/usr/bin/cc  -Wall -g   CMakeFiles/op-evaluate-no-fpter.dir/c/pointers/function-pointer/op-evaluate-no-fptr.c.o  -o op-evaluate-no-fpter 

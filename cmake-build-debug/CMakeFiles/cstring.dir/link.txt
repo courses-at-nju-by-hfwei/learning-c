@@ -1,0 +1,1 @@
+/usr/bin/cc  -Wall -g   CMakeFiles/cstring.dir/c/string/cstring.c.o  -o cstring 

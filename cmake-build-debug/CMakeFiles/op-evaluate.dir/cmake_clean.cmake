@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/op-evaluate.dir/c/pointers/function-pointer/op-evaluate.c.o"
+  "CMakeFiles/op-evaluate.dir/c/pointers/function-pointer/op-evaluate-no-fptr.c.o"
   "op-evaluate.pdb"
   "op-evaluate"
 )

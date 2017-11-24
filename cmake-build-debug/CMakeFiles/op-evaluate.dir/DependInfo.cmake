@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/hengxin/github-projects/learning-c/c/pointers/function-pointer/op-evaluate.c" "/home/hengxin/github-projects/learning-c/cmake-build-debug/CMakeFiles/op-evaluate.dir/c/pointers/function-pointer/op-evaluate.c.o"
+  "/home/hengxin/github-projects/learning-c/c/pointers/function-pointer/op-evaluate-no-fptr.c" "/home/hengxin/github-projects/learning-c/cmake-build-debug/CMakeFiles/op-evaluate.dir/c/pointers/function-pointer/op-evaluate-no-fptr.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

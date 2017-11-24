@@ -13,10 +13,22 @@ set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall")
 # add_executable(1-1-io-cin cplusplus/1-1-io/1-1-io-cin.cpp)
 ##### For C++ #####
 
+# strings
+add_executable(cstring c/string/cstring.c)
+
+# args
+add_executable(miniprintf c/args/miniprintf.c)
+add_executable(find-pattern c/args/find-pattern.c)
+add_executable(add c/args/add.c)
+
+# function pointers
 add_executable(compare c/pointers/function-pointer/compare.c)
 add_executable(fptr-square c/pointers/function-pointer/fptr-square.c)
-add_executable(op-evaluate c/pointers/function-pointer/op-evaluate.c)
+add_executable(op-evaluate-no-fptr c/pointers/function-pointer/op-evaluate-no-fptr.c)
+add_executable(filter-fp c/pointers/function-pointer/filter-fp.c)
+add_executable(filter-no-fp c/pointers/function-pointer/filter-no-fp.c)
 
+# perms
 add_executable(generate-perms problems/permutation/generate-perms.c)
 
 add_executable(josephus-cll njucs17-ps-tutorial/1-4-josephus-linkedlist/josephus-linkedlist.c)

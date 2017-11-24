@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hengxin/github-projects/learning-c/c/array/array.h
+stdlib.h
+-
+time.h
+-
+
+/home/hengxin/github-projects/learning-c/c/pointers/function-pointer/filter-fp.c
+stdio.h
+-
+../../array/array.h
+/home/hengxin/github-projects/learning-c/c/array/array.h
+
