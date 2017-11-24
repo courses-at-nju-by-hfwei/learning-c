@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/filter.dir/c/pointers/function-pointer/filter-fp.c.o"
+  "CMakeFiles/filter.dir/njucs17-ps-tutorial/1-5-c-fptr-library/filter.c.o"
   "filter.pdb"
   "filter"
 )

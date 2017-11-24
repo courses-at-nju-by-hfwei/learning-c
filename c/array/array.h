@@ -1,6 +1,9 @@
 // File: c/array/array.h
 // Created by hengxin on 17-11-22.
-//
+
+/**
+ * Generating and printing int arrays.
+ */
 
 #ifndef LEARNING_C_CPLUSPLUS_ARRAY_H
 #define LEARNING_C_CPLUSPLUS_ARRAY_H

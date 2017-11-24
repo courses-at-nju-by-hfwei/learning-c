@@ -1,0 +1,1 @@
+/usr/bin/cc  -Wall -g   CMakeFiles/tutocompare.dir/njucs17-ps-tutorial/1-5-c-fptr-library/compare.c.o  -o tutocompare 

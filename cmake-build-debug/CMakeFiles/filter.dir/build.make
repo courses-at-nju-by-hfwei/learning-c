@@ -57,38 +57,38 @@ include CMakeFiles/filter.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/filter.dir/flags.make
 
-CMakeFiles/filter.dir/c/pointers/function-pointer/filter-fp.c.o: CMakeFiles/filter.dir/flags.make
-CMakeFiles/filter.dir/c/pointers/function-pointer/filter-fp.c.o: ../c/pointers/function-pointer/filter-fp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hengxin/github-projects/learning-c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/filter.dir/c/pointers/function-pointer/filter-fp.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/filter.dir/c/pointers/function-pointer/filter-fp.c.o   -c /home/hengxin/github-projects/learning-c/c/pointers/function-pointer/filter-fp.c
+CMakeFiles/filter.dir/njucs17-ps-tutorial/1-5-c-fptr-library/filter.c.o: CMakeFiles/filter.dir/flags.make
+CMakeFiles/filter.dir/njucs17-ps-tutorial/1-5-c-fptr-library/filter.c.o: ../njucs17-ps-tutorial/1-5-c-fptr-library/filter.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hengxin/github-projects/learning-c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/filter.dir/njucs17-ps-tutorial/1-5-c-fptr-library/filter.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/filter.dir/njucs17-ps-tutorial/1-5-c-fptr-library/filter.c.o   -c /home/hengxin/github-projects/learning-c/njucs17-ps-tutorial/1-5-c-fptr-library/filter.c
 
-CMakeFiles/filter.dir/c/pointers/function-pointer/filter-fp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/filter.dir/c/pointers/function-pointer/filter-fp.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hengxin/github-projects/learning-c/c/pointers/function-pointer/filter-fp.c > CMakeFiles/filter.dir/c/pointers/function-pointer/filter-fp.c.i
+CMakeFiles/filter.dir/njucs17-ps-tutorial/1-5-c-fptr-library/filter.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/filter.dir/njucs17-ps-tutorial/1-5-c-fptr-library/filter.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hengxin/github-projects/learning-c/njucs17-ps-tutorial/1-5-c-fptr-library/filter.c > CMakeFiles/filter.dir/njucs17-ps-tutorial/1-5-c-fptr-library/filter.c.i
 
-CMakeFiles/filter.dir/c/pointers/function-pointer/filter-fp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/filter.dir/c/pointers/function-pointer/filter-fp.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hengxin/github-projects/learning-c/c/pointers/function-pointer/filter-fp.c -o CMakeFiles/filter.dir/c/pointers/function-pointer/filter-fp.c.s
+CMakeFiles/filter.dir/njucs17-ps-tutorial/1-5-c-fptr-library/filter.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/filter.dir/njucs17-ps-tutorial/1-5-c-fptr-library/filter.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hengxin/github-projects/learning-c/njucs17-ps-tutorial/1-5-c-fptr-library/filter.c -o CMakeFiles/filter.dir/njucs17-ps-tutorial/1-5-c-fptr-library/filter.c.s
 
-CMakeFiles/filter.dir/c/pointers/function-pointer/filter-fp.c.o.requires:
+CMakeFiles/filter.dir/njucs17-ps-tutorial/1-5-c-fptr-library/filter.c.o.requires:
 
-.PHONY : CMakeFiles/filter.dir/c/pointers/function-pointer/filter-fp.c.o.requires
+.PHONY : CMakeFiles/filter.dir/njucs17-ps-tutorial/1-5-c-fptr-library/filter.c.o.requires
 
-CMakeFiles/filter.dir/c/pointers/function-pointer/filter-fp.c.o.provides: CMakeFiles/filter.dir/c/pointers/function-pointer/filter-fp.c.o.requires
-	$(MAKE) -f CMakeFiles/filter.dir/build.make CMakeFiles/filter.dir/c/pointers/function-pointer/filter-fp.c.o.provides.build
-.PHONY : CMakeFiles/filter.dir/c/pointers/function-pointer/filter-fp.c.o.provides
+CMakeFiles/filter.dir/njucs17-ps-tutorial/1-5-c-fptr-library/filter.c.o.provides: CMakeFiles/filter.dir/njucs17-ps-tutorial/1-5-c-fptr-library/filter.c.o.requires
+	$(MAKE) -f CMakeFiles/filter.dir/build.make CMakeFiles/filter.dir/njucs17-ps-tutorial/1-5-c-fptr-library/filter.c.o.provides.build
+.PHONY : CMakeFiles/filter.dir/njucs17-ps-tutorial/1-5-c-fptr-library/filter.c.o.provides
 
-CMakeFiles/filter.dir/c/pointers/function-pointer/filter-fp.c.o.provides.build: CMakeFiles/filter.dir/c/pointers/function-pointer/filter-fp.c.o
+CMakeFiles/filter.dir/njucs17-ps-tutorial/1-5-c-fptr-library/filter.c.o.provides.build: CMakeFiles/filter.dir/njucs17-ps-tutorial/1-5-c-fptr-library/filter.c.o
 
 
 # Object files for target filter
 filter_OBJECTS = \
-"CMakeFiles/filter.dir/c/pointers/function-pointer/filter-fp.c.o"
+"CMakeFiles/filter.dir/njucs17-ps-tutorial/1-5-c-fptr-library/filter.c.o"
 
 # External object files for target filter
 filter_EXTERNAL_OBJECTS =
 
-filter: CMakeFiles/filter.dir/c/pointers/function-pointer/filter-fp.c.o
+filter: CMakeFiles/filter.dir/njucs17-ps-tutorial/1-5-c-fptr-library/filter.c.o
 filter: CMakeFiles/filter.dir/build.make
 filter: CMakeFiles/filter.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hengxin/github-projects/learning-c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable filter"
@@ -99,7 +99,7 @@ CMakeFiles/filter.dir/build: filter
 
 .PHONY : CMakeFiles/filter.dir/build
 
-CMakeFiles/filter.dir/requires: CMakeFiles/filter.dir/c/pointers/function-pointer/filter-fp.c.o.requires
+CMakeFiles/filter.dir/requires: CMakeFiles/filter.dir/njucs17-ps-tutorial/1-5-c-fptr-library/filter.c.o.requires
 
 .PHONY : CMakeFiles/filter.dir/requires
 

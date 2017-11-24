@@ -27,190 +27,6 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="generate-perms">
-				<Option output="/home/hengxin/github-projects/learning-c/cmake-build-debug/generate-perms" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/hengxin/github-projects/learning-c/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 generate-perms"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="generate-perms/fast">
-				<Option output="/home/hengxin/github-projects/learning-c/cmake-build-debug/generate-perms" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/hengxin/github-projects/learning-c/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 generate-perms/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="filter-no-fp">
-				<Option output="/home/hengxin/github-projects/learning-c/cmake-build-debug/filter-no-fp" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/hengxin/github-projects/learning-c/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 filter-no-fp"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="filter-no-fp/fast">
-				<Option output="/home/hengxin/github-projects/learning-c/cmake-build-debug/filter-no-fp" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/hengxin/github-projects/learning-c/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 filter-no-fp/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="filter-fp">
-				<Option output="/home/hengxin/github-projects/learning-c/cmake-build-debug/filter-fp" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/hengxin/github-projects/learning-c/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 filter-fp"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="filter-fp/fast">
-				<Option output="/home/hengxin/github-projects/learning-c/cmake-build-debug/filter-fp" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/hengxin/github-projects/learning-c/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 filter-fp/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="find-pattern">
-				<Option output="/home/hengxin/github-projects/learning-c/cmake-build-debug/find-pattern" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/hengxin/github-projects/learning-c/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 find-pattern"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="find-pattern/fast">
-				<Option output="/home/hengxin/github-projects/learning-c/cmake-build-debug/find-pattern" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/hengxin/github-projects/learning-c/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 find-pattern/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="/home/hengxin/github-projects/learning-c/cmake-build-debug"/>
 				<Option type="4"/>
@@ -262,6 +78,52 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 hanoi/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="quick-test">
+				<Option output="/home/hengxin/github-projects/learning-c/cmake-build-debug/quick-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/github-projects/learning-c/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 quick-test"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="quick-test/fast">
+				<Option output="/home/hengxin/github-projects/learning-c/cmake-build-debug/quick-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/github-projects/learning-c/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 quick-test/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -451,6 +313,144 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="find-pattern">
+				<Option output="/home/hengxin/github-projects/learning-c/cmake-build-debug/find-pattern" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/github-projects/learning-c/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 find-pattern"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="find-pattern/fast">
+				<Option output="/home/hengxin/github-projects/learning-c/cmake-build-debug/find-pattern" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/github-projects/learning-c/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 find-pattern/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="filter-fp">
+				<Option output="/home/hengxin/github-projects/learning-c/cmake-build-debug/filter-fp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/github-projects/learning-c/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 filter-fp"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="filter-fp/fast">
+				<Option output="/home/hengxin/github-projects/learning-c/cmake-build-debug/filter-fp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/github-projects/learning-c/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 filter-fp/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="generate-perms">
+				<Option output="/home/hengxin/github-projects/learning-c/cmake-build-debug/generate-perms" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/github-projects/learning-c/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 generate-perms"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="generate-perms/fast">
+				<Option output="/home/hengxin/github-projects/learning-c/cmake-build-debug/generate-perms" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/github-projects/learning-c/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 generate-perms/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="miniprintf">
 				<Option output="/home/hengxin/github-projects/learning-c/cmake-build-debug/miniprintf" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/hengxin/github-projects/learning-c/cmake-build-debug"/>
@@ -538,6 +538,98 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 cstring/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="filter-no-fp">
+				<Option output="/home/hengxin/github-projects/learning-c/cmake-build-debug/filter-no-fp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/github-projects/learning-c/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 filter-no-fp"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="filter-no-fp/fast">
+				<Option output="/home/hengxin/github-projects/learning-c/cmake-build-debug/filter-no-fp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/github-projects/learning-c/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 filter-no-fp/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tutorial-compare">
+				<Option output="/home/hengxin/github-projects/learning-c/cmake-build-debug/tutorial-compare" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/github-projects/learning-c/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 tutorial-compare"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tutorial-compare/fast">
+				<Option output="/home/hengxin/github-projects/learning-c/cmake-build-debug/tutorial-compare" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/github-projects/learning-c/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 tutorial-compare/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -722,6 +814,52 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 josephus-ll/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="filter">
+				<Option output="/home/hengxin/github-projects/learning-c/cmake-build-debug/filter" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/github-projects/learning-c/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 filter"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="filter/fast">
+				<Option output="/home/hengxin/github-projects/learning-c/cmake-build-debug/filter" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hengxin/github-projects/learning-c/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 filter/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -1003,52 +1141,6 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="quick-test">
-				<Option output="/home/hengxin/github-projects/learning-c/cmake-build-debug/quick-test" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/hengxin/github-projects/learning-c/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 quick-test"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="quick-test/fast">
-				<Option output="/home/hengxin/github-projects/learning-c/cmake-build-debug/quick-test" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/hengxin/github-projects/learning-c/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 quick-test/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hengxin/github-projects/learning-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 		</Build>
 		<Unit filename="/home/hengxin/github-projects/learning-c/c/args/add.c">
 			<Option target="add"/>
@@ -1100,6 +1192,12 @@
 		</Unit>
 		<Unit filename="/home/hengxin/github-projects/learning-c/njucs17-ps-tutorial/1-4-josephus-linkedlist/josephus-linkedlist.c">
 			<Option target="josephus-cll"/>
+		</Unit>
+		<Unit filename="/home/hengxin/github-projects/learning-c/njucs17-ps-tutorial/1-5-c-fptr-library/compare.c">
+			<Option target="tutorial-compare"/>
+		</Unit>
+		<Unit filename="/home/hengxin/github-projects/learning-c/njucs17-ps-tutorial/1-5-c-fptr-library/filter.c">
+			<Option target="filter"/>
 		</Unit>
 		<Unit filename="/home/hengxin/github-projects/learning-c/problems/josephus/josephus-linkedlist/josephus-linkedlist.c">
 			<Option target="josephus-ll"/>

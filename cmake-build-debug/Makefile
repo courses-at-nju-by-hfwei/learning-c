@@ -111,58 +111,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named generate-perms
-
-# Build rule for target.
-generate-perms: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 generate-perms
-.PHONY : generate-perms
-
-# fast build rule for target.
-generate-perms/fast:
-	$(MAKE) -f CMakeFiles/generate-perms.dir/build.make CMakeFiles/generate-perms.dir/build
-.PHONY : generate-perms/fast
-
-#=============================================================================
-# Target rules for targets named filter-no-fp
-
-# Build rule for target.
-filter-no-fp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 filter-no-fp
-.PHONY : filter-no-fp
-
-# fast build rule for target.
-filter-no-fp/fast:
-	$(MAKE) -f CMakeFiles/filter-no-fp.dir/build.make CMakeFiles/filter-no-fp.dir/build
-.PHONY : filter-no-fp/fast
-
-#=============================================================================
-# Target rules for targets named filter-fp
-
-# Build rule for target.
-filter-fp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 filter-fp
-.PHONY : filter-fp
-
-# fast build rule for target.
-filter-fp/fast:
-	$(MAKE) -f CMakeFiles/filter-fp.dir/build.make CMakeFiles/filter-fp.dir/build
-.PHONY : filter-fp/fast
-
-#=============================================================================
-# Target rules for targets named find-pattern
-
-# Build rule for target.
-find-pattern: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 find-pattern
-.PHONY : find-pattern
-
-# fast build rule for target.
-find-pattern/fast:
-	$(MAKE) -f CMakeFiles/find-pattern.dir/build.make CMakeFiles/find-pattern.dir/build
-.PHONY : find-pattern/fast
-
-#=============================================================================
 # Target rules for targets named hanoi
 
 # Build rule for target.
@@ -174,6 +122,19 @@ hanoi: cmake_check_build_system
 hanoi/fast:
 	$(MAKE) -f CMakeFiles/hanoi.dir/build.make CMakeFiles/hanoi.dir/build
 .PHONY : hanoi/fast
+
+#=============================================================================
+# Target rules for targets named quick-test
+
+# Build rule for target.
+quick-test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 quick-test
+.PHONY : quick-test
+
+# fast build rule for target.
+quick-test/fast:
+	$(MAKE) -f CMakeFiles/quick-test.dir/build.make CMakeFiles/quick-test.dir/build
+.PHONY : quick-test/fast
 
 #=============================================================================
 # Target rules for targets named op-evaluate-no-fptr
@@ -228,6 +189,45 @@ tromino-tiling/fast:
 .PHONY : tromino-tiling/fast
 
 #=============================================================================
+# Target rules for targets named find-pattern
+
+# Build rule for target.
+find-pattern: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 find-pattern
+.PHONY : find-pattern
+
+# fast build rule for target.
+find-pattern/fast:
+	$(MAKE) -f CMakeFiles/find-pattern.dir/build.make CMakeFiles/find-pattern.dir/build
+.PHONY : find-pattern/fast
+
+#=============================================================================
+# Target rules for targets named filter-fp
+
+# Build rule for target.
+filter-fp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 filter-fp
+.PHONY : filter-fp
+
+# fast build rule for target.
+filter-fp/fast:
+	$(MAKE) -f CMakeFiles/filter-fp.dir/build.make CMakeFiles/filter-fp.dir/build
+.PHONY : filter-fp/fast
+
+#=============================================================================
+# Target rules for targets named generate-perms
+
+# Build rule for target.
+generate-perms: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 generate-perms
+.PHONY : generate-perms
+
+# fast build rule for target.
+generate-perms/fast:
+	$(MAKE) -f CMakeFiles/generate-perms.dir/build.make CMakeFiles/generate-perms.dir/build
+.PHONY : generate-perms/fast
+
+#=============================================================================
 # Target rules for targets named miniprintf
 
 # Build rule for target.
@@ -252,6 +252,32 @@ cstring: cmake_check_build_system
 cstring/fast:
 	$(MAKE) -f CMakeFiles/cstring.dir/build.make CMakeFiles/cstring.dir/build
 .PHONY : cstring/fast
+
+#=============================================================================
+# Target rules for targets named filter-no-fp
+
+# Build rule for target.
+filter-no-fp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 filter-no-fp
+.PHONY : filter-no-fp
+
+# fast build rule for target.
+filter-no-fp/fast:
+	$(MAKE) -f CMakeFiles/filter-no-fp.dir/build.make CMakeFiles/filter-no-fp.dir/build
+.PHONY : filter-no-fp/fast
+
+#=============================================================================
+# Target rules for targets named tutorial-compare
+
+# Build rule for target.
+tutorial-compare: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tutorial-compare
+.PHONY : tutorial-compare
+
+# fast build rule for target.
+tutorial-compare/fast:
+	$(MAKE) -f CMakeFiles/tutorial-compare.dir/build.make CMakeFiles/tutorial-compare.dir/build
+.PHONY : tutorial-compare/fast
 
 #=============================================================================
 # Target rules for targets named josephus-cll
@@ -304,6 +330,19 @@ josephus-ll: cmake_check_build_system
 josephus-ll/fast:
 	$(MAKE) -f CMakeFiles/josephus-ll.dir/build.make CMakeFiles/josephus-ll.dir/build
 .PHONY : josephus-ll/fast
+
+#=============================================================================
+# Target rules for targets named filter
+
+# Build rule for target.
+filter: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 filter
+.PHONY : filter
+
+# fast build rule for target.
+filter/fast:
+	$(MAKE) -f CMakeFiles/filter.dir/build.make CMakeFiles/filter.dir/build
+.PHONY : filter/fast
 
 #=============================================================================
 # Target rules for targets named ll-test
@@ -382,19 +421,6 @@ vla: cmake_check_build_system
 vla/fast:
 	$(MAKE) -f CMakeFiles/vla.dir/build.make CMakeFiles/vla.dir/build
 .PHONY : vla/fast
-
-#=============================================================================
-# Target rules for targets named quick-test
-
-# Build rule for target.
-quick-test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 quick-test
-.PHONY : quick-test
-
-# fast build rule for target.
-quick-test/fast:
-	$(MAKE) -f CMakeFiles/quick-test.dir/build.make CMakeFiles/quick-test.dir/build
-.PHONY : quick-test/fast
 
 c/args/add.o: c/args/add.c.o
 
@@ -855,6 +881,60 @@ njucs17-ps-tutorial/1-4-josephus-linkedlist/josephus-linkedlist.c.s:
 	$(MAKE) -f CMakeFiles/josephus-cll.dir/build.make CMakeFiles/josephus-cll.dir/njucs17-ps-tutorial/1-4-josephus-linkedlist/josephus-linkedlist.c.s
 .PHONY : njucs17-ps-tutorial/1-4-josephus-linkedlist/josephus-linkedlist.c.s
 
+njucs17-ps-tutorial/1-5-c-fptr-library/compare.o: njucs17-ps-tutorial/1-5-c-fptr-library/compare.c.o
+
+.PHONY : njucs17-ps-tutorial/1-5-c-fptr-library/compare.o
+
+# target to build an object file
+njucs17-ps-tutorial/1-5-c-fptr-library/compare.c.o:
+	$(MAKE) -f CMakeFiles/tutorial-compare.dir/build.make CMakeFiles/tutorial-compare.dir/njucs17-ps-tutorial/1-5-c-fptr-library/compare.c.o
+.PHONY : njucs17-ps-tutorial/1-5-c-fptr-library/compare.c.o
+
+njucs17-ps-tutorial/1-5-c-fptr-library/compare.i: njucs17-ps-tutorial/1-5-c-fptr-library/compare.c.i
+
+.PHONY : njucs17-ps-tutorial/1-5-c-fptr-library/compare.i
+
+# target to preprocess a source file
+njucs17-ps-tutorial/1-5-c-fptr-library/compare.c.i:
+	$(MAKE) -f CMakeFiles/tutorial-compare.dir/build.make CMakeFiles/tutorial-compare.dir/njucs17-ps-tutorial/1-5-c-fptr-library/compare.c.i
+.PHONY : njucs17-ps-tutorial/1-5-c-fptr-library/compare.c.i
+
+njucs17-ps-tutorial/1-5-c-fptr-library/compare.s: njucs17-ps-tutorial/1-5-c-fptr-library/compare.c.s
+
+.PHONY : njucs17-ps-tutorial/1-5-c-fptr-library/compare.s
+
+# target to generate assembly for a file
+njucs17-ps-tutorial/1-5-c-fptr-library/compare.c.s:
+	$(MAKE) -f CMakeFiles/tutorial-compare.dir/build.make CMakeFiles/tutorial-compare.dir/njucs17-ps-tutorial/1-5-c-fptr-library/compare.c.s
+.PHONY : njucs17-ps-tutorial/1-5-c-fptr-library/compare.c.s
+
+njucs17-ps-tutorial/1-5-c-fptr-library/filter.o: njucs17-ps-tutorial/1-5-c-fptr-library/filter.c.o
+
+.PHONY : njucs17-ps-tutorial/1-5-c-fptr-library/filter.o
+
+# target to build an object file
+njucs17-ps-tutorial/1-5-c-fptr-library/filter.c.o:
+	$(MAKE) -f CMakeFiles/filter.dir/build.make CMakeFiles/filter.dir/njucs17-ps-tutorial/1-5-c-fptr-library/filter.c.o
+.PHONY : njucs17-ps-tutorial/1-5-c-fptr-library/filter.c.o
+
+njucs17-ps-tutorial/1-5-c-fptr-library/filter.i: njucs17-ps-tutorial/1-5-c-fptr-library/filter.c.i
+
+.PHONY : njucs17-ps-tutorial/1-5-c-fptr-library/filter.i
+
+# target to preprocess a source file
+njucs17-ps-tutorial/1-5-c-fptr-library/filter.c.i:
+	$(MAKE) -f CMakeFiles/filter.dir/build.make CMakeFiles/filter.dir/njucs17-ps-tutorial/1-5-c-fptr-library/filter.c.i
+.PHONY : njucs17-ps-tutorial/1-5-c-fptr-library/filter.c.i
+
+njucs17-ps-tutorial/1-5-c-fptr-library/filter.s: njucs17-ps-tutorial/1-5-c-fptr-library/filter.c.s
+
+.PHONY : njucs17-ps-tutorial/1-5-c-fptr-library/filter.s
+
+# target to generate assembly for a file
+njucs17-ps-tutorial/1-5-c-fptr-library/filter.c.s:
+	$(MAKE) -f CMakeFiles/filter.dir/build.make CMakeFiles/filter.dir/njucs17-ps-tutorial/1-5-c-fptr-library/filter.c.s
+.PHONY : njucs17-ps-tutorial/1-5-c-fptr-library/filter.c.s
+
 problems/josephus/josephus-linkedlist/josephus-linkedlist.o: problems/josephus/josephus-linkedlist/josephus-linkedlist.c.o
 
 .PHONY : problems/josephus/josephus-linkedlist/josephus-linkedlist.o
@@ -997,29 +1077,31 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... generate-perms"
-	@echo "... filter-no-fp"
-	@echo "... filter-fp"
-	@echo "... find-pattern"
 	@echo "... edit_cache"
 	@echo "... hanoi"
+	@echo "... quick-test"
 	@echo "... op-evaluate-no-fptr"
 	@echo "... fptr-square"
 	@echo "... add"
 	@echo "... tromino-tiling"
+	@echo "... find-pattern"
+	@echo "... filter-fp"
+	@echo "... generate-perms"
 	@echo "... miniprintf"
 	@echo "... cstring"
+	@echo "... filter-no-fp"
+	@echo "... tutorial-compare"
 	@echo "... josephus-cll"
 	@echo "... struct-point"
 	@echo "... compare"
 	@echo "... josephus-ll"
+	@echo "... filter"
 	@echo "... ll-test"
 	@echo "... scanf-c"
 	@echo "... tromino-tiling-vla"
 	@echo "... array-2d"
 	@echo "... array-1d"
 	@echo "... vla"
-	@echo "... quick-test"
 	@echo "... c/args/add.o"
 	@echo "... c/args/add.i"
 	@echo "... c/args/add.s"
@@ -1071,6 +1153,12 @@ help:
 	@echo "... njucs17-ps-tutorial/1-4-josephus-linkedlist/josephus-linkedlist.o"
 	@echo "... njucs17-ps-tutorial/1-4-josephus-linkedlist/josephus-linkedlist.i"
 	@echo "... njucs17-ps-tutorial/1-4-josephus-linkedlist/josephus-linkedlist.s"
+	@echo "... njucs17-ps-tutorial/1-5-c-fptr-library/compare.o"
+	@echo "... njucs17-ps-tutorial/1-5-c-fptr-library/compare.i"
+	@echo "... njucs17-ps-tutorial/1-5-c-fptr-library/compare.s"
+	@echo "... njucs17-ps-tutorial/1-5-c-fptr-library/filter.o"
+	@echo "... njucs17-ps-tutorial/1-5-c-fptr-library/filter.i"
+	@echo "... njucs17-ps-tutorial/1-5-c-fptr-library/filter.s"
 	@echo "... problems/josephus/josephus-linkedlist/josephus-linkedlist.o"
 	@echo "... problems/josephus/josephus-linkedlist/josephus-linkedlist.i"
 	@echo "... problems/josephus/josephus-linkedlist/josephus-linkedlist.s"

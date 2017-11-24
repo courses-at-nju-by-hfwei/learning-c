@@ -6,6 +6,8 @@ set(CMAKE_C_STANDARD 99)
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall")
 ##### For C #####
 
+add_executable(tutorial-compare njucs17-ps-tutorial/1-5-c-fptr-library/compare.c)
+add_executable(filter njucs17-ps-tutorial/1-5-c-fptr-library/filter.c)
 ##### For C++ #####
 # set(CMAKE_CXX_STANDARD 11)
 # set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++1y -Wall")

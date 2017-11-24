@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/hengxin/github-projects/learning-c/njucs17-ps-tutorial/1-5-c-fptr-library/filter.c" "/home/hengxin/github-projects/learning-c/cmake-build-debug/CMakeFiles/filter.dir/njucs17-ps-tutorial/1-5-c-fptr-library/filter.c.o"
+  "/home/hengxin/github-projects/learning-c/njucs17-ps-tutorial/1-5-c-fptr-library/compare.c" "/home/hengxin/github-projects/learning-c/cmake-build-debug/CMakeFiles/tutorial-compare.dir/njucs17-ps-tutorial/1-5-c-fptr-library/compare.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

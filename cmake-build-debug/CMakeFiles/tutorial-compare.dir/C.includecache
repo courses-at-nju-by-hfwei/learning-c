@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/hengxin/github-projects/learning-c/njucs17-ps-tutorial/1-5-c-fptr-library/filter.c
+/home/hengxin/github-projects/learning-c/njucs17-ps-tutorial/1-5-c-fptr-library/compare.c
 stdio.h
 -
 stdlib.h
